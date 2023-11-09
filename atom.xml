@@ -178,7 +178,7 @@
         <title>作業系統</title>
         <link rel="alternate" href="https://blog.minz.li/university/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/"/>
         <content type="html">&lt;h1 id=&#34;race-condition-是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#race-condition-是什麼&#34;&gt;#&lt;/a&gt; Race Condition 是什麼？&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;競爭條件 (Race Condition)&lt;/strong&gt; 是當兩個或多個異步運行的程式碼（例如，中斷和背景迴圈）更改 ** 共享資源 (Share Resource)** 時會發生的情況。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;競爭條件 (Race Condition)&lt;/strong&gt; 是當兩個或多個異步運行的程式碼（例如，中斷和背景迴圈）更改 &lt;strong&gt;共享資源 (Share Resource)&lt;/strong&gt; 時會發生的情況。&lt;/p&gt;
 &lt;p&gt;例如，假設我們有兩個 Process A 和 B，都想要訪問同一個共享變量。如果 A 和 B 都嘗試在同一時間讀取和修改這個變量，那麼就&lt;strong&gt;可能&lt;/strong&gt;會產生競爭條件。&lt;br /&gt;
 如果沒有提供&lt;strong&gt;互斥存取&lt;/strong&gt;，我們&lt;strong&gt;無法確定&lt;/strong&gt; A 和 B 的執行順序，所以最終的結果可能會有所&lt;strong&gt;不同&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;解決方式:&lt;/p&gt;
