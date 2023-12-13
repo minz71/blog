@@ -6,8 +6,8 @@
     <updated>2023-11-01T16:00:00.000Z</updated>
     <category term="doc" />
     <category term="物件導向" />
-    <category term="大學課程" />
     <category term="程式碼" />
+    <category term="大學課程" />
     <category term="機率與統計" />
     <category term="演算法" />
     <category term="線性代數" />
@@ -18,7 +18,13 @@
         <title>資料結構</title>
         <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/>
         <content type="html">&lt;h1 id=&#34;circular-queue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#circular-queue&#34;&gt;#&lt;/a&gt; Circular Queue&lt;/h1&gt;
-&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;圖&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;graph LR&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    A[A] --&amp;gt; B[B]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    B --&amp;gt; C[C]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    C --&amp;gt; D[D]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    D --&amp;gt; A[A]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Mermaid&#34;&gt;
+graph LR
+    A[A] --&amp;gt; B[B]
+    B --&amp;gt; C[C]
+    C --&amp;gt; D[D]
+    D --&amp;gt; A[A]
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;一般的隊列（Queue）:FIFO&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;

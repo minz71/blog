@@ -9,8 +9,8 @@
         <lastBuildDate>Wed, 01 Nov 2023 16:00:00 +0000</lastBuildDate>
         <category>doc</category>
         <category>物件導向</category>
-        <category>大學課程</category>
         <category>程式碼</category>
+        <category>大學課程</category>
         <category>機率與統計</category>
         <category>演算法</category>
         <category>線性代數</category>
@@ -48,9 +48,24 @@
 &lt;li&gt;否則，A 將被阻塞並等待。&lt;/li&gt;
 &lt;li&gt;當 A 完成對共享變量的訪問後，它會增加信號量的值，這可能會喚醒等待的進程 B2&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight c++&#34;&gt;&lt;figcaption&gt;&lt;span&gt;信號量（semaphores）&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;mutex semaphore = &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(&lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;wait&lt;/span&gt;(mutex); &lt;span class=&#34;comment&#34;&gt;// 檢查&amp;gt;0通過並-1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        臨界區程式碼...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;signal&lt;/span&gt;(mutex); &lt;span class=&#34;comment&#34;&gt;// 離開時+1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        臨界區以外程式碼...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C++&#34;&gt;mutex semaphore = 1;
+while(true)&amp;#123;
+    wait(mutex); // 檢查&amp;gt;0通過並-1
+        臨界區程式碼...
+    signal(mutex); // 離開時+1
+        臨界區以外程式碼...
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;臨界區critical-sections&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#臨界區critical-sections&#34;&gt;#&lt;/a&gt; 臨界區（critical sections）&lt;/h2&gt;
-&lt;figure class=&#34;highlight c++&#34;&gt;&lt;figcaption&gt;&lt;span&gt;臨界區（critical sections）&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// 臨界區指的是有使用共享變數之區塊&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;while&lt;/span&gt;(&lt;span class=&#34;literal&#34;&gt;true&lt;/span&gt;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    (進入區段)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        臨界區程式碼...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    (離開區段)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        臨界區以外程式碼...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C++&#34;&gt;// 臨界區指的是有使用共享變數之區塊
+while(true)&amp;#123;
+    (進入區段)
+        臨界區程式碼...
+    (離開區段)
+        臨界區以外程式碼...
+&amp;#125;
+
+&lt;/code&gt;&lt;/pre&gt;
 &lt;h1 id=&#34;process和thread&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#process和thread&#34;&gt;#&lt;/a&gt; Process 和 Thread&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;程序 (Process)&lt;/strong&gt; 和 &lt;strong&gt;線程 (Thread)&lt;/strong&gt; 是兩種不同的執行實體，都是 CPU 調度和執行的基本單位。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Process&lt;/strong&gt; 有 Process Control Block (PCB)。&lt;/p&gt;
