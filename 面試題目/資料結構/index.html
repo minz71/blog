@@ -1,4 +1,177 @@
-<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"/><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/><link rel="dns-prefetch" href="https://unpkg.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext"><link rel="stylesheet" href="/css/app.css?v=0.3.9"><script src="https://cdn.staticfile.org/vue/3.2.45/vue.global.prod.js"></script><meta name="keywords" content="資料結構"/><link rel="canonical" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"><title>資料結構</title><meta name="generator" content="Hexo 7.0.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">資料結構</h1><div class="meta"><span class="item" title="創建時間：2023-11-02 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2023-11-02T00:00:00+08:00">2023-11-02</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>1.5k</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>1 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme" @click="changeThemeByBtn"><i class="ic" :class="{'i-sun': !themeStatus,'i-moon': themeStatus}"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" data-background-image="https://jerry12122.me/picbed/anime?830637"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?885575"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?943124"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?447403"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?650943"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?474249"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" itemprop="item" rel="index" title="分類於面試題目"><span itemprop="name">面試題目<meta itemprop="position" content="0"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"/><meta itemprop="name" content="minz"/><meta itemprop="description" content=", ~~~~~~~"/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="minz的筆記本"/></span><div class="body md" itemprop="articleBody"><h1 id="circular-queue"><a class="anchor" href="#circular-queue">#</a> Circular Queue</h1>
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"/><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/><link rel="dns-prefetch" href="https://unpkg.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext"><link rel="stylesheet" href="/css/app.css?v=0.3.9"><script src="https://cdn.staticfile.org/vue/3.2.45/vue.global.prod.js"></script><meta name="keywords" content="資料結構"/><link rel="canonical" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"><script type="text/javascript">function start() {
+    var stop, staticx;
+    var img = document.createElement('img');
+    img.src = "https://i.imgur.com/0e9qenq.png";
+
+    function Sakura(x, y, s, r, fn) {
+    this.x = x;
+    this.y = y;
+    this.s = s;
+    this.r = r;
+    this.fn = fn;
+    }
+
+    Sakura.prototype.draw = function (cxt) {
+    cxt.save();
+    var xc = (40 * this.s) / 4;
+    cxt.translate(this.x, this.y);
+    cxt.rotate(this.r);
+    cxt.drawImage(img, 0, 0, 30 * this.s, 30 * this.s);
+    cxt.restore();
+    };
+
+    Sakura.prototype.update = function () {
+    this.x = this.fn.x(this.x, this.y);
+    this.y = this.fn.y(this.y, this.y);
+    this.r = this.fn.r(this.r);
+    if (
+        this.x > window.innerWidth ||
+        this.x < 0 ||
+        this.y > window.innerHeight ||
+        this.y < 0
+    ) {
+        this.r = getRandom("fnr");
+        if (Math.random() > 0.4) {
+        this.x = getRandom("x");
+        this.y = 0;
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        } else {
+        this.x = window.innerWidth;
+        this.y = getRandom("y");
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        }
+    }
+    };
+
+    SakuraList = function () {
+    this.list = [];
+    };
+    SakuraList.prototype.push = function (sakura) {
+    this.list.push(sakura);
+    };
+    SakuraList.prototype.update = function () {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].update();
+    }
+    };
+    SakuraList.prototype.draw = function (cxt) {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].draw(cxt);
+    }
+    };
+    SakuraList.prototype.get = function (i) {
+    return this.list[i];
+    };
+    SakuraList.prototype.size = function () {
+    return this.list.length;
+    };
+
+    function getRandom(option) {
+    var ret, random;
+    switch (option) {
+        case "x":
+        ret = Math.random() * window.innerWidth;
+        break;
+        case "y":
+        ret = Math.random() * window.innerHeight;
+        break;
+        case "s":
+        ret = Math.random();
+        break;
+        case "r":
+        ret = Math.random() * 6;
+        break;
+        case "fnx":
+        random = -0.5 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return x + 0.5 * random - 0.5;
+        };
+        break;
+        case "fny":
+        random = 0.1 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return y + random;
+        };
+        break;
+        case "fnr":
+        random = Math.random() * 0.03;
+        ret = function (r) {
+            return r + random;
+        };
+        break;
+    }
+    return ret;
+    }
+
+    function startSakura() {
+    requestAnimationFrame =
+        window.requestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        window.oRequestAnimationFrame;
+    var canvas = document.createElement("canvas"),
+        cxt;
+    staticx = true;
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.setAttribute(
+        "style",
+        "position: fixed;left: 0;top: 0;pointer-events: none;z-index: -1;"
+    );
+    canvas.setAttribute("id", "canvas_sakura");
+    document.getElementsByTagName("body")[0].appendChild(canvas);
+    cxt = canvas.getContext("2d");
+    var sakuraList = new SakuraList();
+    for (var i = 0; i < 20; i++) {
+        var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
+        randomX = getRandom("x");
+        randomY = getRandom("y");
+        randomR = getRandom("r");
+        randomS = getRandom("s");
+        randomFnx = getRandom("fnx");
+        randomFny = getRandom("fny");
+        randomFnR = getRandom("fnr");
+        sakura = new Sakura(randomX, randomY, randomS, randomR, {
+        x: randomFnx,
+        y: randomFny,
+        r: randomFnR,
+        });
+        sakura.draw(cxt);
+        sakuraList.push(sakura);
+    }
+    stop = requestAnimationFrame(function () {
+        cxt.clearRect(0, 0, canvas.width, canvas.height);
+        sakuraList.update();
+        sakuraList.draw(cxt);
+        stop = requestAnimationFrame(arguments.callee);
+    });
+    }
+
+    window.onresize = function () {
+    var canvasSnow = document.getElementById("canvas_snow");
+    //canvasSnow.width = window.innerWidth;
+    canvasSnow.height = window.innerHeight;
+    };
+
+    img.onload = function () {
+    startSakura();
+    };
+
+    function stopp() {
+    if (staticx) {
+        var child = document.getElementById("canvas_sakura");
+        child.parentNode.removeChild(child);
+        window.cancelAnimationFrame(stop);
+        staticx = false;
+    } else {
+        startSakura();
+    }
+    }
+}
+start()</script><title>資料結構</title><meta name="generator" content="Hexo 7.0.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">資料結構</h1><div class="meta"><span class="item" title="創建時間：2023-11-02 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2023-11-02T00:00:00+08:00">2023-11-02</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>1.5k</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>1 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme" @click="changeThemeByBtn"><i class="ic" :class="{'i-sun': !themeStatus,'i-moon': themeStatus}"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" data-background-image="https://jerry12122.me/picbed/anime?999892"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?582274"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?565979"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?823276"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?920857"></li><li class="item" data-background-image="https://jerry12122.me/picbed/anime?45369"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" itemprop="item" rel="index" title="分類於面試題目"><span itemprop="name">面試題目<meta itemprop="position" content="0"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"/><meta itemprop="name" content="minz"/><meta itemprop="description" content=", ~~~~~~~"/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="minz的筆記本"/></span><div class="body md" itemprop="articleBody"><h1 id="circular-queue"><a class="anchor" href="#circular-queue">#</a> Circular Queue</h1>
 <pre><code class="language-Mermaid">
 graph LR
     A[A] --&gt; B[B]
@@ -83,7 +256,7 @@ SHA256:  <code>7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069<
 <li>雜湊函數可能會有相同的情況 (碰撞)</li>
 <li>原始資料有小變動，則希望雜湊值更大的變化</li>
 </ul>
-<div class="tags"><a href="/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" rel="tag"><i class="ic i-tag"></i>資料結構</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新於</span><time title="修改時間：2023-12-14 00:44:50" itemprop="dateModified" datetime="2023-12-14T00:44:50+08:00">2023-12-14</time></span></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>minz<i class="ic i-at"><em>@</em></i>minz的筆記本</li><li class="link"><strong>文章連結：</strong><a href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" title="資料結構">https://blog.minz.li/面試題目/資料結構/</a></li><li class="license"><strong>版權聲明：</strong>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 許可協議。轉載請註明出處！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;jerry12122.me&#x2F;picbed&#x2F;anime?571881" title="離散數學"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>面試題目</span><h3>離散數學</h3></a></div><div class="item right"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;jerry12122.me&#x2F;picbed&#x2F;anime?593910" title="線性代數"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>面試題目</span><h3>線性代數</h3></a></div></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#circular-queue"><span class="toc-number">1.</span> <span class="toc-text"> Circular Queue</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#dfs-and-bfs"><span class="toc-number">2.</span> <span class="toc-text"> DFS and BFS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%9C%E6%B9%8A%E5%87%BD%E6%95%B8-hash-function"><span class="toc-number">3.</span> <span class="toc-text"> 雜湊函數 (Hash Function)</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/" rel="bookmark" title="物件導向傳值?傳參考?">物件導向傳值?傳參考?</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/" rel="bookmark" title="二元搜尋樹">二元搜尋樹</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/" rel="bookmark" title="作業系統">作業系統</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%8E%92%E5%BA%8F%E6%BC%94%E7%AE%97%E6%B3%95/" rel="bookmark" title="排序演算法">排序演算法</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/" rel="bookmark" title="機率與統計">機率與統計</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/" rel="bookmark" title="演算法">演算法</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%9F%A9%E9%99%A3%E9%A1%8C%E7%9B%AE/" rel="bookmark" title="矩陣程式題目">矩陣程式題目</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="bookmark" title="線性代數">線性代數</a></li><li  class="active"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" rel="bookmark" title="資料結構">資料結構</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="bookmark" title="離散數學">離散數學</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%A1%8C%E7%9B%AE/" rel="bookmark" title="程式題目">程式題目</a></li></ul></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" itemprop="image" alt="minz" data-src="/assets/avatar.png"/><p class="name" itemprop="name">minz</p><div class="description" itemprop="description">~~~~~~~</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">13</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">2</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">9</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https:&#x2F;&#x2F;t.me&#x2F;minzli"><i class="ic i-paper-plane"></i></a><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;minz71"><i class="ic i-github"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2023</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">28k 字</span><span class="post-meta-divider">|</span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">26 分鐘</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+<div class="tags"><a href="/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" rel="tag"><i class="ic i-tag"></i>資料結構</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新於</span><time title="修改時間：2023-12-14 01:13:54" itemprop="dateModified" datetime="2023-12-14T01:13:54+08:00">2023-12-14</time></span></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>minz<i class="ic i-at"><em>@</em></i>minz的筆記本</li><li class="link"><strong>文章連結：</strong><a href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" title="資料結構">https://blog.minz.li/面試題目/資料結構/</a></li><li class="license"><strong>版權聲明：</strong>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 許可協議。轉載請註明出處！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;jerry12122.me&#x2F;picbed&#x2F;anime?36901" title="離散數學"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>面試題目</span><h3>離散數學</h3></a></div><div class="item right"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="next" itemprop="url" data-background-image="https:&#x2F;&#x2F;jerry12122.me&#x2F;picbed&#x2F;anime?242741" title="線性代數"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>面試題目</span><h3>線性代數</h3></a></div></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#circular-queue"><span class="toc-number">1.</span> <span class="toc-text"> Circular Queue</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#dfs-and-bfs"><span class="toc-number">2.</span> <span class="toc-text"> DFS and BFS</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%9B%9C%E6%B9%8A%E5%87%BD%E6%95%B8-hash-function"><span class="toc-number">3.</span> <span class="toc-text"> 雜湊函數 (Hash Function)</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/" rel="bookmark" title="物件導向傳值?傳參考?">物件導向傳值?傳參考?</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/" rel="bookmark" title="二元搜尋樹">二元搜尋樹</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/" rel="bookmark" title="作業系統">作業系統</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%8E%92%E5%BA%8F%E6%BC%94%E7%AE%97%E6%B3%95/" rel="bookmark" title="排序演算法">排序演算法</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/" rel="bookmark" title="機率與統計">機率與統計</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/" rel="bookmark" title="演算法">演算法</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%9F%A9%E9%99%A3%E9%A1%8C%E7%9B%AE/" rel="bookmark" title="矩陣程式題目">矩陣程式題目</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="bookmark" title="線性代數">線性代數</a></li><li  class="active"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/" rel="bookmark" title="資料結構">資料結構</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="bookmark" title="離散數學">離散數學</a></li><li ><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%A1%8C%E7%9B%AE/" rel="bookmark" title="程式題目">程式題目</a></li></ul></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" itemprop="image" alt="minz" data-src="/assets/avatar.png"/><p class="name" itemprop="name">minz</p><div class="description" itemprop="description">~~~~~~~</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">13</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">2</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">9</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https:&#x2F;&#x2F;t.me&#x2F;minzli"><i class="ic i-paper-plane"></i></a><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;minz71"><i class="ic i-github"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2023</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">28k 字</span><span class="post-meta-divider">|</span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">26 分鐘</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
         path: `面試題目/資料結構/`,
         favicon: {
         show: `（●´3｀●）やれやれだぜ`,
