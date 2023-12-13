@@ -1,7 +1,7 @@
 const CONFIG = {"version":"0.3.9","hostname":"https://blog.minz.li","root":"/","statics":"/","favicon":{"normal":"assets/favicon.ico","hidden":"assets/failure.ico"},"darkmode":false,"auto_dark":{"enable":true,"start":20,"end":7},"auto_scroll":false,"js":{"chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.16.7/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"katex":"npm/katex@0.16.7/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":false},"search":null,"outime":{"enable":false,"days":90},"quicklink":{"timeout":3000,"priority":true},"playerAPI":"https://api.injahow.cn","disableVL":false,"noPlayer":false,"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};var stop, staticx;
 var img = document.createElement('img');
 img.src = "https://i.imgur.com/0e9qenq.png";
-console.log(fs.listDir('/scripts'));
+
 function Sakura(x, y, s, r, fn) {
   this.x = x;
   this.y = y;
