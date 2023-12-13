@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "minz的筆記本 • All posts by \"doc\" tag",
+    "description": "~~~~~~~",
+    "home_page_url": "https://blog.minz.li",
+    "items": [
+        {
+            "id": "https://blog.minz.li/doc/%E6%97%A5%E6%9C%AC%E8%AA%9E%E6%BC%A2%E5%AD%97%E6%A8%99%E7%A4%BA/",
+            "url": "https://blog.minz.li/doc/%E6%97%A5%E6%9C%AC%E8%AA%9E%E6%BC%A2%E5%AD%97%E6%A8%99%E7%A4%BA/",
+            "title": "日本語漢字標示",
+            "date_published": "2023-11-01T16:00:00.000Z",
+            "content_html": "<h1 id=\"furigana-文字注音\"><a class=\"anchor\" href=\"#furigana-文字注音\">#</a> furigana 文字注音</h1>\n<figure class=\"highlight plaintext\"><figcaption><span>furigana 文字注音</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">&#123;漢字^かんじ&#125;</span><br><span class=\"line\">&#123;取り返す^とりかえす&#125;</span><br><span class=\"line\">&#123;可愛い犬^か・わい・いいぬ&#125;</span><br><span class=\"line\">&#123;食べる^たべる&#125;</span><br></pre></td></tr></table></figure>\n<p>效果如下:</p>\n<p><ruby>漢字<rp> (</rp><rt>かんじ</rt><rp>)</rp></ruby><br />\n<ruby> 取<rp> (</rp><rt>と</rt><rp>)</rp> り<rt></rt>返<rp> (</rp><rt>かえ</rt><rp>)</rp> す<rt></rt></ruby><br />\n<ruby>可<rp> (</rp><rt>か</rt><rp>)</rp> 愛<rp> (</rp><rt>わい</rt><rp>)</rp> い<rt></rt>犬<rp> (</rp><rt>いぬ</rt><rp>)</rp></ruby><br />\n<ruby> 食<rp> (</rp><rt>た</rt><rp>)</rp> べる<rt></rt></ruby><br />\n<a href=\"https://www.npmjs.com/package/furigana-markdown-it#quick-usage\"> https://www.npmjs.com/package/furigana-markdown-it#quick-usage</a></p>\n<p><a href=\"https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/special/\">https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/special/</a></p>\n<h1 id=\"html\"><a class=\"anchor\" href=\"#html\">#</a> HTML</h1>\n<figure class=\"highlight html\"><figcaption><span>html</span></figcaption><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br></pre></td><td class=\"code\"><pre><span class=\"line\"><span class=\"tag\">&lt;<span class=\"name\">ruby</span>&gt;</span>漢字<span class=\"tag\">&lt;<span class=\"name\">rt</span>&gt;</span>かんじ<span class=\"tag\">&lt;/<span class=\"name\">rt</span>&gt;</span><span class=\"tag\">&lt;/<span class=\"name\">ruby</span>&gt;</span></span><br><span class=\"line\"><span class=\"tag\">&lt;<span class=\"name\">ruby</span>&gt;</span>取り返す<span class=\"tag\">&lt;<span class=\"name\">rt</span>&gt;</span>とりかえす<span class=\"tag\">&lt;/<span class=\"name\">rt</span>&gt;</span><span class=\"tag\">&lt;/<span class=\"name\">ruby</span>&gt;</span></span><br></pre></td></tr></table></figure>\n<p>效果如下:</p>\n<p><ruby>漢字<rt>かんじ</rt></ruby><br />\n<ruby>取り返す<rt>とりかえす</rt></ruby></p>\n<hr />\n",
+            "tags": [
+                "doc"
+            ]
+        }
+    ]
+}

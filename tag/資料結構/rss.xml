@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>minz的筆記本 • Posts by &#34;資料結構&#34; tag</title>
+        <link>https://blog.minz.li</link>
+        <description>~~~~~~~</description>
+        <language>zh-TW</language>
+        <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 01 Nov 2023 16:00:00 +0000</lastBuildDate>
+        <category>doc</category>
+        <category>物件導向</category>
+        <category>程式碼</category>
+        <category>大學課程</category>
+        <category>機率與統計</category>
+        <category>演算法</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <category>線性代數</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</guid>
+            <title>資料結構</title>
+            <link>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/</link>
+            <category>資料結構</category>
+            <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;circular-queue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#circular-queue&#34;&gt;#&lt;/a&gt; Circular Queue&lt;/h1&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;figcaption&gt;&lt;span&gt;圖&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;graph LR&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    A[A] --&amp;gt; B[B]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    B --&amp;gt; C[C]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    C --&amp;gt; D[D]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    D --&amp;gt; A[A]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;一般的隊列（Queue）:FIFO&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Queue&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Circular Queue&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;資料排列方式&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;線性順序排列&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;循環順序排列，即將尾端和前端連接起來&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;插入和刪除操作&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;刪除操作都在前端進行&lt;br&gt;插入操作都在尾端進行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;插入和刪除操作不固定&lt;br&gt;可以在任何位置進行&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;記憶體空間&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;更多&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;較少&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;效率&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;低&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;dfs-and-bfs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dfs-and-bfs&#34;&gt;#&lt;/a&gt; DFS and BFS&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;深度優先搜尋 (Depth-First Search, DFS)&lt;/strong&gt; 是一種用於搜尋圖或樹數據結構中所有頂點的遞迴演算法。&lt;/p&gt;
+&lt;p&gt;例如，假設我們有一個圖 G，它的節點是 {0, 1, 2, 3}，邊是 {(0, 1), (0, 2), (1, 2), (2, 0), (2, 3), (3, 3)}。我們可以從節點 2 開始進行深度優先搜尋。首先，我們訪問節點 2，然後將其相鄰的未訪問節點（0 和 3）放入堆疊。接著，我們訪問堆疊頂部的節點（0），並將其相鄰的未訪問節點（1）放入堆疊。然後，我們訪問堆疊頂部的節點（1），並將其相鄰的未訪問節點（2）放入堆疊。最後，我們訪問堆疊頂部的節點（3）。由於沒有更多的未訪問節點，所以我們的深度優先搜尋結束。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;廣度優先搜尋 (Breadth-First Search, BFS)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;在 BFS 中，從起點節點開始，逐層地擴展搜索，先探索所有與起點節點相鄰的節點，然後再逐層探索與這些節點相鄰的節點，以此類推。&lt;/p&gt;
+&lt;p&gt;BFS 使用一個稱為 ** 佇列（Queue）** 的資料結構來維護待處理的節點。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;將起點節點放入佇列中。&lt;/li&gt;
+&lt;li&gt;從佇列中取出一個節點，將其標記為已訪問，並擴展搜索到該節點相鄰的未訪問節點，將這些節點加入佇列中。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;重複&lt;/strong&gt;這個過程，直到佇列中沒有未訪問的節點為止。&lt;/p&gt;
+&lt;p&gt;BFS 的特點是以&lt;strong&gt;廣度&lt;/strong&gt;作為搜索的優先順序。也就是說，BFS 先搜索距離起點節點最近的節點，然後再搜索稍遠一些的節點。這意味著，當使用 BFS 搜索時，可以找到從起點到目標節點的最短路徑（如果存在）。&lt;/p&gt;
+&lt;p&gt;BFS 可以用在圖形算法、迷宮解決、最短路徑問題等。它確保在搜索過程中先處理較近的節點，因此通常用於找尋最短路徑或尋找圖形中的最短距離。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;DFS&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;BFS&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;使用的資料結構&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Stack&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Quene&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;順序&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不唯一 (若 vertex 從小到大拜訪則唯一)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不唯一&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;雜湊函數-hash-function&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#雜湊函數-hash-function&#34;&gt;#&lt;/a&gt; 雜湊函數 (Hash Function)&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;雜湊函數 (Hash Function)&lt;/strong&gt; 是一種數學函數，它將任意大小的輸入數據（稱為 “資料”）轉換為固定大小的輸出字串（稱為 “雜湊值”）。&lt;/p&gt;
+&lt;p&gt;例如我們將  &lt;code&gt;Hello World!&lt;/code&gt;  的字串分別用 MD5、SHA1、SHA256&lt;br /&gt;
+MD5:  &lt;code&gt;ed076287532e86365e841e92bfc50d8c&lt;/code&gt; &lt;br /&gt;
+SHA1:  &lt;code&gt;2ef7bde608ce5404e97d5f042f95f89f1c232871&lt;/code&gt; &lt;br /&gt;
+SHA256:  &lt;code&gt;7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;雜湊函數會希望是不可逆&lt;/li&gt;
+&lt;li&gt;雜湊函數可能會有相同的情況 (碰撞)&lt;/li&gt;
+&lt;li&gt;原始資料有小變動，則希望雜湊值更大的變化&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

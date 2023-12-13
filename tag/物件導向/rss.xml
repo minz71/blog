@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>minz的筆記本 • Posts by &#34;物件導向&#34; tag</title>
+        <link>https://blog.minz.li</link>
+        <description>~~~~~~~</description>
+        <language>zh-TW</language>
+        <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 01 Nov 2023 16:00:00 +0000</lastBuildDate>
+        <category>doc</category>
+        <category>物件導向</category>
+        <category>程式碼</category>
+        <category>大學課程</category>
+        <category>機率與統計</category>
+        <category>演算法</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <category>線性代數</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/</guid>
+            <title>物件導向傳值?傳參考?</title>
+            <link>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/</link>
+            <category>物件導向</category>
+            <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;call-by-value-傳值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-value-傳值&#34;&gt;#&lt;/a&gt; call by value (傳值)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Call-by-Value 中，函式的參數是被傳遞值的&lt;strong&gt;副本&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在函式內部，對參數的修改不會影響到原始的變數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;h3 id=&#34;call-by-address-傳位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-address-傳位置&#34;&gt;#&lt;/a&gt; call by address (傳位置)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;傳了實際的記憶體位置進去 function&lt;/li&gt;
+&lt;li&gt;也是 &lt;code&gt;call by value&lt;/code&gt;  的變形，改為&lt;strong&gt;傳記憶體位址&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;call-by-reference-傳參考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-reference-傳參考&#34;&gt;#&lt;/a&gt; call by reference (傳參考)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;在 Call-by-Reference 中，函式的參數接受原始變數的參考（或記憶體位置）。&lt;/li&gt;
+&lt;li&gt;在函式內部，對參數的修改會直接影響到原始的變數。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight c++&#34;&gt;&lt;figcaption&gt;&lt;span&gt;範例&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;meta&#34;&gt;#&lt;span class=&#34;keyword&#34;&gt;include&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// Call-by-Value (值傳遞)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;incrementByValue&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; value)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    value++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// Call-by-Reference using pointer (指標參考傳遞)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;incrementByPointer&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt;* ptr)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    (*ptr)++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;// Call-by-Reference using reference (參考傳遞)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;incrementByReference&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;(&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt;&amp;amp; ref)&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    ref++;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;function&#34;&gt;&lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;title&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;params&#34;&gt;()&lt;/span&gt; &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;type&#34;&gt;int&lt;/span&gt; num = &lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;incrementByValue&lt;/span&gt;(num);        &lt;span class=&#34;comment&#34;&gt;// 傳遞值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    std::cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Call-by-Value: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; num &amp;lt;&amp;lt; std::endl;  &lt;span class=&#34;comment&#34;&gt;// 輸出：10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;incrementByPointer&lt;/span&gt;(&amp;amp;num);     &lt;span class=&#34;comment&#34;&gt;// 傳遞指標參考&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    std::cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Call-by-Pointer: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; num &amp;lt;&amp;lt; std::endl; &lt;span class=&#34;comment&#34;&gt;// 輸出：11&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;incrementByReference&lt;/span&gt;(num);    &lt;span class=&#34;comment&#34;&gt;// 傳遞參考&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    std::cout &amp;lt;&amp;lt; &lt;span class=&#34;string&#34;&gt;&amp;quot;Call-by-Reference: &amp;quot;&lt;/span&gt; &amp;lt;&amp;lt; num &amp;lt;&amp;lt; std::endl; &lt;span class=&#34;comment&#34;&gt;// 輸出：12&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;傳值&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;傳地址&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;傳參考&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;incrementByValue&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;incrementByPointer&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;code&gt;incrementByReference&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;傳入函式的東西&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;整數值&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;整數指標 (指標變數)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;整數引用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;原始的 &lt;code&gt;num&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不影響 (因為是副本)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;會影響&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;會影響&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.minz.li</id>
+    <title>minz的筆記本 • Posts by &#34;機率與統計&#34; tag</title>
+    <link href="https://blog.minz.li" />
+    <updated>2023-11-01T16:00:00.000Z</updated>
+    <category term="doc" />
+    <category term="物件導向" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <entry>
+        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/</id>
+        <title>機率與統計</title>
+        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/"/>
+        <content type="html">&lt;h1 id=&#34;互斥和獨立事件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#互斥和獨立事件&#34;&gt;#&lt;/a&gt; 互斥和獨立事件&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;互斥事件&lt;/strong&gt;指的是兩個或多個事件不可能同時發生的情況。&lt;br /&gt;
+如果事件 A 發生，那麼事件 B 就不可能發生，且反之亦然。&lt;/p&gt;
+&lt;p&gt;數學上，兩個互斥事件 A 和 B 的概率滿足 P (A ∩ B) = 0，&lt;strong&gt;即它們的交集為空集&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;例如，擲一個骰子，事件 A 是出現奇數點數，事件 B 是出現偶數點數。由於奇數和偶數是互斥的，因此在一次擲骰子的結果中，不能同時出現奇數和偶數。因此，事件 A 和事件 B 是互斥事件。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;獨立事件&lt;/strong&gt;指的是兩個或多個事件的發生與其他事件的發生無關。&lt;br /&gt;
+如果事件 A 發生與否&lt;strong&gt;不會影響&lt;/strong&gt;事件 B 發生的概率，其概率滿足乘法規則。&lt;br /&gt;
+兩個獨立事件 A 和 B 的概率滿足 P (A ∩ B) = P (A) * P (B)。&lt;/p&gt;
+&lt;p&gt;例如，考慮一個從一副撲克牌中抽取兩張牌的實驗，事件 A 是第一張牌是紅心，事件 B 是第二張牌是黑桃。由於每次抽取牌都是獨立的，第一張牌是紅心不會影響第二張牌是黑桃的概率，反之亦然。因此，事件 A 和事件 B 是獨立事件。&lt;/p&gt;
+&lt;h1 id=&#34;骰1個骰子的期望值怎麼算&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#骰1個骰子的期望值怎麼算&#34;&gt;#&lt;/a&gt; 骰 1 個骰子的期望值怎麼算？&lt;/h1&gt;
+&lt;p&gt;期望值是 相加所有 (出現的值 * 出現的機率)&lt;/p&gt;
+&lt;p&gt;期望值 = (1 × 1/6) + (2 × 1/6) + (3 × 1/6) + (4 × 1/6) + (5 × 1/6) + (6 × 1/6) = 3.5&lt;/p&gt;
+&lt;details&gt;&lt;summary&gt;骰的次數越多總平均會接近期望值&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;期望值 3.5 表示在長期多次擲骰子的情況下，&lt;br /&gt;
+擲骰子的平均結果將趨近於 3.5。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h1 id=&#34;三顆骰子一奇數二偶數的機率&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三顆骰子一奇數二偶數的機率&#34;&gt;#&lt;/a&gt; 三顆骰子，一奇數二偶數的機率&lt;/h1&gt;
+&lt;p&gt;現在，我們需要確定符合要求的&lt;strong&gt;組合數&lt;/strong&gt;。我們希望有一顆骰子是奇數，而另外兩顆骰子是偶數。這種情況下，有三種可能性：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;奇數 - 偶數 - 偶數&lt;/li&gt;
+&lt;li&gt;偶數 - 奇數 - 偶數&lt;/li&gt;
+&lt;li&gt;偶數 - 偶數 - 奇數&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;對於每種可能性，我們需要計算出每顆骰子的組合數。奇數有三種選擇（1、3、5），而偶數有三種選擇（2、4、6）。&lt;/p&gt;
+&lt;p&gt;因此，根據組合計數的原理，我們可以計算滿足要求的組合數為：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;3 (奇數選擇) * 3 (偶數選擇) * 3 (偶數選擇) = 27&lt;/li&gt;
+&lt;li&gt;3 (偶數選擇) * 3 (奇數選擇) * 3 (偶數選擇) = 27&lt;/li&gt;
+&lt;li&gt;3 (偶數選擇) * 3 (偶數選擇) * 3 (奇數選擇) = 27&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;接下來，我們需要考慮所有可能的組合數。每顆骰子有六個可能的點數，所以總共有 6 * 6 * 6 = 216 種可能的組合。&lt;/p&gt;
+&lt;p&gt;最後，我們可以計算機率，即符合要求的組合數除以所有可能的組合數：&lt;/p&gt;
+&lt;p&gt;機率 = 符合要求的組合數 / 所有可能的組合數 = (27+27+27) / 216&lt;/p&gt;
+&lt;h1 id=&#34;完整撲克牌任意抽五張數字都不一樣的機率為何&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#完整撲克牌任意抽五張數字都不一樣的機率為何&#34;&gt;#&lt;/a&gt; 完整撲克牌任意抽五張數字都不一樣的機率為何？&lt;/h1&gt;
+&lt;p&gt;撲克牌的數量為 52 張，再加上 2 張鬼牌，總共有 54 張牌。數字為 1 到 10 還有 J Q K，有 4 種花色。我們來計算一次抽取五張數字都不一樣（不管花色）的機率。&lt;/p&gt;
+&lt;p&gt;首先，我們需要確定有多少種不同的數字。在撲克牌中，有 13 種不同的數字（1-10，J，Q，K）。因此，第一張牌可以有 13 種選擇，第二張牌可以有 12 種選擇（因為不能與第一張牌的數字相同），依此類推，直到第五張牌只有 9 種選擇。&lt;/p&gt;
+&lt;p&gt;因此，符合條件的組合數為 13 * 12 * 11 * 10 * 9。&lt;/p&gt;
+&lt;p&gt;然後，我們需要考慮所有可能的組合數。每次抽牌都有 54 種可能（52 張撲克牌和 2 張鬼牌），所以五次抽牌總共有 C (54,5) 種可能的組合。&lt;/p&gt;
+&lt;p&gt;最後，我們可以計算機率，即符合要求的組合數除以所有可能的組合數：&lt;/p&gt;
+&lt;p&gt;機率 = 符合要求的組合數 / 所有可能的組合數 = (13 * 12 * 11 * 10 * 9) / C (54,5)&lt;/p&gt;
+&lt;h1 id=&#34;有五個銅板有四個正面的機率是多少&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#有五個銅板有四個正面的機率是多少&#34;&gt;#&lt;/a&gt; 有五個銅板，有四個正面的機率是多少？&lt;/h1&gt;
+&lt;p&gt;我們有五個銅板，每個銅板都有兩種可能的結果：正面和反面。&lt;br /&gt;
+因此，總共有 2^5 = 32 種不同的組合。&lt;/p&gt;
+&lt;p&gt;現在我們要計算有四個正面的組合數。在五個銅板中，選擇四個銅板出現正面，剩下的一個銅板出現反面。這種情況有 C (5, 4) = 5 種組合。&lt;/p&gt;
+&lt;p&gt;每個符合條件的組合中，有四個銅板出現正面，一個銅板出現反面。因此，我們可以將每個銅板出現正面的機率相乘，並將其乘以符合條件的組合數。&lt;/p&gt;
+&lt;p&gt;所以，機率 = C (5, 4) * p^4 * (1-p)^1 = 5 * (1/2)^4 * (1/2)^1 = 5/32&lt;/p&gt;
+&lt;h1 id=&#34;pdf跟cdf是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pdf跟cdf是什麼&#34;&gt;#&lt;/a&gt; PDF 跟 CDF 是什麼&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;概率密度函數（Probability Density Function, PDF）&lt;br /&gt;
+&lt;img data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/1024px-Boxplot_vs_PDF.svg.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;概率密度函數（PDF）用於描述連續隨機變量在不同&lt;strong&gt;取值點&lt;/strong&gt;上的概率密度。&lt;br /&gt;
+它可以看作是概率分布曲線的密度，通常是一個平滑的曲線。&lt;br /&gt;
+PDF 的值代表了在特定取值點上的概率密度，即該點附近的概率密度值有多大。&lt;br /&gt;
+PDF 的積分對應於在整個定義域上的概率，其積分值等於 1。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;累積分佈函數（Cumulative Distribution Function, CDF）&lt;br /&gt;
+&lt;img data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/77/Exponential_distribution_cdf.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;累積分佈函數（CDF）則用於描述&lt;strong&gt;隨機變量小於或等於給定值的概率&lt;/strong&gt;。&lt;br /&gt;
+它表示了隨機變量取值小於或等於某一特定值的概率。&lt;br /&gt;
+CDF 是一個非遞減的函數，其值域在 0 到 1 之間。&lt;br /&gt;
+CDF 的值在 x 處給出了小於或等於 x 的概率。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CDF 是 PDF 的積分，也就是將 PDF 曲線下的面積進行累加。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&#34;什麼是gaussian-function&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什麼是gaussian-function&#34;&gt;#&lt;/a&gt; 什麼是 Gaussian function&lt;/h1&gt;
+&lt;p&gt;高斯函數（Gaussian function）是一種數學函數，也稱為&lt;strong&gt;常態分佈函數&lt;/strong&gt;（normal distribution function）或高斯分佈函數（Gaussian distribution function）。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;f(x) = A * exp(-(x - μ)² / (2σ²))&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;σ = 標準差&lt;br /&gt;
+ σ² = 變異數&lt;br /&gt;
+在這個公式中，f (x) 是函數在 x 點的值，A 是幅度（或最大值），μ 是平均值，σ 是標準差，exp 是自然指數函數。&lt;/p&gt;
+&lt;p&gt;高斯函數通常呈現一個對稱的鐘形曲線，其峰值位於平均值 μ 的位置。標準差 σ 確定了曲線的寬度，越大曲線越寬，越小曲線越窄。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;對稱性：曲線以平均值為中心對稱。&lt;/li&gt;
+&lt;li&gt;唯一峰值：曲線有一個單一的最大值。&lt;/li&gt;
+&lt;li&gt;平穩性：曲線在平均值兩側遞減，沒有突變或跳躍。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="機率與統計" />
+        <updated>2023-11-01T16:00:00.000Z</updated>
+    </entry>
+</feed>
