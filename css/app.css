@@ -1455,7 +1455,6 @@ main {
 main >.inner {
   width: calc(100% - 0.625rem);
   align-items: flex-start;
-  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
@@ -5302,6 +5301,9 @@ span.label {
 }
 .audio.playing .cover .disc {
   animation-play-state: running;
+}
+main >.inner {
+  min-height: 90vh;
 }
 #nav {
   -webkit-backdrop-filter: saturate(100%) blur(0px);

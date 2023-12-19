@@ -5,6 +5,16 @@
     "home_page_url": "https://blog.minz.li",
     "items": [
         {
+            "id": "https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/",
+            "url": "https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/",
+            "title": "ShokaX插件-添加Footer高度",
+            "date_published": "2023-12-18T16:00:00.000Z",
+            "content_html": "<ul>\n<li>增加 Footer 高度可以避免內容過少的顯示 BUG</li>\n</ul>\n<figure class=\"highlight js\"><figcaption data-lang=\"JavaScript\"><span>/scripts/addFooterMinHeight.js</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>hexo<span class=\"token punctuation\">.</span>extend<span class=\"token punctuation\">.</span>filter<span class=\"token punctuation\">.</span><span class=\"token function\">register</span><span class=\"token punctuation\">(</span><span class=\"token string\">'theme_inject'</span><span class=\"token punctuation\">,</span> <span class=\"token keyword\">function</span><span class=\"token punctuation\">(</span><span class=\"token parameter\">injects</span><span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    injects<span class=\"token punctuation\">.</span>style<span class=\"token punctuation\">.</span><span class=\"token function\">push</span><span class=\"token punctuation\">(</span><span class=\"token string\">'views/addFooterMinHeight.styl'</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token punctuation\">&#125;</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr></table></figure><figure class=\"highlight css\"><figcaption data-lang=\"CSS\"><span>/views/addFooterMinHeight.styl</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token selector\">main</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token selector\">>.inner</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>        <span class=\"token property\">min-height</span><span class=\"token punctuation\">:</span> 90vh<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure>",
+            "tags": [
+                "ShokaX插件"
+            ]
+        },
+        {
             "id": "https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E7%89%B9%E6%95%88/",
             "url": "https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E7%89%B9%E6%95%88/",
             "title": "ShokaX插件-移除頂部霧面特效",
