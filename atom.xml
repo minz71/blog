@@ -3,7 +3,8 @@
     <id>https://blog.minz.li</id>
     <title>minz的筆記本</title>
     <link href="https://blog.minz.li" />
-    <updated>2023-12-18T16:00:00.000Z</updated>
+    <updated>2023-12-19T16:00:00.000Z</updated>
+    <category term="UiPath" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="物件導向" />
@@ -14,6 +15,76 @@
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
+    <entry>
+        <id>https://blog.minz.li/UiPath/Introduction/</id>
+        <title>UiPath介紹</title>
+        <link rel="alternate" href="https://blog.minz.li/UiPath/Introduction/"/>
+        <content type="html">&lt;h1 id=&#34;介紹-introduction&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹-introduction&#34;&gt;#&lt;/a&gt; 介紹 introduction&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;機器人流程自動化 (Robotic Pocess Automation)&lt;/li&gt;
+&lt;li&gt;自動反覆執行&lt;/li&gt;
+&lt;li&gt;圖形化介面編輯腳本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;開始使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#開始使用&#34;&gt;#&lt;/a&gt; 開始使用&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/UiPath/2.png&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/UiPath/1.png&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本&#34;&gt;#&lt;/a&gt; 版本&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/SBuMsZL.png&#34; alt=&#34;&#34; title=&#34;不同版本的差異&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;uipath-studio-介面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-studio-介面&#34;&gt;#&lt;/a&gt; UiPath Studio 介面&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/3AxfXFw.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="UiPath" />
+        <updated>2023-12-19T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.minz.li/UiPath/UiParh%20AI%20tool/</id>
+        <title>UiPath AI tool</title>
+        <link rel="alternate" href="https://blog.minz.li/UiPath/UiParh%20AI%20tool/"/>
+        <content type="html">&lt;h1 id=&#34;ai工具&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ai工具&#34;&gt;#&lt;/a&gt; AI 工具&lt;/h1&gt;
+&lt;h2 id=&#34;generative-validation-產生驗證&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generative-validation-產生驗證&#34;&gt;#&lt;/a&gt; generative validation 產生驗證&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;因為人工智慧模型可能出錯&lt;/li&gt;
+&lt;li&gt;生成人工智慧作為&lt;strong&gt;第二意見去比對&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;如果生成模型和專用模型最終都得到相同的結果，則跳過人工檢查&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/6f7UJexuKmeHbR3oo3DLoN/0f3c77af9e98e44c0a03caa029977eb4/AHT_STP.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;uipath-clipboard-aitm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-clipboard-aitm&#34;&gt;#&lt;/a&gt; UiPath Clipboard AI™&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;使用圖片文字辨識&lt;/li&gt;
+&lt;li&gt;自動填入表格等位置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4QkbAcBnjicS9SOBjPubmG/0ca2f4d10a47bbffbcbd195f0a4ed8fc/Clipboard_AI_at_UiPath.PNG&#34; alt=&#34;&#34; title=&#34;官方Demo圖片&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FouRcBqj5tA?si=Rvj1XajetIxMdZaQ&amp;amp;start=25&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;uipath-document-understanding&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-document-understanding&#34;&gt;#&lt;/a&gt; UiPath Document Understanding&lt;/h2&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZiqaKeXuIos?si=-8VyfN2onYxCz-EU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4hMwDcIv7V5yZCbeHAuwYS/7510c58c316eba68af73bfacadc3c0b2/DU_VS_animation.gif&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;不同的模板&lt;/li&gt;
+&lt;li&gt;手寫文件&lt;/li&gt;
+&lt;li&gt;簽名文件&lt;/li&gt;
+&lt;li&gt;勾選文件&lt;/li&gt;
+&lt;li&gt;不整齊或被旋轉的掃描文件&lt;/li&gt;
+&lt;li&gt;多樣的檔案格式&lt;/li&gt;
+&lt;li&gt;低品質的掃描文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;uipath-communications-mining&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-communications-mining&#34;&gt;#&lt;/a&gt; UiPath Communications Mining&lt;/h2&gt;
+&lt;p&gt;從發送電子郵件到回覆客戶請求。&lt;br /&gt;
+在任何&lt;strong&gt;通訊管道&lt;/strong&gt;上即時轉換為可操作的資料。&lt;br /&gt;
+例如：辨識飯店名稱、房間類型和相關日期等資料，並將其輸入到自動化系統中。&lt;/p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Tm3V4AWzlag?si=15VdabKP6vwUk7uH&amp;amp;start=71&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1 id=&#34;reference&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#reference&#34;&gt;#&lt;/a&gt; Reference&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/blog/product-and-updates/introducing-generative-validation&#34;&gt;https://www.uipath.com/blog/product-and-updates/introducing-generative-validation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/blog/automation/uipath-automation-coe-q3-fy24&#34;&gt;https://www.uipath.com/blog/automation/uipath-automation-coe-q3-fy24&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/blog/industry-solutions/british-airways-cathay-pacific-ai-powered-automation&#34;&gt;https://www.uipath.com/blog/industry-solutions/british-airways-cathay-pacific-ai-powered-automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/blog/ai/clipboard-ai-makes-finance-operations-easier&#34;&gt;https://www.uipath.com/blog/ai/clipboard-ai-makes-finance-operations-easier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/product/communications-mining&#34;&gt;https://www.uipath.com/product/communications-mining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.uipath.com/product/document-understanding&#34;&gt;https://www.uipath.com/product/document-understanding&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="UiPath" />
+        <updated>2023-12-19T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</id>
         <title>ShokaX插件-添加Footer高度</title>
