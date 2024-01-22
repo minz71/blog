@@ -3,7 +3,7 @@
     <id>https://blog.minz.li</id>
     <title>minz的筆記本</title>
     <link href="https://blog.minz.li" />
-    <updated>2023-12-19T16:00:00.000Z</updated>
+    <updated>2024-01-21T16:00:00.000Z</updated>
     <category term="UiPath" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
@@ -15,6 +15,29 @@
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
+    <entry>
+        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/</id>
+        <title>面試心得</title>
+        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/"/>
+        <content type="html">&lt;p&gt;第一間教室&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自我介紹 30 秒&lt;/li&gt;
+&lt;li&gt;讀桌上的英文&lt;/li&gt;
+&lt;li&gt;骰子 2 奇 1 偶的機率是多少&lt;/li&gt;
+&lt;li&gt;資料結構排序演算法看重什麼？&lt;/li&gt;
+&lt;li&gt;P np 的意思&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;第二間教室&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;自我介紹 30 秒&lt;/li&gt;
+&lt;li&gt;依經驗問問題&lt;/li&gt;
+&lt;li&gt;未來想做什麼研究&lt;/li&gt;
+&lt;li&gt;多益分數&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;每關各 5 分鐘的時間&lt;/p&gt;
+</content>
+        <updated>2024-01-21T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.minz.li/UiPath/Introduction/</id>
         <title>UiPath介紹</title>

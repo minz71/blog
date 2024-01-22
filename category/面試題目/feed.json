@@ -5,6 +5,14 @@
     "home_page_url": "https://blog.minz.li",
     "items": [
         {
+            "id": "https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/",
+            "url": "https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/",
+            "title": "面試心得",
+            "date_published": "2024-01-21T16:00:00.000Z",
+            "content_html": "<p>第一間教室</p>\n<ol>\n<li>自我介紹 30 秒</li>\n<li>讀桌上的英文</li>\n<li>骰子 2 奇 1 偶的機率是多少</li>\n<li>資料結構排序演算法看重什麼？</li>\n<li>P np 的意思</li>\n</ol>\n<p>第二間教室</p>\n<ol>\n<li>自我介紹 30 秒</li>\n<li>依經驗問問題</li>\n<li>未來想做什麼研究</li>\n<li>多益分數</li>\n</ol>\n<p>每關各 5 分鐘的時間</p>\n",
+            "tags": []
+        },
+        {
             "id": "https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/",
             "url": "https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/",
             "title": "物件導向傳值?傳參考?",
