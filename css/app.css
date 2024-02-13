@@ -590,6 +590,9 @@ details summary::before {
 .i-cloud-music:before {
   content: "\e76a";
 }
+.i-gitee:before {
+  content: "\e607";
+}
 /* modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 *,
 ::before,
@@ -1141,8 +1144,8 @@ textarea {
 @font-face {
   font-family: 'ic';
   font-display: swap;
-  src: url("//at.alicdn.com/t/font_1832207_igi8uaupcus.eot");
-  src: url("//at.alicdn.com/t/font_1832207_igi8uaupcus.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.woff2") format('woff2'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.woff") format('woff'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.ttf") format('truetype'), url("//at.alicdn.com/t/font_1832207_igi8uaupcus.svg#ic") format('svg');
+  src: url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.eot");
+  src: url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.eot?#iefix") format('embedded-opentype'), url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.woff2") format('woff2'), url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.woff") format('woff'), url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.ttf") format('truetype'), url("//at.alicdn.com/t/c/font_4415496_59g1326wajd.svg#ic") format('svg');
 }
 @font-face {
   font-family: 'jetbrains-mono';
@@ -2228,17 +2231,17 @@ use.stop-animation {
   top: -10%;
   left: -10%;
 }
-.social .item.telegram::before {
-  background-color: #32afed;
-}
-.social .item.telegram i {
-  color: #32afed;
-}
 .social .item.github::before {
   background-color: #191717;
 }
 .social .item.github i {
   color: #191717;
+}
+.social .item.telegram::before {
+  background-color: #32afed;
+}
+.social .item.telegram i {
+  color: #32afed;
 }
 .social .item.email::before {
   background-color: #55acd5;
@@ -4955,11 +4958,13 @@ span.label {
   width: auto;
   height: auto;
   background: none;
-  border-radius: 10px;
+  border-radius: 0;
   border-bottom: 0.125rem solid transparent;
 }
 .tabs .nav li.active::before {
   border-bottom-color: var(--primary-color);
+  left: 0;
+  right: 0;
 }
 .tabs .tab {
   display: none;
