@@ -74,7 +74,7 @@
 &lt;h1 id=&#34;pdf跟cdf是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#pdf跟cdf是什麼&#34;&gt;#&lt;/a&gt; PDF 跟 CDF 是什麼&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;概率密度函數（Probability Density Function, PDF）&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/1024px-Boxplot_vs_PDF.svg.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Boxplot_vs_PDF.svg/1024px-Boxplot_vs_PDF.svg.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;概率密度函數（PDF）用於描述連續隨機變量在不同&lt;strong&gt;取值點&lt;/strong&gt;上的概率密度。&lt;br /&gt;
 它可以看作是概率分布曲線的密度，通常是一個平滑的曲線。&lt;br /&gt;
@@ -82,7 +82,7 @@ PDF 的值代表了在特定取值點上的概率密度，即該點附近的概�
 PDF 的積分對應於在整個定義域上的概率，其積分值等於 1。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;累積分佈函數（Cumulative Distribution Function, CDF）&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/77/Exponential_distribution_cdf.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
+&lt;img data-src=&#34;https://upload.wikimedia.org/wikipedia/commons/7/77/Exponential_distribution_cdf.png&#34;  height=&#34;300&#34;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;累積分佈函數（CDF）則用於描述&lt;strong&gt;隨機變量小於或等於給定值的概率&lt;/strong&gt;。&lt;br /&gt;
 它表示了隨機變量取值小於或等於某一特定值的概率。&lt;br /&gt;

@@ -36,12 +36,12 @@
 &lt;li&gt;圖形化介面編輯腳本&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;開始使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#開始使用&#34;&gt;#&lt;/a&gt; 開始使用&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/2.png&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/1.png&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/UiPath/2.png&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/UiPath/1.png&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本&#34;&gt;#&lt;/a&gt; 版本&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/SBuMsZL.png&#34; alt=&#34;&#34; title=&#34;不同版本的差異&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/SBuMsZL.png&#34; alt=&#34;&#34; title=&#34;不同版本的差異&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uipath-studio-介面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-studio-介面&#34;&gt;#&lt;/a&gt; UiPath Studio 介面&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/3AxfXFw.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/3AxfXFw.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -57,17 +57,17 @@
 &lt;li&gt;生成人工智慧作為&lt;strong&gt;第二意見去比對&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;如果生成模型和專用模型最終都得到相同的結果，則跳過人工檢查&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://images.ctfassets.net/5965pury2lcm/6f7UJexuKmeHbR3oo3DLoN/0f3c77af9e98e44c0a03caa029977eb4/AHT_STP.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/6f7UJexuKmeHbR3oo3DLoN/0f3c77af9e98e44c0a03caa029977eb4/AHT_STP.png&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uipath-clipboard-aitm&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-clipboard-aitm&#34;&gt;#&lt;/a&gt; UiPath Clipboard AI™&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;使用圖片文字辨識&lt;/li&gt;
 &lt;li&gt;自動填入表格等位置&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4QkbAcBnjicS9SOBjPubmG/0ca2f4d10a47bbffbcbd195f0a4ed8fc/Clipboard_AI_at_UiPath.PNG&#34; alt=&#34;&#34; title=&#34;官方Demo圖片&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4QkbAcBnjicS9SOBjPubmG/0ca2f4d10a47bbffbcbd195f0a4ed8fc/Clipboard_AI_at_UiPath.PNG&#34; alt=&#34;&#34; title=&#34;官方Demo圖片&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/FouRcBqj5tA?si=Rvj1XajetIxMdZaQ&amp;amp;start=25&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2 id=&#34;uipath-document-understanding&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-document-understanding&#34;&gt;#&lt;/a&gt; UiPath Document Understanding&lt;/h2&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ZiqaKeXuIos?si=-8VyfN2onYxCz-EU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4hMwDcIv7V5yZCbeHAuwYS/7510c58c316eba68af73bfacadc3c0b2/DU_VS_animation.gif&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://images.ctfassets.net/5965pury2lcm/4hMwDcIv7V5yZCbeHAuwYS/7510c58c316eba68af73bfacadc3c0b2/DU_VS_animation.gif&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;不同的模板&lt;/li&gt;
 &lt;li&gt;手寫文件&lt;/li&gt;
