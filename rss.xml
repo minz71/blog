@@ -5,11 +5,13 @@
         <link>https://blog.minz.li</link>
         <description></description>
         <language>zh-TW</language>
-        <pubDate>Tue, 27 Feb 2024 16:00:00 +0000</pubDate>
-        <lastBuildDate>Tue, 27 Feb 2024 16:00:00 +0000</lastBuildDate>
+        <pubDate>Mon, 04 Mar 2024 16:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 04 Mar 2024 16:00:00 +0000</lastBuildDate>
         <category>domain</category>
         <category>API</category>
         <category>UiPath</category>
+        <category>Netflix</category>
+        <category>Netflix共享</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>物件導向</category>
@@ -20,6 +22,57 @@
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/other/netflixShare/</guid>
+            <title>Netflix共享</title>
+            <link>https://blog.minz.li/other/netflixShare/</link>
+            <category>Netflix</category>
+            <category>Netflix共享</category>
+            <pubDate>Mon, 04 Mar 2024 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本文撰寫於 2024 年 3 月 05 日，Netflix 可能會修改共享政策。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h2&gt;
+&lt;p&gt;Netflix 在 2023 年宣布打擊共享帳號，並宣布僅限&lt;strong&gt;同住者&lt;/strong&gt;一起使用。&lt;br /&gt;
+&lt;a href=&#34;https://help.netflix.com/zh-tw/node/124925&#34;&gt;https://help.netflix.com/zh-tw/node/124925&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Netflix 會鎖定跨區帳號，鎖定帳號後可能不會退款。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;限制方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#限制方式&#34;&gt;#&lt;/a&gt; 限制方式&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;需要取得驗證碼&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;可以使用自動轉寄，將確認信件轉給其他人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;如圖&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/er8aeX5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;要求使用額外帳號&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;目前可能的方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#目前可能的方式&#34;&gt;#&lt;/a&gt; 目前可能的方式&lt;/h2&gt;
+&lt;h3 id=&#34;3人方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3人方案&#34;&gt;#&lt;/a&gt; 3 人方案&lt;/h3&gt;
+&lt;p&gt;台灣高級方案 390 / 月&lt;br /&gt;
+額外成員每位 100 / 月&lt;br /&gt;
+高級方案 (同住者共享)+2 位額外成員 (2 台電視)&lt;br /&gt;
+ 共 3 位成員&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;符合一個帳號一人&lt;/li&gt;
+&lt;li&gt;符合同住者共享&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;45人方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#45人方案&#34;&gt;#&lt;/a&gt; 4/5 人方案&lt;/h3&gt;
+&lt;p&gt;台灣高級方案 390 / 月&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;最多一台電視&lt;/li&gt;
+&lt;li&gt;可能會被偵測到不屬於同戶裝置&lt;/li&gt;
+&lt;li&gt;每 30 天要去取得同戶裝置標記 (連上相同網路觀看)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;若沒有人使用電視，則由 Netflix 自動判斷戶長&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.minz.li/CS/weatherAPI/</guid>
             <title>氣象資料開放平台 API</title>

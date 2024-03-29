@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"/><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"/><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"/><link rel="dns-prefetch" href="https://unpkg.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext"><link rel="stylesheet" href="/css/app.css?v=0.3.10"><script src="https://cdn.staticfile.org/vue/3.2.45/vue.global.prod.js"></script><link rel="canonical" href="https://blog.minz.li/page/3/"><script type="text/javascript">function start() {
+    var stop, staticx;
+    var img = document.createElement('img');
+    img.src = "/assets/sakura.png";
+
+    function Sakura(x, y, s, r, fn) {
+    this.x = x;
+    this.y = y;
+    this.s = s;
+    this.r = r;
+    this.fn = fn;
+    }
+
+    Sakura.prototype.draw = function (cxt) {
+    cxt.save();
+    var xc = (40 * this.s) / 4;
+    cxt.translate(this.x, this.y);
+    cxt.rotate(this.r);
+    cxt.drawImage(img, 0, 0, 30 * this.s, 30 * this.s);
+    cxt.restore();
+    };
+
+    Sakura.prototype.update = function () {
+    this.x = this.fn.x(this.x, this.y);
+    this.y = this.fn.y(this.y, this.y);
+    this.r = this.fn.r(this.r);
+    if (
+        this.x > window.innerWidth ||
+        this.x < 0 ||
+        this.y > window.innerHeight ||
+        this.y < 0
+    ) {
+        this.r = getRandom("fnr");
+        if (Math.random() > 0.4) {
+        this.x = getRandom("x");
+        this.y = 0;
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        } else {
+        this.x = window.innerWidth;
+        this.y = getRandom("y");
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        }
+    }
+    };
+
+    SakuraList = function () {
+    this.list = [];
+    };
+    SakuraList.prototype.push = function (sakura) {
+    this.list.push(sakura);
+    };
+    SakuraList.prototype.update = function () {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].update();
+    }
+    };
+    SakuraList.prototype.draw = function (cxt) {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].draw(cxt);
+    }
+    };
+    SakuraList.prototype.get = function (i) {
+    return this.list[i];
+    };
+    SakuraList.prototype.size = function () {
+    return this.list.length;
+    };
+
+    function getRandom(option) {
+    var ret, random;
+    switch (option) {
+        case "x":
+        ret = Math.random() * window.innerWidth;
+        break;
+        case "y":
+        ret = Math.random() * window.innerHeight;
+        break;
+        case "s":
+        ret = Math.random();
+        break;
+        case "r":
+        ret = Math.random() * 6;
+        break;
+        case "fnx":
+        random = -0.5 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return x + 0.5 * random - 0.5;
+        };
+        break;
+        case "fny":
+        random = 0.1 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return y + random;
+        };
+        break;
+        case "fnr":
+        random = Math.random() * 0.03;
+        ret = function (r) {
+            return r + random;
+        };
+        break;
+    }
+    return ret;
+    }
+
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    function startSakura() {
+    requestAnimationFrame =
+        window.requestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        window.oRequestAnimationFrame;
+    var canvas = document.createElement("canvas"),
+        cxt;
+    staticx = true;
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.setAttribute(
+        "style",
+        "position: fixed;left: 0;top: 0;pointer-events: none;z-index: -1;"
+    );
+    canvas.setAttribute("id", "canvas_sakura");
+    document.getElementsByTagName("body")[0].appendChild(canvas);
+    cxt = canvas.getContext("2d");
+    var sakuraList = new SakuraList();
+    for (var i = 0; i < (isMobileDevice() ? 10 : 20); i++) {
+        var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
+        randomX = getRandom("x");
+        randomY = getRandom("y");
+        randomR = getRandom("r");
+        randomS = getRandom("s");
+        randomFnx = getRandom("fnx");
+        randomFny = getRandom("fny");
+        randomFnR = getRandom("fnr");
+        sakura = new Sakura(randomX, randomY, randomS, randomR, {
+        x: randomFnx,
+        y: randomFny,
+        r: randomFnR,
+        });
+        sakura.draw(cxt);
+        sakuraList.push(sakura);
+    }
+    stop = requestAnimationFrame(function () {
+        cxt.clearRect(0, 0, canvas.width, canvas.height);
+        sakuraList.update();
+        sakuraList.draw(cxt);
+        stop = requestAnimationFrame(arguments.callee);
+    });
+    }
+
+    window.onresize = function () {
+    var canvasSnow = document.getElementById("canvas_snow");
+    //canvasSnow.width = window.innerWidth;
+    canvasSnow.height = window.innerHeight;
+    };
+
+    img.onload = function () {
+    startSakura();
+    };
+
+    function stopp() {
+    if (staticx) {
+        var child = document.getElementById("canvas_sakura");
+        child.parentNode.removeChild(child);
+        window.cancelAnimationFrame(stop);
+        staticx = false;
+    } else {
+        startSakura();
+    }
+    }
+}
+start()</script><title>Minz = minz的筆記本</title><meta name="generator" content="Hexo 7.0.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><a class="logo" href="/" rel="start"><p class="artboard">Minz</p><h1 class="title" itemprop="name headline">minz的筆記本</h1></a></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme" @click="changeThemeByBtn"><i class="ic" :class="{'i-sun': !themeStatus,'i-moon': themeStatus}"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><img src="https://jerry12122.me/picbed/anime?401309"></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="index wrap"><div class="segments posts"><article class="item"><div class="cover"><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%A1%8C%E7%9B%AE/" itemprop="url" title="程式題目"><img data-src="https://jerry12122.me/picbed/anime?669181" alt="article cover"></a></div><div class="info"><div class="meta"><span class="item" title="創建時間：2023-11-02 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><time itemprop="dateCreated datePublished" datetime="2023-11-02T00:00:00+08:00">2023-11-02</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span>4.8k</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span>4 分鐘</span></span></div><h3><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%A1%8C%E7%9B%AE/" itemprop="url" title="程式題目">程式題目</a></h3><div class="excerpt"># 印星星
+印星星#include &lt;iostream&gt;using namespace std;void printUpperTriangle(int n) &#123;    for (int i &#x3D; 0; i &lt; n; i++) &#123;        for (int j &#x3D; 0; j &lt;&#x3D; i; j++) &#123;            cout &lt;&lt; &quot;* &quot;;        &#125;        cout &lt;&lt; endl;    &#125;&#125;void prin</div><div class="meta footer"><span><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" itemprop="url" title="面試題目"><i class="ic i-flag"></i>面試題目</a></span></div><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%A1%8C%E7%9B%AE/" class="btn" itemprop="url" title="程式題目">more...</a></div></article></div></div><nav class="pagination"><div class="inner"><a class="extend prev" rel="prev" href="/page/2/"><i class="ic i-angle-left" aria-label="上一頁"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span></div></nav></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"></div><div class="related panel pjax" data-title="系列文章"></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" itemprop="image" alt="minz" data-src="/assets/avatar.png"/><p class="name" itemprop="name">minz</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">21</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">3</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">15</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https:&#x2F;&#x2F;t.me&#x2F;minzli"><i class="ic i-paper-plane"></i></a><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;minz71"><i class="ic i-github"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li><li class="item"><a href="/private/" rel="section"><i class="ic i-heart"></i>空間</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/page/2/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">39k 字</span><span class="post-meta-divider">|</span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">36 分鐘</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+        path: `page/3/`,
+        favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜尋",
+        empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+        stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    chart: false,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章時效性提示</span><br>這是一篇發佈於 {{publish}} 天前，最後一次更新在 {{updated}} 天前的文章，部分信息可能已經發生改變，請注意甄別。</p></div>`,
+    quiz: {
+        choice: `單選題`,
+        multiple: `多選題`,
+        true_false: `判斷題`,
+        essay: `問答題`,
+        gap_fill: `填空題`,
+        mistake: `錯題備註`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://polyfill.io/v3/polyfill.min.js?features=default,fetch"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/pace/1.0.2/pace.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/algoliasearch/4.12.1/algoliasearch-lite.umd.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/instantsearch.js/4.39.0/instantsearch.production.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/quicklink/2.2.0/quicklink.umd.min.js"></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/??jquery/3.5.1/jquery.min.js,fancybox/3.5.7/jquery.fancybox.min.js,justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" async></script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/KaTeX/0.15.2/contrib/copy-tex.min.js" async></script><script src="/js/app.js?v=0.3.10"></script></body></html>
