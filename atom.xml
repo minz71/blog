@@ -5,6 +5,7 @@
     <link href="https://blog.minz.li" />
     <updated>2024-03-04T16:00:00.000Z</updated>
     <category term="domain" />
+    <category term="madVR" />
     <category term="API" />
     <category term="UiPath" />
     <category term="Netflix" />
@@ -69,6 +70,164 @@
         <category term="Netflix" />
         <category term="Netflix共享" />
         <updated>2024-03-04T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.minz.li/CS/madVR/</id>
+        <title>madVR 安裝教學</title>
+        <link rel="alternate" href="https://blog.minz.li/CS/madVR/"/>
+        <content type="html">&lt;h2 id=&#34;madvr-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#madvr-介紹&#34;&gt;#&lt;/a&gt; MadVR 介紹&lt;/h2&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;madVR&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://madshi.net/index.htm&#34; class=&#34;image&#34; data-background-image=&#34;https://madshi.net/madshi256.gif&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://madshi.net/index.htm&#34; class=&#34;title&#34;&gt;madVR&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;DirectShow video renderer&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;官方網站上沒有 madVR 的下載連結&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Change Log: &lt;a href=&#34;https://forum.doom9.org/showthread.php?t=146228&#34;&gt;https://forum.doom9.org/showthread.php?t=146228&lt;/a&gt;&lt;br /&gt;
+ 下載頁面: &lt;a href=&#34;https://www.videohelp.com/software/madVR&#34;&gt;https://www.videohelp.com/software/madVR&lt;/a&gt;&lt;br /&gt;
+ 所有版本: &lt;a href=&#34;https://www.videohelp.com/software/madVR/old-versions#download&#34;&gt;https://www.videohelp.com/software/madVR/old-versions#download&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;如果之前安裝過其他版本的 madVR，建議先解除安裝舊版本。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note warning&#34;&gt;
+&lt;p&gt;本文沒有針對 HDR 設定的教學&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;lavfilter-解碼器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lavfilter-解碼器&#34;&gt;#&lt;/a&gt; LAVFilter 解碼器&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;下載&lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34;&gt; LAVFilter 解碼器&lt;/a&gt;&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/installLAV.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;依圖片設定 LAVFilter&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/LAVsetup.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;音訊建議使用 LAV Audio Decoder&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;potplayer-設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#potplayer-設定&#34;&gt;#&lt;/a&gt; PotPlayer 設定&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安裝 PotPlayer (MPC-BE 也可以使用 madVR)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;到&lt;strong&gt;偏好設定&lt;/strong&gt;在右下角初始化&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 內建視訊處理設定 選擇 &amp;quot;不使用&amp;quot;&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/setup1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 全域濾鏡優先順序 新增系統慮鏡 &amp;quot;LAV Video Decoder&amp;quot; 優先順序選擇強制啟用&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/setup2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;視訊 &amp;gt; 視訊渲染方式 &amp;gt; madVR&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;PotPlayer 使用獨佔模式可能有全螢幕下時間軸不顯示的 Bug&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/madVR/setup3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;音訊 &amp;gt; 預設輸出裝置 內建 WASAPI&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/setup4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;details class=&#34;info&#34;&gt;&lt;summary&gt;音訊 &gt; 標準化 &gt; 取消勾選 (依需求設定)&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;img data-src=&#34;/assets/madVR/setup5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;nvidia-顯卡設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvidia-顯卡設定&#34;&gt;#&lt;/a&gt; NVIDIA 顯卡設定&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;管理 3D 設定 &amp;gt; 新增 PotPlayer &amp;gt; 垂直同步：開啟 &amp;gt; 電源管理模式：慣用的最大效能&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/NVIDIA.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;NVIDIA 色彩設置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;安裝madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝madvr&#34;&gt;#&lt;/a&gt; 安裝 madVR&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;將下載的 madVR 解壓縮&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;用系統管理員模式執行 install.bat&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/madVR1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;出現成功安裝&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/madVR2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;設置madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#設置madvr&#34;&gt;#&lt;/a&gt; 設置 madVR&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;madHcCtrl 用來設置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將螢幕設定為 Digital Monitor / TV 並設定 10bit&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/madVR3.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;開啟去色帶功能&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/madVR5.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由於片源的幀數通常為 24，螢幕的刷新率通常不是 24 的整數倍，因此建議開啟 smooth motion 功能。&lt;br /&gt;
+&lt;img data-src=&#34;/assets/madVR/madVR4.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scaling algorithms&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;效能要求&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;chroma upscaling&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;image downscaling&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;image upscaling&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;低&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cubic (Bicubic50)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cubic (Bicubic50) + LL&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Lanczos (3 taps) + SL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;中&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cubic (Bicubic50) + AR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Cubic (Bicubic50) + LL + AR (relaxed)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Jinc + AR + SL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;super-xbr (100) + AR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;SSIM (1D – 100%) + LL + AR (relaxed)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;NGU Sharp (medium)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;LL = &amp;quot;scale in linear light&amp;quot;&lt;br /&gt;
+SL = &amp;quot;scale in sigmoidal light&amp;quot;&lt;br /&gt;
+AR = &amp;quot;activate anti-ringing filter&amp;quot;&lt;br /&gt;
+NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全部保留默認的&amp;quot;let madVR decide&amp;quot; 即可&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;這裡對性能要求的高低並不絕對等同於畫質的高低&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;quot;低&amp;quot; 檔設置的品質其實已經相當好了&lt;br /&gt;
+ &amp;quot;高&amp;quot; 檔設置在一些低品質片源上反而有可能放大片源瑕疵&lt;br /&gt;
+&lt;strong&gt;推薦 &amp;quot;中&amp;quot; 檔設置在畫質、功耗和泛用性之間較為平衡的選擇&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;k-lite-codec-pack-full&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#k-lite-codec-pack-full&#34;&gt;#&lt;/a&gt; K-Lite Codec Pack Full&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;包含 MPC-HC 和 madVR 的安裝包&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://codecguide.com/download_k-lite_codec_pack_full.htm&#34;&gt;https://codecguide.com/download_k-lite_codec_pack_full.htm&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;參考資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考資料&#34;&gt;#&lt;/a&gt; 參考資料&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://vcb-s.com/archives/16609&#34;&gt;https://vcb-s.com/archives/16609&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lysandria1985.blogspot.com/2013/01/3-madvr.html&#34;&gt;https://lysandria1985.blogspot.com/2013/01/3-madvr.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="madVR" />
+        <updated>2024-02-28T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://blog.minz.li/CS/weatherAPI/</id>
