@@ -41,7 +41,7 @@
 &lt;li&gt;可以使用自動轉寄，將確認信件轉給其他人&lt;/li&gt;
 &lt;/ul&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;如圖&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://i.imgur.com/er8aeX5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/er8aeX5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;要求使用額外帳號&lt;/li&gt;
