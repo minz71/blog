@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "minz的筆記本 • All posts by \"lmsys\" tag",
+    "description": "",
+    "home_page_url": "https://blog.minz.li",
+    "items": [
+        {
+            "id": "https://blog.minz.li/tool/lmsys/",
+            "url": "https://blog.minz.li/tool/lmsys/",
+            "title": "Chatbot Arena lmsys.org",
+            "date_published": "2024-06-16T16:00:00.000Z",
+            "content_html": "<h1 id=\"lmsys-org-介紹\"><a class=\"anchor\" href=\"#lmsys-org-介紹\">#</a> LMSYS Org 介紹</h1>\n<p>LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。<br />\n旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。<br />\n希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。</p>\n<div class=\"note info\">\n<p>本文主要介紹 Chatbot Arena，LMSYS Org 有其他的 projects。<br />\n詳情可參考: <a href=\"https://lmsys.org/projects/\">https://lmsys.org/projects/</a></p>\n</div>\n<h1 id=\"chatbot-arena\"><a class=\"anchor\" href=\"#chatbot-arena\">#</a> Chatbot Arena</h1>\n<div class=\"links\"><div class=\"item\" title=\"LMSYS\" style=\"--block-color:#e9546b;\"><a href=\"https://arena.lmsys.org/\" class=\"image\" data-background-image=\"https://lmsys.org/favicon.jpeg\"></a>\n        <div class=\"info\">\n        <a href=\"https://arena.lmsys.org/\" class=\"title\">LMSYS</a>\n        <p class=\"desc\">arena.lmsys.org</p>\n        </div></div></div>\n<ol>\n<li>⚔️ Arena (battle)<br />\n 使用者可以輸入問題，會隨機提供不同的模型回答，使用者可以對回答較佳的模型投票，投票後會顯示剛剛回答的模型。</li>\n<li>👀 Arena (Multimodal)<br />\n 使用者可以輸入<strong>圖片</strong>，會隨機提供不同的模型回答。</li>\n<li>⚔️ Arena (side-by-side)<br />\n 可以讓使用者選擇 2 個<strong>指定</strong>的模型，使用者可以對回答較佳的模型投票。</li>\n<li>💬 Direct Chat<br />\n 使用者可以直接和模型對話，可以選擇指定的模型。</li>\n</ol>\n<ul>\n<li>向模型提問的範例：</li>\n</ul>\n<figure class=\"highlight plain\"><figcaption data-lang=\"plain\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?</pre></td></tr></table></figure><p><img loading=\"lazy\" data-src=\"/assets/tool/lmsysArena1.webp\" alt=\"\" title=\"詢問模型\" /></p>\n<p><img loading=\"lazy\" data-src=\"/assets/tool/lmsysArena2.webp\" alt=\"\" title=\"投票後\" /></p>\n<h1 id=\"llm-排行榜\"><a class=\"anchor\" href=\"#llm-排行榜\">#</a> LLM 排行榜</h1>\n<p><a href=\"http://lmsys.org\">lmsys.org</a> 每周都會發布排行榜，可以做為模型能力的參考。<br />\n也可以選擇不同的分類，查看該分類的排行榜。</p>\n<p><img loading=\"lazy\" data-src=\"/assets/tool/lmsysLeaderBoard.webp\" alt=\"\" title=\"LLM 排行榜\" /></p>\n<h1 id=\"贊助商\"><a class=\"anchor\" href=\"#贊助商\">#</a> 贊助商</h1>\n<p><img loading=\"lazy\" data-src=\"/assets/tool/lmsysDonations.webp\" alt=\"\" title=\"LMSYS Donation\" /><br />\n可以看到有許多大公司都贊助了 LMSYS，<br />\n在新模型發布時，都會在第一時間提供給最新的語言模型，<br />\n例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。</p>\n",
+            "tags": [
+                "llm",
+                "LMSYS"
+            ]
+        }
+    ]
+}
