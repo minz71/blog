@@ -38,7 +38,8 @@
 &lt;h3 id=&#34;call-by-address-傳位置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-address-傳位置&#34;&gt;#&lt;/a&gt; call by address (傳位置)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;傳了實際的記憶體位置進去 function&lt;/li&gt;
-&lt;li&gt;也是 &lt;code&gt;call by value&lt;/code&gt;  的變形，改為&lt;strong&gt;傳記憶體位址&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;也是 &lt;code&gt;call by value&lt;/code&gt;  的變形，但傳遞的是&lt;strong&gt;記憶體地址&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;在函式內部，通過指標可以修改原始變數的值。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;call-by-reference-傳參考&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-reference-傳參考&#34;&gt;#&lt;/a&gt; call by reference (傳參考)&lt;/h1&gt;
