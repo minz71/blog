@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>minz的筆記本 • Posts by &#34;shokax&#34; tag</title>
+        <link>https://blog.minz.li</link>
+        <description></description>
+        <language>zh-TW</language>
+        <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 18 Dec 2023 16:00:00 +0000</lastBuildDate>
+        <category>domain</category>
+        <category>madVR</category>
+        <category>API</category>
+        <category>DevOps</category>
+        <category>Docker</category>
+        <category>WSL</category>
+        <category>UiPath</category>
+        <category>Netflix</category>
+        <category>Netflix共享</category>
+        <category>ShokaX主題</category>
+        <category>ShokaX插件</category>
+        <category>ShokaX</category>
+        <category>llm</category>
+        <category>LMSYS</category>
+        <category>物件導向</category>
+        <category>大學課程</category>
+        <category>程式碼</category>
+        <category>機率與統計</category>
+        <category>演算法</category>
+        <category>線性代數</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</guid>
+            <title>ShokaX插件-增加Footer高度</title>
+            <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</link>
+            <category>ShokaX插件</category>
+            <category>ShokaX</category>
+            <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;解決方式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;添加隨機文章，來增加底部高度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;span&gt;/_config.shoka.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;widgets&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;random_posts&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;添加  &lt;code&gt;min-height&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;shoka 需要修改 styl 檔案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;hexo-theme-shoka\source\css\_common\outline\outline.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;inner &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token literal-property property&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; $content&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;desktop&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    align&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;items&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; flex&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;start&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    min&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;height&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; 100vh&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;// 新增此行&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token literal-property property&#34;&gt;display&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; flex&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    justify&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;content&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; space&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;between&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;hexo&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;config&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;sidebar.position&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;left&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;li&gt;shokaX 插件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/addFooterMinHeight.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/addFooterMinHeight.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/addFooterMinHeight.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&gt;.inner&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;min-height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 90vh&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

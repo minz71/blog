@@ -18,6 +18,7 @@
         <category>Netflix共享</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>ShokaX</category>
         <category>llm</category>
         <category>LMSYS</category>
         <category>物件導向</category>
@@ -30,21 +31,17 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</guid>
-            <title>ShokaX插件-添加Footer高度</title>
+            <title>ShokaX插件-增加Footer高度</title>
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</link>
             <category>ShokaX插件</category>
+            <category>ShokaX</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;內容過少時向下滑動的顯示 BUG&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;%22/assets/ShokaXPlugin/shokaFooterBug.webp%22&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解決方式&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;解決方式&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;添加隨機文章，來增加底部高度&lt;/li&gt;

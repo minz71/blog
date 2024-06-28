@@ -18,6 +18,7 @@
         <category>Netflix共享</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>ShokaX</category>
         <category>llm</category>
         <category>LMSYS</category>
         <category>物件導向</category>
@@ -30,12 +31,12 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/tool/lmsys/</guid>
-            <title>Chatbot Arena lmsys.org</title>
+            <title>Chatbot Arena LMSYS 介紹</title>
             <link>https://blog.minz.li/tool/lmsys/</link>
             <category>llm</category>
             <category>LMSYS</category>
             <pubDate>Sun, 16 Jun 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;lmsys-org-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsys-org-介紹&#34;&gt;#&lt;/a&gt; LMSYS Org 介紹&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
 旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
 希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
@@ -529,21 +530,17 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
         </item>
         <item>
             <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</guid>
-            <title>ShokaX插件-添加Footer高度</title>
+            <title>ShokaX插件-增加Footer高度</title>
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</link>
             <category>ShokaX插件</category>
+            <category>ShokaX</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;內容過少時向下滑動的顯示 BUG&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;%22/assets/ShokaXPlugin/shokaFooterBug.webp%22&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解決方式&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;解決方式&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;添加隨機文章，來增加底部高度&lt;/li&gt;

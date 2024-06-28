@@ -15,6 +15,7 @@
     <category term="Netflix共享" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
+    <category term="ShokaX" />
     <category term="llm" />
     <category term="LMSYS" />
     <category term="物件導向" />
@@ -27,9 +28,9 @@
     <category term="離散數學" />
     <entry>
         <id>https://blog.minz.li/tool/lmsys/</id>
-        <title>Chatbot Arena lmsys.org</title>
+        <title>Chatbot Arena LMSYS 介紹</title>
         <link rel="alternate" href="https://blog.minz.li/tool/lmsys/"/>
-        <content type="html">&lt;h1 id=&#34;lmsys-org-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsys-org-介紹&#34;&gt;#&lt;/a&gt; LMSYS Org 介紹&lt;/h1&gt;
+        <content type="html">&lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
 旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
 希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
@@ -526,19 +527,14 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
     </entry>
     <entry>
         <id>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</id>
-        <title>ShokaX插件-添加Footer高度</title>
+        <title>ShokaX插件-增加Footer高度</title>
         <link rel="alternate" href="https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;內容過少時向下滑動的顯示 BUG&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;%22/assets/ShokaXPlugin/shokaFooterBug.webp%22&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;解決方式&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;解決方式&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;添加隨機文章，來增加底部高度&lt;/li&gt;
@@ -554,6 +550,7 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/addFooterMinHeight.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/addFooterMinHeight.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/addFooterMinHeight.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&gt;.inner&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;min-height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 90vh&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="ShokaX插件" />
+        <category term="ShokaX" />
         <updated>2023-12-18T16:00:00.000Z</updated>
     </entry>
     <entry>

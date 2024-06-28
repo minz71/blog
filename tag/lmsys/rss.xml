@@ -18,6 +18,7 @@
         <category>Netflix共享</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>ShokaX</category>
         <category>llm</category>
         <category>LMSYS</category>
         <category>物件導向</category>
@@ -30,12 +31,12 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/tool/lmsys/</guid>
-            <title>Chatbot Arena lmsys.org</title>
+            <title>Chatbot Arena LMSYS 介紹</title>
             <link>https://blog.minz.li/tool/lmsys/</link>
             <category>llm</category>
             <category>LMSYS</category>
             <pubDate>Sun, 16 Jun 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;lmsys-org-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsys-org-介紹&#34;&gt;#&lt;/a&gt; LMSYS Org 介紹&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
 旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
 希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
