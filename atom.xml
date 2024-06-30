@@ -3,8 +3,11 @@
     <id>https://blog.minz.li</id>
     <title>minz的筆記本</title>
     <link href="https://blog.minz.li" />
-    <updated>2024-06-16T16:00:00.000Z</updated>
+    <updated>2024-06-25T16:00:00.000Z</updated>
     <category term="domain" />
+    <category term="TLD-LIST" />
+    <category term="eu.org" />
+    <category term="cloudflare" />
     <category term="madVR" />
     <category term="API" />
     <category term="DevOps" />
@@ -26,6 +29,106 @@
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
+    <entry>
+        <id>https://blog.minz.li/CS/domainSearch/</id>
+        <title>域名搜尋工具</title>
+        <link rel="alternate" href="https://blog.minz.li/CS/domainSearch/"/>
+        <content type="html">&lt;h1 id=&#34;tld-list&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tld-list&#34;&gt;#&lt;/a&gt; TLD-LIST&lt;/h1&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;TLD-LIST&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://zh-hant.tld-list.com/&#34; class=&#34;image&#34; data-background-image=&#34;https://zh-hant.tld-list.com/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://zh-hant.tld-list.com/&#34; class=&#34;title&#34;&gt;TLD-LIST&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;域名搜尋工具&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能&#34;&gt;#&lt;/a&gt; 功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;查詢可使用的域名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;域名供應商的比價工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;查看域名供應商評價&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;首頁&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/1.png&#34; alt=&#34;首頁&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;搜尋結果&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/2.png&#34; alt=&#34;搜尋結果&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;免費二級域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免費二級域名&#34;&gt;#&lt;/a&gt; 免費二級域名&lt;/h1&gt;
+&lt;p&gt;頂級域名 (TLD): 例如  &lt;code&gt;.com&lt;/code&gt;   &lt;code&gt;.org&lt;/code&gt;   &lt;code&gt;.net&lt;/code&gt;  等。&lt;br /&gt;
+二級域名：位於頂級域名之前，例如 &lt;strong&gt;example&lt;/strong&gt;.com 中的  &lt;code&gt;example&lt;/code&gt; 。&lt;br /&gt;
+三級域名：位於二級域名之前，例如 &lt;strong&gt;blog&lt;/strong&gt;.example.com 中的  &lt;code&gt;blog&lt;/code&gt; 。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;大多數 2 級域名是不能添加至&lt;a href=&#34;https://www.cloudflare.com/&#34;&gt; Cloudflare&lt;/a&gt;&lt;br /&gt;
+ 不過 &lt;a href=&#34;http://eu.org&#34;&gt;eu.org&lt;/a&gt; 可以添加&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;註冊-euorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#註冊-euorg&#34;&gt;#&lt;/a&gt; 註冊 &lt;a href=&#34;http://eu.org&#34;&gt;eu.org&lt;/a&gt;&lt;/h2&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;nic.eu.org&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://nic.eu.org/&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://nic.eu.org/&#34; class=&#34;title&#34;&gt;nic.eu.org&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;免費eu.org域名&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;note danger&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;http://eu.org&#34;&gt;eu.org&lt;/a&gt; 對於新域名的審核需要一段時間，或是不再通過審核了&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nic.eu.org/arf/en/contact/create/&#34;&gt;https://nic.eu.org/arf/en/contact/create/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;填寫 Contact Information&lt;br /&gt;
+Name: 要有空格&lt;br /&gt;
+ Address: 至少填入 line 1 跟 line 2&lt;br /&gt;
+phone: 可以不填寫&lt;br /&gt;
+ Private: 建議打勾&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;註冊後到信箱點擊驗證連結&lt;br /&gt;
+需要一段時間才能收到驗證信，可能是幾天。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://nic.eu.org/arf/en/login/&#34;&gt;https://nic.eu.org/arf/en/login/&lt;/a&gt; 註冊完成後在這裡登入&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;點擊  &lt;code&gt;new domain&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;先填入你想要的 domain name&lt;br /&gt;
+ 後綴需要 &lt;a href=&#34;http://eu.org&#34;&gt;eu.org&lt;/a&gt;，例如 &lt;a href=&#34;http://minzz.eu.org&#34;&gt;minzz.eu.org&lt;/a&gt;&lt;br /&gt;
+ 名稱如果被註冊過會顯示 &lt;code&gt;Domain already exists&lt;/code&gt; ，可以試試其他名稱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在 Name servers 這個欄位填入 cloudflare 提供的 nameserver&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;需要等待一段時間後才會生效，可能是幾天。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;使用-cloudflare-的範例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-cloudflare-的範例&#34;&gt;#&lt;/a&gt; 使用 Cloudflare 的範例&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;添加網站&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddWebsite.webp&#34; alt=&#34;添加網站&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;輸入 domain name&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddWebsite2.webp&#34; alt=&#34;輸入 domain name&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;選擇 Free 套餐&lt;/li&gt;
+&lt;li&gt;添加一筆 DNS 紀錄&lt;/li&gt;
+&lt;li&gt;找到 cloudflare 提供的 nameserver&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddNS.webp&#34; alt=&#34;cloudflare 提供的 nameserver&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;在 &lt;a href=&#34;http://nic.eu.org&#34;&gt;nic.eu.org&lt;/a&gt; 的 Name servers 欄位填入&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/euorgNS.webp&#34; alt=&#34;nic.eu.org 的 Name servers 欄位&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="domain" />
+        <category term="TLD-LIST" />
+        <category term="eu.org" />
+        <category term="cloudflare" />
+        <updated>2024-06-25T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>https://blog.minz.li/tool/lmsys/</id>
         <title>Chatbot Arena LMSYS 介紹</title>
@@ -396,44 +499,6 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 </content>
         <category term="API" />
         <updated>2024-02-27T16:00:00.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://blog.minz.li/CS/domainSearch/</id>
-        <title>域名搜尋工具</title>
-        <link rel="alternate" href="https://blog.minz.li/CS/domainSearch/"/>
-        <content type="html">&lt;h2 id=&#34;tld-list&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#tld-list&#34;&gt;#&lt;/a&gt; TLD-LIST&lt;/h2&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;TLD-LIST&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://zh-hant.tld-list.com/&#34; class=&#34;image&#34; data-background-image=&#34;https://zh-hant.tld-list.com/img/logo.png&#34;&gt;&lt;/a&gt;
-        &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://zh-hant.tld-list.com/&#34; class=&#34;title&#34;&gt;TLD-LIST&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;域名搜尋工具&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&#34;功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#功能&#34;&gt;#&lt;/a&gt; 功能&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;查詢可使用的域名&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;查看域名供應商價格、評價&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;首頁&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/1.png&#34; alt=&#34;首頁&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;ul&gt;
-&lt;li&gt;搜尋結果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/2.png&#34; alt=&#34;搜尋結果&#34; /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;免費二級域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#免費二級域名&#34;&gt;#&lt;/a&gt; 免費二級域名&lt;/h2&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;nic.eu.org&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://nic.eu.org/&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
-        &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://nic.eu.org/&#34; class=&#34;title&#34;&gt;nic.eu.org&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;免費eu.org域名&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-</content>
-        <category term="domain" />
-        <updated>2024-02-22T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/</id>
