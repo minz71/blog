@@ -19,9 +19,11 @@
         <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
+        <category>ShokaX</category>
+        <category>ShokaX安裝</category>
+        <category>Hexo主題</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
-        <category>ShokaX</category>
         <category>llm</category>
         <category>LMSYS</category>
         <category>物件導向</category>
@@ -36,8 +38,8 @@
             <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</guid>
             <title>ShokaX插件-增加Footer高度</title>
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/</link>
-            <category>ShokaX插件</category>
             <category>ShokaX</category>
+            <category>ShokaX插件</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
