@@ -36,11 +36,11 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/CS/weatherAPI/</guid>
-            <title>氣象資料開放平台 API</title>
+            <title>API使用範例-氣象資料開放平台</title>
             <link>https://blog.minz.li/CS/weatherAPI/</link>
             <category>API</category>
             <pubDate>Tue, 27 Feb 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;氣象資料開放平台-api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#氣象資料開放平台-api&#34;&gt;#&lt;/a&gt; 氣象資料開放平台 API&lt;/h1&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;api使用範例-氣象資料開放平台&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api使用範例-氣象資料開放平台&#34;&gt;#&lt;/a&gt; API 使用範例 - 氣象資料開放平台&lt;/h1&gt;
 &lt;h2 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h2&gt;
 &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;這篇文章介紹關於氣象資料開放平台 API 的註冊和使用說明，並提供了程式碼範例。&lt;/p&gt;
