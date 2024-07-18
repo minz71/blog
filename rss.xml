@@ -140,7 +140,7 @@
         &lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;title&#34;&gt;優萌初華&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;Shoka作者&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 Shoka 作者於&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;部落格底下的留言中的回覆&lt;/a&gt;，&lt;br /&gt;
 該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt; 2021/10/03&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -184,7 +184,7 @@ yarn 有些套件找不到，所以會出現錯誤，請使用 npm 或 pnpm 安�
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: 第一篇文章&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: 2024-04-24&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;tags: ShokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 第一篇文章&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;這是內容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;可以看到第一篇文章了。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;%22/assets/ShokaXPlugin/firstpost.webp%22&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;seo-設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo-設置&#34;&gt;#&lt;/a&gt; SEO 設置&lt;/h1&gt;
 &lt;ul&gt;
@@ -330,14 +330,14 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;ul&gt;
 &lt;li&gt;向模型提問的範例：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysArena1.webp&#34; alt=&#34;&#34; title=&#34;詢問模型&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysArena1.webp&#34; alt=&#34;&#34; title=&#34;詢問模型&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每周都會發布排行榜，可以做為模型能力的參考。&lt;br /&gt;
 也可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 可以看到有許多大公司都贊助了 LMSYS，&lt;br /&gt;
 在新模型發布時，都會在第一時間提供給最新的語言模型，&lt;br /&gt;
 例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。&lt;/p&gt;
@@ -352,7 +352,7 @@ phone: 可以不填寫&lt;br /&gt;
             <category>WSL</category>
             <pubDate>Thu, 30 May 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;在 WSL 環境下發現即使將檔案刪除，磁碟空間也沒有釋放。&lt;/p&gt;
+&lt;p&gt;在 WSL 環境下，發現即使將 linux 中的檔案刪除，windows 下的磁碟空間也沒有釋放。&lt;/p&gt;
 &lt;h1 id=&#34;將docker-build-cache-刪除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#將docker-build-cache-刪除&#34;&gt;#&lt;/a&gt; 將 Docker Build Cache 刪除&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;查看目前的建置緩存&lt;/li&gt;
@@ -392,7 +392,7 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;detach vdisk&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;離開 diskpart&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;這時候磁碟空間已經釋放，可以重新啟動 WSL。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;磁碟空間已經釋放後，重新啟動 WSL。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -474,11 +474,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;ol&gt;
 &lt;li&gt;下載&lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34;&gt; LAVFilter 解碼器&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/installLAV.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/installLAV.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;依圖片設定 LAVFilter&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/LAVsetup.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/LAVsetup.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;音訊建議使用 LAV Audio Decoder&lt;/p&gt;
 &lt;/div&gt;
@@ -492,11 +492,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 內建視訊處理設定 選擇 &amp;quot;不使用&amp;quot;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup1.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 全域濾鏡優先順序 新增系統慮鏡 &amp;quot;LAV Video Decoder&amp;quot; 優先順序選擇強制啟用&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup2.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;視訊 &amp;gt; 視訊渲染方式 &amp;gt; madVR&lt;/p&gt;
@@ -505,18 +505,18 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;PotPlayer 使用獨佔模式可能有全螢幕下時間軸不顯示的 Bug&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup3.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;音訊 &amp;gt; 預設輸出裝置 內建 WASAPI&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup4.webp&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;音訊 &gt; 標準化 &gt; 取消勾選 (依需求設定)&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup5.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h2 id=&#34;nvidia-顯卡設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvidia-顯卡設定&#34;&gt;#&lt;/a&gt; NVIDIA 顯卡設定&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;管理 3D 設定 &amp;gt; 新增 PotPlayer &amp;gt; 垂直同步：開啟 &amp;gt; 電源管理模式：慣用的最大效能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/NVIDIA.webp&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/NVIDIA.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;NVIDIA 色彩設置&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;安裝madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝madvr&#34;&gt;#&lt;/a&gt; 安裝 madVR&lt;/h2&gt;
@@ -526,11 +526,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;用系統管理員模式執行 install.bat&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR1.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;出現成功安裝&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR2.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;設置madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#設置madvr&#34;&gt;#&lt;/a&gt; 設置 madVR&lt;/h2&gt;
@@ -540,15 +540,15 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;將螢幕設定為 Digital Monitor / TV 並設定 10bit&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR3.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;開啟去色帶功能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR5.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;由於片源的幀數通常為 24，螢幕的刷新率通常不是 24 的整數倍，因此建議開啟 smooth motion 功能。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR4.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;scaling algorithms&lt;/p&gt;
@@ -620,52 +620,52 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;到&lt;a href=&#34;https://opendata.cwa.gov.tw/index&#34;&gt;氣象資料開放平台&lt;/a&gt;註冊帳號&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherData.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherData.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;註冊一個帳號 &lt;a href=&#34;https://pweb.cwa.gov.tw/emember/register&#34;&gt;https://pweb.cwa.gov.tw/emember/register&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherDataRegister.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherDataRegister.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;到電子信箱啟用會員後再次&lt;a href=&#34;https://opendata.cwa.gov.tw/userLogin&#34;&gt;登入&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/emailConfirm.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/emailConfirm.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;登入後取得授權碼並將授權碼複製下來&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/getToken.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/getToken.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;前往開發指南查看&lt;a href=&#34;https://opendata.cwa.gov.tw/dist/opendata-swagger.html&#34;&gt; api 文件&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiDoc.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiDoc.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;可以在 swagger 文檔中使用 API request&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger1.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger1.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;填入需要的參數後點擊 Execute 執行&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger2.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;執行後的回傳結果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/result.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/result.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;執行程式碼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#執行程式碼&#34;&gt;#&lt;/a&gt; 執行程式碼&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/urlFormat.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/urlFormat.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;BaseUrl&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/baseUrl.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/baseUrl.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;API Path&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiPath.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiPath.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; baseUrl &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;https://opendata.cwa.gov.tw/api/v1/&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; path &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;rest/datastore/F-D0047-063&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; Authorization &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;yourAuthorization&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;fetch&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt; baseUrl &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; path &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;?Authorization=&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; Authorization&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; response&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;json&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;myJson&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;myJson&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 輸出 json 資料&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;結果輸出&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/consoleTest.jpg&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/consoleTest.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
@@ -789,16 +789,16 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/addFooterMinHeight.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/addFooterMinHeight.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/addFooterMinHeight.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;main&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&gt;.inner&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;min-height&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; 90vh&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E7%89%B9%E6%95%88/</guid>
-            <title>ShokaX插件-移除頂部霧面特效</title>
-            <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E7%89%B9%E6%95%88/</link>
+            <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/</guid>
+            <title>ShokaX插件-移除頂部模糊效果</title>
+            <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/</link>
             <category>ShokaX插件</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_before.png&#34; alt=&#34;&#34; title=&#34;移除前&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 &lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_after.png&#34; alt=&#34;&#34; title=&#34;移除後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;並且在頂部以外的地方保留霧面特效&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留霧面特效&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;並且在頂部以外的地方保留模糊效果&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留模糊效果&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/removeTopBlur.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/removeTopBlur.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/removeTopBlur.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;#nav&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;100%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;0px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&amp;amp;.show&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;180%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;20px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>

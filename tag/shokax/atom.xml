@@ -53,7 +53,7 @@
         &lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;title&#34;&gt;優萌初華&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;Shoka作者&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 Shoka 作者於&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;部落格底下的留言中的回覆&lt;/a&gt;，&lt;br /&gt;
 該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt; 2021/10/03&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -97,7 +97,7 @@ yarn 有些套件找不到，所以會出現錯誤，請使用 npm 或 pnpm 安�
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: 第一篇文章&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: 2024-04-24&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;tags: ShokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 第一篇文章&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;這是內容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;可以看到第一篇文章了。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;%22/assets/ShokaXPlugin/firstpost.webp%22&#34; alt=&#34;&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;seo-設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo-設置&#34;&gt;#&lt;/a&gt; SEO 設置&lt;/h1&gt;
 &lt;ul&gt;

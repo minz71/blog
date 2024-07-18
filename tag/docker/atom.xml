@@ -38,7 +38,7 @@
         <title>刪除 WSL 環境下的 docker build cache</title>
         <link rel="alternate" href="https://blog.minz.li/DevOps/releaseDockerCache/"/>
         <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
-&lt;p&gt;在 WSL 環境下發現即使將檔案刪除，磁碟空間也沒有釋放。&lt;/p&gt;
+&lt;p&gt;在 WSL 環境下，發現即使將 linux 中的檔案刪除，windows 下的磁碟空間也沒有釋放。&lt;/p&gt;
 &lt;h1 id=&#34;將docker-build-cache-刪除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#將docker-build-cache-刪除&#34;&gt;#&lt;/a&gt; 將 Docker Build Cache 刪除&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;查看目前的建置緩存&lt;/li&gt;
@@ -78,7 +78,7 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;detach vdisk&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;離開 diskpart&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;這時候磁碟空間已經釋放，可以重新啟動 WSL。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;exit&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;磁碟空間已經釋放後，重新啟動 WSL。&lt;/p&gt;
 </content>
         <category term="DevOps" />
         <category term="Docker" />

@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><meta name="google-site-verification" content="IiSUoe1UObAB2MUuFyfwZI8qo4EUfApRjIppB8GNBlM"><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"><link rel="preconnect" href="https://lf9-cdn-tos.bytecdntp.com"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/app.css?v=0.4.2"><link rel="modulepreload" href="/js/chunk-2WHSVPHL.js"><link rel="modulepreload" href="/js/chunk-3MBKS3KM.js"><link rel="modulepreload" href="/js/chunk-T6OIQMYP.js"><link rel="modulepreload" href="/js/chunk-WG5TZSON.js"><link rel="modulepreload" href="/js/index.esm-P5MTADIU.js"><link rel="modulepreload" href="/js/post-66N4HRTG.js"><link rel="modulepreload" href="/js/quicklink-2GXYUFPM.js"><link rel="modulepreload" href="/js/search-H3Z543B3.js"><link rel="modulepreload" href="/js/siteInit.js"><link rel="preload" href="https://jerry12122.me/picbed/anime?224073" as="image" fetchpriority="high"><link rel="preload" href="https://jerry12122.me/picbed/anime?863232" as="image" fetchpriority="high"><link rel="preload" href="https://jerry12122.me/picbed/anime?397418" as="image" fetchpriority="high"><link rel="preload" href="https://jerry12122.me/picbed/anime?722425" as="image" fetchpriority="high"><link rel="preload" href="https://jerry12122.me/picbed/anime?45423" as="image" fetchpriority="high"><link rel="preload" href="https://jerry12122.me/picbed/anime?930520" as="image" fetchpriority="high"><meta name="keywords" content="ShokaX插件"><link rel="canonical" href="https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/"><script type="text/javascript">function start() {
+    var stop, staticx;
+    var img = document.createElement('img');
+    img.src = "/assets/sakura.png";
+
+    function Sakura(x, y, s, r, fn) {
+    this.x = x;
+    this.y = y;
+    this.s = s;
+    this.r = r;
+    this.fn = fn;
+    }
+
+    Sakura.prototype.draw = function (cxt) {
+    cxt.save();
+    var xc = (40 * this.s) / 4;
+    cxt.translate(this.x, this.y);
+    cxt.rotate(this.r);
+    cxt.drawImage(img, 0, 0, 30 * this.s, 30 * this.s);
+    cxt.restore();
+    };
+
+    Sakura.prototype.update = function () {
+    this.x = this.fn.x(this.x, this.y);
+    this.y = this.fn.y(this.y, this.y);
+    this.r = this.fn.r(this.r);
+    if (
+        this.x > window.innerWidth ||
+        this.x < 0 ||
+        this.y > window.innerHeight ||
+        this.y < 0
+    ) {
+        this.r = getRandom("fnr");
+        if (Math.random() > 0.4) {
+        this.x = getRandom("x");
+        this.y = 0;
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        } else {
+        this.x = window.innerWidth;
+        this.y = getRandom("y");
+        this.s = getRandom("s");
+        this.r = getRandom("r");
+        }
+    }
+    };
+
+    SakuraList = function () {
+    this.list = [];
+    };
+    SakuraList.prototype.push = function (sakura) {
+    this.list.push(sakura);
+    };
+    SakuraList.prototype.update = function () {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].update();
+    }
+    };
+    SakuraList.prototype.draw = function (cxt) {
+    for (var i = 0, len = this.list.length; i < len; i++) {
+        this.list[i].draw(cxt);
+    }
+    };
+    SakuraList.prototype.get = function (i) {
+    return this.list[i];
+    };
+    SakuraList.prototype.size = function () {
+    return this.list.length;
+    };
+
+    function getRandom(option) {
+    var ret, random;
+    switch (option) {
+        case "x":
+        ret = Math.random() * window.innerWidth;
+        break;
+        case "y":
+        ret = Math.random() * window.innerHeight;
+        break;
+        case "s":
+        ret = Math.random();
+        break;
+        case "r":
+        ret = Math.random() * 6;
+        break;
+        case "fnx":
+        random = -0.5 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return x + 0.5 * random - 0.5;
+        };
+        break;
+        case "fny":
+        random = 0.1 + Math.random() * 0.5;
+        ret = function (x, y) {
+            return y + random;
+        };
+        break;
+        case "fnr":
+        random = Math.random() * 0.03;
+        ret = function (r) {
+            return r + random;
+        };
+        break;
+    }
+    return ret;
+    }
+
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    function startSakura() {
+    requestAnimationFrame =
+        window.requestAnimationFrame ||
+        window.mozRequestAnimationFrame ||
+        window.webkitRequestAnimationFrame ||
+        window.msRequestAnimationFrame ||
+        window.oRequestAnimationFrame;
+    var canvas = document.createElement("canvas"),
+        cxt;
+    staticx = true;
+    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth;
+    canvas.setAttribute(
+        "style",
+        "position: fixed;left: 0;top: 0;pointer-events: none;z-index: -1;"
+    );
+    canvas.setAttribute("id", "canvas_sakura");
+    document.getElementsByTagName("body")[0].appendChild(canvas);
+    cxt = canvas.getContext("2d");
+    var sakuraList = new SakuraList();
+    for (var i = 0; i < (isMobileDevice() ? 10 : 20); i++) {
+        var sakura, randomX, randomY, randomS, randomR, randomFnx, randomFny;
+        randomX = getRandom("x");
+        randomY = getRandom("y");
+        randomR = getRandom("r");
+        randomS = getRandom("s");
+        randomFnx = getRandom("fnx");
+        randomFny = getRandom("fny");
+        randomFnR = getRandom("fnr");
+        sakura = new Sakura(randomX, randomY, randomS, randomR, {
+        x: randomFnx,
+        y: randomFny,
+        r: randomFnR,
+        });
+        sakura.draw(cxt);
+        sakuraList.push(sakura);
+    }
+    stop = requestAnimationFrame(function () {
+        cxt.clearRect(0, 0, canvas.width, canvas.height);
+        sakuraList.update();
+        sakuraList.draw(cxt);
+        stop = requestAnimationFrame(arguments.callee);
+    });
+    }
+
+    window.onresize = function () {
+    var canvasSnow = document.getElementById("canvas_snow");
+    //canvasSnow.width = window.innerWidth;
+    canvasSnow.height = window.innerHeight;
+    };
+
+    img.onload = function () {
+    startSakura();
+    };
+
+    function stopp() {
+    if (staticx) {
+        var child = document.getElementById("canvas_sakura");
+        child.parentNode.removeChild(child);
+        window.cancelAnimationFrame(stop);
+        staticx = false;
+    } else {
+        startSakura();
+    }
+    }
+}
+start()</script><title>ShokaX插件-移除頂部模糊效果</title><meta name="generator" content="Hexo 7.0.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">ShokaX插件-移除頂部模糊效果</h1><div class="meta"><span class="item" title="創建時間：2023-12-19 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2023-12-19T00:00:00+08:00">2023-12-19</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>571</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>1 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?224073&quot;);"></li><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?863232&quot;);"></li><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?397418&quot;);"></li><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?722425&quot;);"></li><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?45423&quot;);"></li><li class="item" style="background-image: url(&quot;https://jerry12122.me/picbed/anime?930520&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/ShokaX%E4%B8%BB%E9%A1%8C/" itemprop="item" rel="index" title="分類於ShokaX主題"><span itemprop="name">ShokaX主題<meta itemprop="position" content="0"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"><meta itemprop="name" content="minz"><meta itemprop="description" content=", "></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="minz的筆記本"></span><div class="body md" itemprop="articleBody"><p><img loading="lazy" data-src="/assets/ShokaXPlugin/removeTopFrosted_before.webp" alt="" title="移除前" width="80%"><br>
+<img loading="lazy" data-src="/assets/ShokaXPlugin/removeTopFrosted_after.webp" alt="" title="移除後" width="80%"></p>
+<ul>
+<li>並且在頂部以外的地方保留模糊效果<br>
+<img loading="lazy" data-src="/assets/ShokaXPlugin/removeTopFrosted_other.webp" alt="" title="頂部以外的地方保留模糊效果" width="80%"></li>
+</ul>
+<figure class="highlight js"><figcaption data-lang="JavaScript"><span>/scripts/removeTopBlur.js</span></figcaption><table><tbody><tr><td data-num="1"></td><td><pre>hexo<span class="token punctuation">.</span>extend<span class="token punctuation">.</span>filter<span class="token punctuation">.</span><span class="token function">register</span><span class="token punctuation">(</span><span class="token string">'theme_inject'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token parameter">injects</span><span class="token punctuation">)</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    injects<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token string">'views/removeTopBlur.styl'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr></tbody></table></figure><figure class="highlight css"><figcaption data-lang="CSS"><span>/views/removeTopBlur.styl</span></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token selector">#nav</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token property">backdrop-filter</span><span class="token punctuation">:</span> <span class="token function">saturate</span><span class="token punctuation">(</span>100%<span class="token punctuation">)</span> <span class="token function">blur</span><span class="token punctuation">(</span>0px<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token selector">&amp;.show</span> <span class="token punctuation">{</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token property">backdrop-filter</span><span class="token punctuation">:</span> <span class="token function">saturate</span><span class="token punctuation">(</span>180%<span class="token punctuation">)</span> <span class="token function">blur</span><span class="token punctuation">(</span>20px<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token punctuation">}</span>   </pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">}</span></pre></td></tr></tbody></table></figure><div class="tags"><a href="/tags/ShokaX%E6%8F%92%E4%BB%B6/" rel="tag"><i class="ic i-tag"></i>ShokaX插件</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新於</span><time title="修改時間：2024-07-18 13:36:54" itemprop="dateModified" datetime="2024-07-18T13:36:54+08:00">2024-07-18</time></span></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>minz<i class="ic i-at"><em>@</em></i>minz的筆記本</li><li class="link"><strong>文章連結：</strong><a href="https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/" title="ShokaX插件-移除頂部模糊效果">https://blog.minz.li/shokaX/ShokaX插件-移除頂部霧面效果/</a></li><li class="license"><strong>版權聲明：</strong>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 許可協議。轉載請註明出處！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/" rel="prev" itemprop="url" data-background-image="https://jerry12122.me/picbed/anime?881618" title="ShokaX插件-櫻花"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>ShokaX主題</span><h3>ShokaX插件-櫻花</h3></a></div><div class="item right"><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/" rel="next" itemprop="url" data-background-image="https://jerry12122.me/picbed/anime?532402" title="ShokaX插件-增加Footer高度"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>ShokaX主題</span><h3>ShokaX插件-增加Footer高度</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"></div><div class="related panel pjax" data-title="系列文章"><ul><li><a href="/shokaX/ShokaX_modify/" rel="bookmark" title="修改shokaX主題">修改shokaX主題</a></li><li><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/" rel="bookmark" title="ShokaX插件-櫻花">ShokaX插件-櫻花</a></li><li><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/" rel="bookmark" title="ShokaX插件-增加Footer高度">ShokaX插件-增加Footer高度</a></li><li class="active"><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/" rel="bookmark" title="ShokaX插件-移除頂部模糊效果">ShokaX插件-移除頂部模糊效果</a></li><li><a href="/shokaX/ShokaX_install/" rel="bookmark" title="ShokaX 安裝教學">ShokaX 安裝教學</a></li></ul></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="minz" src="/assets/avatar.webp"><p class="name" itemprop="name">minz</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">24</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">3</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">29</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https://github.com/minz71"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https://t.me/minzli"><i class="ic i-paper-plane"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>隨機文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/ShokaX%E4%B8%BB%E9%A1%8C/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/">ShokaX插件-櫻花</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/ShokaX%E4%B8%BB%E9%A1%8C/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/">ShokaX插件-移除頂部模糊效果</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/">演算法</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/tool/lmsys/">Chatbot Arena LMSYS 介紹</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/">資料結構</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/">離散數學</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/ShokaX%E4%B8%BB%E9%A1%8C/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX_install/">ShokaX 安裝教學</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/">線性代數</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/CS/weatherAPI/">API使用範例-氣象資料開放平台</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%A8%8B%E5%BC%8F%E9%A1%8C%E7%9B%AE/">程式題目</a></span></li></ul></div></div><div class="status"><div class="copyright">© 2023 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">51k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">46 分鐘</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `shokaX/ShokaX插件-移除頂部霧面效果/`,
+        favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜尋",
+        empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+        stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章時效性提示</span><br>這是一篇發佈於 {{publish}} 天前，最後一次更新在 {{updated}} 天前的文章，部分信息可能已經發生改變，請注意甄別。</p></div>`,
+    quiz: {
+        choice: `單選題`,
+        multiple: `多選題`,
+        true_false: `判斷題`,
+        essay: `問答題`,
+        gap_fill: `填空題`,
+        mistake: `錯題備註`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-XK9M052LSR"></script><script data-pjax="data-pjax">window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-XK9M052LSR');</script><script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-6-M/pace/1.2.4/pace.min.js" async=""></script><script src="/js/siteInit.js?v=0.4.2" type="module" fetchpriority="high" defer=""></script></body></html>
