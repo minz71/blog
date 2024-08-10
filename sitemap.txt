@@ -11,14 +11,15 @@ https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/
-https://blog.minz.li/about/index.html
 https://blog.minz.li/links/index.html
+https://blog.minz.li/about/index.html
 https://blog.minz.li/CS/domainSearch/
 https://blog.minz.li/CS/madVR/
 https://blog.minz.li/CS/weatherAPI/
 https://blog.minz.li/DevOps/releaseDockerCache/
 https://blog.minz.li/UiPath/Introduction/
 https://blog.minz.li/other/netflixShare/
+https://blog.minz.li/shokaX/ShokaX_github_action/
 https://blog.minz.li/shokaX/ShokaX_install/
 https://blog.minz.li/shokaX/ShokaX_modify/
 https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/
@@ -38,6 +39,7 @@ https://blog.minz.li/tags/WSL/
 https://blog.minz.li/tags/UiPath/
 https://blog.minz.li/tags/Netflix/
 https://blog.minz.li/tags/Netflix%E5%85%B1%E4%BA%AB/
+https://blog.minz.li/tags/Github-Action/
 https://blog.minz.li/tags/ShokaX/
 https://blog.minz.li/tags/ShokaX%E5%AE%89%E8%A3%9D/
 https://blog.minz.li/tags/Hexo%E4%B8%BB%E9%A1%8C/

@@ -1,0 +1,292 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><meta name="google-site-verification" content="IiSUoe1UObAB2MUuFyfwZI8qo4EUfApRjIppB8GNBlM"/><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="/css/app.css?v=0.4.11"><link rel="modulepreload" href="/js/chunk-7H2MXYL7.js"></link><link rel="modulepreload" href="/js/chunk-QLWCP5E2.js"></link><link rel="modulepreload" href="/js/chunk-WNX2GSEA.js"></link><link rel="modulepreload" href="/js/copy-tex-C5XGEXTE.js"></link><link rel="modulepreload" href="/js/post-32XSLOD3.js"></link><link rel="modulepreload" href="/js/quicklink-LGIPMA6D.js"></link><link rel="modulepreload" href="/js/search-NNC5MNRD.js"></link><link rel="modulepreload" href="/js/siteInit.js"></link><link rel="preload" href="https://picbed.codle.cc/picbed/anime?256357" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/picbed/anime?15499" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/picbed/anime?604432" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/picbed/anime?24010" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/picbed/anime?198343" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/picbed/anime?843712" as="image" fetchpriority="high"><meta name="keywords" content="DevOps,"/><meta name="description" content="這篇文章介紹了如何將 ShokaX 主題部署到 GitHub Pages，使用 GitHub Actions 進行自動化部署的步驟。"/><link rel="canonical" href="https://blog.minz.li/shokaX/ShokaX_github_action/"><script>window.sakuraConfig = {
+  sakura: 30,
+  xSpeed: 0.5,
+  ySpeed: 0.5,
+  rSpeed: 0.025,
+  direction: "TopRight",
+  zIndex: -1
+};</script><script src="https://cdn.jsdelivr.net/gh/minz71/sakura-rain/sakura-rain.js" defer="defer"></script><title>ShokaX 使用 GitHub Actions 自動部署到 Github Page</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">ShokaX 使用 GitHub Actions 自動部署到 Github Page</h1><div class="meta"><span class="item" title="創建時間：2024-08-10 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2024-08-10T00:00:00+08:00">2024-08-10</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>5.2k</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>5 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?256357&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?15499&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?604432&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?24010&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?198343&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/picbed/anime?843712&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/shokaX/" itemprop="item" rel="index" title="分類於ShokaX主題"><span itemprop="name">ShokaX主題<meta itemprop="position" content="0"/></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://blog.minz.li/shokaX/ShokaX_github_action/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"/><meta itemprop="name" content="minz"/><meta itemprop="description" content=", "/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="minz的筆記本"/></span><div class="body md" itemprop="articleBody"><h1 id="前言"><a class="anchor" href="#前言">#</a> 前言</h1>
+<ol>
+<li>編輯部落格內容後使用 Git 將更變推送到 Github 私人倉庫</li>
+<li>私人倉庫的 Workflow 會將原始碼 build 成靜態網頁</li>
+<li>將 public 目錄下的檔案 (編譯後的靜態網頁)，推送到公開倉庫</li>
+<li>將這個倉庫設定為 GitHub Page</li>
+</ol>
+<p><img loading="lazy" data-src="/assets/ShokaXPlugin/github_action_imagine.webp" alt="" title="流程" width="60%" /></p>
+<h1 id="github-actions-介紹"><a class="anchor" href="#github-actions-介紹">#</a> GitHub Actions 介紹</h1>
+<p>GitHub Actions 是 GitHub 提供的一項 CI/CD（持續集成和持續部署）服務，讓使用者能夠自動化軟件開發工作流。<br />
+它允許你在特定事件發生時執行定義好的動作，例如程式碼推送、Pull Request 創建、Release 發布等，<br />
+並使用 YAML 文件來定義你的工作流。</p>
+<h1 id="github-actions-使用"><a class="anchor" href="#github-actions-使用">#</a> GitHub Actions 使用</h1>
+<h2 id="在-github-setting-產生一個-key"><a class="anchor" href="#在-github-setting-產生一個-key">#</a> 在 Github Setting 產生一個 Key</h2>
+<ol>
+<li>
+<p>點擊 Developer Settings<br />
+<img loading="lazy" data-src="/assets/ShokaXPlugin/githubActionGenKey.webp" alt="" title="點擊 Developer Settings" width="80%" /></p>
+</li>
+<li>
+<p>點擊 Generate new token<br />
+<img loading="lazy" data-src="/assets/ShokaXPlugin/githubActionGenKey2.webp" alt="" title="點擊 Generate new token" width="80%" /></p>
+</li>
+<li>
+<p>權限添加 workflow<br />
+<img loading="lazy" data-src="/assets/ShokaXPlugin/githubActionGenKey3.webp" alt="" title="權限添加 workflow" width="80%" /></p>
+</li>
+<li>
+<p>回到專案的 repo Setting<br />
+<img loading="lazy" data-src="/assets/ShokaXPlugin/githubActionSecretKey.webp" alt="" title="回到專案的 repo Setting" width="80%" /></p>
+</li>
+<li>
+<p>Name 填入自定義名稱， secret 填入 第 <code>3</code>  步產生的 token<br />
+<img loading="lazy" data-src="/assets/ShokaXPlugin/githubActionSecretKey2.webp" alt="" title="Name 填入自定義名稱， secret 填入 第`3`步產生的 token" width="80%" /></p>
+</li>
+</ol>
+<h2 id="workflow-trigger"><a class="anchor" href="#workflow-trigger">#</a> Workflow Trigger</h2>
+<p>當有新的提交推送到  <code>main</code>  分支時，這個工作流程會被觸發。</p>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">on</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">push</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token key atrule">branches</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>      <span class="token punctuation">-</span> main</pre></td></tr></table></figure><h2 id="jobs"><a class="anchor" href="#jobs">#</a> Jobs</h2>
+<p>這個工作流程包含一個名為 build-and-deploy 的作業。<br />
+這個作業在最新版本的 Ubuntu 環境中運行，並設置了 20 分鐘的超時限制。</p>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">jobs</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">build-and-deploy</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest</pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">timeout-minutes</span><span class="token punctuation">:</span> <span class="token number">20</span></pre></td></tr></table></figure><h2 id="steps"><a class="anchor" href="#steps">#</a> Steps</h2>
+<ol>
+<li>使用 actions/checkout 來將存儲庫中的所有文件和目錄複製到 GitHub Actions 執行器的工作目錄中。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout Repository</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v4</pre></td></tr></table></figure><ol start="2">
+<li>設置 Node.js 環境，使用版本 18。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Set up Node.js</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v4</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">with</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token number">18</span></pre></td></tr></table></figure><ol start="3">
+<li>使用 shokax-can</li>
+</ol>
+<ul>
+<li>可以在安裝其他沒有包含在 shokax-can 的 moudle，例如:  <code>hexo-generator-sitemap</code> 。</li>
+</ul>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> shokax<span class="token punctuation">-</span>can</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="3"></td><td><pre>    git clone https://github.com/theme-shoka-x/shokax-can --depth=1</pre></td></tr><tr><td data-num="4"></td><td><pre>    cd shokax-can</pre></td></tr><tr><td data-num="5"></td><td><pre>    npm install -g pnpm</pre></td></tr><tr><td data-num="6"></td><td><pre>    pnpm install</pre></td></tr><tr><td data-num="7"></td><td><pre>    pnpm install hexo-generator-sitemap</span></pre></td></tr></table></figure><ol start="4">
+<li>將安裝好的 node_modules 複製到原本的工作目錄</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Copy Modules</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> cp <span class="token punctuation">-</span>r shokax<span class="token punctuation">-</span>can/node_modules node_modules</pre></td></tr></table></figure><ol start="5">
+<li>全局安裝 Hexo CLI。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install Hexo CLI</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install <span class="token punctuation">-</span>g hexo<span class="token punctuation">-</span>cli</pre></td></tr></table></figure><ol start="6">
+<li>替換文件 post.js<br />
+ 如果對主題原始碼有修改，可以在這邊替換。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> replace</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">working-directory</span><span class="token punctuation">:</span> ./</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="4"></td><td><pre>    cp replace/post.js node_modules/hexo-theme-shokax/source/js/_app/page/post.js</span></pre></td></tr></table></figure><ol start="7">
+<li>Build the Site</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> build</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">working-directory</span><span class="token punctuation">:</span> ./</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="4"></td><td><pre>    hexo generate</span></pre></td></tr></table></figure><ol start="8">
+<li>使用 Algolia 進行搜索索引。它從 GitHub Secrets 中提取 HEXO_ALGOLIA_INDEXING_KEY。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> algolia</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">working-directory</span><span class="token punctuation">:</span> ./</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="4"></td><td><pre>    export HEXO_ALGOLIA_INDEXING_KEY=$&#123; &#123; secrets.API_TOKEN_ALGOLIA_INDEXING_KEY &#125;&#125;</pre></td></tr><tr><td data-num="5"></td><td><pre>    hexo algolia</span></pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token comment">#                                  ^ 去掉這個空格，因為不能正確渲染 2 個括號</span></pre></td></tr></table></figure><ol start="9">
+<li>Push to Another Repository<br />
+ 這一步使用 <a href="%22https://cpina.github.io/push-to-another-repository-docs/%22">cpina/github-action-push-to-another-repository</a>，<br />
+將生成的靜態網站文件推送到另一個存儲庫 minz71/minz71.github.io 的 main 分支，以部署到 GitHub Pages。<br />
+並使用 GitHub Secrets 中的 API_TOKEN_GITHUB 來進行身份驗證。</li>
+</ol>
+<figure class="highlight yml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Pushes to another repository</pre></td></tr><tr><td data-num="2"></td><td><pre>  <span class="token key atrule">uses</span><span class="token punctuation">:</span> cpina/github<span class="token punctuation">-</span>action<span class="token punctuation">-</span>push<span class="token punctuation">-</span>to<span class="token punctuation">-</span>another<span class="token punctuation">-</span>repository@main</pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">env</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">API_TOKEN_GITHUB</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span> <span class="token punctuation">&#123;</span> secrets.API_TOKEN_GITHUB <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token comment">#                   ^ 去掉這個空格，因為不能正確渲染 2 個括號</span></pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token key atrule">with</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token key atrule">source-directory</span><span class="token punctuation">:</span> <span class="token string">'./public'</span></pre></td></tr><tr><td data-num="8"></td><td><pre>    <span class="token key atrule">destination-github-username</span><span class="token punctuation">:</span> <span class="token string">'minz71'</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token key atrule">destination-repository-name</span><span class="token punctuation">:</span> <span class="token string">'minz71.github.io'</span></pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token key atrule">user-email</span><span class="token punctuation">:</span> XXX@gmail.com</pre></td></tr><tr><td data-num="11"></td><td><pre>    <span class="token key atrule">target-branch</span><span class="token punctuation">:</span> main</pre></td></tr></table></figure><h1 id="workflows-的完整範例"><a class="anchor" href="#workflows-的完整範例">#</a> Workflows 的完整範例</h1>
+<ul>
+<li>GitHub Actions 的工作流文件在  <code>.github/workflows</code>  目錄中</li>
+</ul>
+<figure class="highlight yml"><figcaption data-lang="YAML"><span>.github/workflows/deploy.yml</span></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key atrule">name</span><span class="token punctuation">:</span> Hexo ShokaX Build and Deploy</pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">on</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre>  <span class="token key atrule">push</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token key atrule">branches</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="5"></td><td><pre>      <span class="token punctuation">-</span> main</pre></td></tr><tr><td data-num="6"></td><td><pre></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token key atrule">jobs</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="8"></td><td><pre>  <span class="token key atrule">build-and-deploy</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="9"></td><td><pre>    <span class="token key atrule">runs-on</span><span class="token punctuation">:</span> ubuntu<span class="token punctuation">-</span>latest</pre></td></tr><tr><td data-num="10"></td><td><pre>    <span class="token key atrule">timeout-minutes</span><span class="token punctuation">:</span> <span class="token number">20</span></pre></td></tr><tr><td data-num="11"></td><td><pre></pre></td></tr><tr><td data-num="12"></td><td><pre>    <span class="token key atrule">steps</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="13"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Checkout Repository</pre></td></tr><tr><td data-num="14"></td><td><pre>        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/checkout@v4</pre></td></tr><tr><td data-num="15"></td><td><pre></pre></td></tr><tr><td data-num="16"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Set up Node.js</pre></td></tr><tr><td data-num="17"></td><td><pre>        <span class="token key atrule">uses</span><span class="token punctuation">:</span> actions/setup<span class="token punctuation">-</span>node@v4</pre></td></tr><tr><td data-num="18"></td><td><pre>        <span class="token key atrule">with</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="19"></td><td><pre>          <span class="token key atrule">node-version</span><span class="token punctuation">:</span> <span class="token number">18</span></pre></td></tr><tr><td data-num="20"></td><td><pre></pre></td></tr><tr><td data-num="21"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> shokax<span class="token punctuation">-</span>can</pre></td></tr><tr><td data-num="22"></td><td><pre>        <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="23"></td><td><pre>          git clone https://github.com/theme-shoka-x/shokax-can --depth=1</pre></td></tr><tr><td data-num="24"></td><td><pre>          cd shokax-can</pre></td></tr><tr><td data-num="25"></td><td><pre>          npm install -g pnpm</pre></td></tr><tr><td data-num="26"></td><td><pre>          pnpm install</pre></td></tr><tr><td data-num="27"></td><td><pre>          pnpm install hexo-generator-sitemap</span></pre></td></tr><tr><td data-num="28"></td><td><pre>      </pre></td></tr><tr><td data-num="29"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Copy Modules</pre></td></tr><tr><td data-num="30"></td><td><pre>        <span class="token key atrule">run</span><span class="token punctuation">:</span> cp <span class="token punctuation">-</span>r shokax<span class="token punctuation">-</span>can/node_modules node_modules</pre></td></tr><tr><td data-num="31"></td><td><pre>      </pre></td></tr><tr><td data-num="32"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Install Hexo CLI</pre></td></tr><tr><td data-num="33"></td><td><pre>        <span class="token key atrule">run</span><span class="token punctuation">:</span> npm install <span class="token punctuation">-</span>g hexo<span class="token punctuation">-</span>cli</pre></td></tr><tr><td data-num="34"></td><td><pre></pre></td></tr><tr><td data-num="35"></td><td><pre>      <span class="token comment"># - name: replace</span></pre></td></tr><tr><td data-num="36"></td><td><pre>      <span class="token comment">#   working-directory: ./</span></pre></td></tr><tr><td data-num="37"></td><td><pre>      <span class="token comment">#   run: |</span><span class="token scalar string"></pre></td></tr><tr><td data-num="38"></td><td><pre>      #     cp replace/post.js node_modules/hexo-theme-shokax/source/js/_app/page/post.js</pre></td></tr><tr><td data-num="39"></td><td><pre>          </pre></td></tr><tr><td data-num="40"></td><td><pre>      - name: build</pre></td></tr><tr><td data-num="41"></td><td><pre>        working-directory: ./</pre></td></tr><tr><td data-num="42"></td><td><pre>        run: |</pre></td></tr><tr><td data-num="43"></td><td><pre>          hexo generate</span></pre></td></tr><tr><td data-num="44"></td><td><pre></pre></td></tr><tr><td data-num="45"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> algolia</pre></td></tr><tr><td data-num="46"></td><td><pre>        <span class="token key atrule">working-directory</span><span class="token punctuation">:</span> ./</pre></td></tr><tr><td data-num="47"></td><td><pre>        <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string"></pre></td></tr><tr><td data-num="48"></td><td><pre>          export HEXO_ALGOLIA_INDEXING_KEY=$&#123; &#123; secrets.API_TOKEN_ALGOLIA_INDEXING_KEY &#125;&#125;</pre></td></tr><tr><td data-num="49"></td><td><pre>          hexo algolia</span></pre></td></tr><tr><td data-num="50"></td><td><pre>        <span class="token comment">#                                    ^ 去掉這個空格，因為不能正確渲染 2 個括號</span></pre></td></tr><tr><td data-num="51"></td><td><pre>      <span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Pushes to another repository</pre></td></tr><tr><td data-num="52"></td><td><pre>        <span class="token key atrule">uses</span><span class="token punctuation">:</span> cpina/github<span class="token punctuation">-</span>action<span class="token punctuation">-</span>push<span class="token punctuation">-</span>to<span class="token punctuation">-</span>another<span class="token punctuation">-</span>repository@main</pre></td></tr><tr><td data-num="53"></td><td><pre>        <span class="token key atrule">env</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="54"></td><td><pre>          <span class="token key atrule">API_TOKEN_GITHUB</span><span class="token punctuation">:</span> $<span class="token punctuation">&#123;</span> <span class="token punctuation">&#123;</span> secrets.API_TOKEN_GITHUB <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="55"></td><td><pre>        <span class="token comment">#                     ^ 去掉這個空格，因為不能正確渲染 2 個括號</span></pre></td></tr><tr><td data-num="56"></td><td><pre>        <span class="token key atrule">with</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="57"></td><td><pre>          <span class="token key atrule">source-directory</span><span class="token punctuation">:</span> <span class="token string">'./public'</span></pre></td></tr><tr><td data-num="58"></td><td><pre>          <span class="token key atrule">destination-github-username</span><span class="token punctuation">:</span> <span class="token string">'minz71'</span></pre></td></tr><tr><td data-num="59"></td><td><pre>          <span class="token key atrule">destination-repository-name</span><span class="token punctuation">:</span> <span class="token string">'minz71.github.io'</span></pre></td></tr><tr><td data-num="60"></td><td><pre>          <span class="token key atrule">user-email</span><span class="token punctuation">:</span> xxx@gmail.com</pre></td></tr><tr><td data-num="61"></td><td><pre>          <span class="token key atrule">target-branch</span><span class="token punctuation">:</span> main</pre></td></tr></table></figure><h1 id="設定github-page"><a class="anchor" href="#設定github-page">#</a> 設定 GitHub Page</h1>
+<ol>
+<li>
+<p>到公開的 Repository &gt; Settings &gt; Page</p>
+</li>
+<li>
+<p>設定 Custom domain (在 DNS 添加 CNAME 紀錄)</p>
+</li>
+</ol>
+<div class="tags"><a href="/tags/DevOps/" rel="tag"><i class="ic i-tag"></i>DevOps</a><a href="/tags/Github-Action/" rel="tag"><i class="ic i-tag"></i>Github Action</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新於</span><time title="修改時間：2024-08-10 16:26:18" itemprop="dateModified" datetime="2024-08-10T16:26:18+08:00">2024-08-10</time></span></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>minz<i class="ic i-at"><em>@</em></i>minz的筆記本</li><li class="link"><strong>文章連結：</strong><a href="https://blog.minz.li/shokaX/ShokaX_github_action/" title="ShokaX 使用 GitHub Actions 自動部署到 Github Page">https://blog.minz.li/shokaX/ShokaX_github_action/</a></li><li class="license"><strong>版權聲明：</strong><span class="red">本頁內容禁止轉載！</span></li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/shokaX/ShokaX_install/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;picbed.codle.cc&#x2F;picbed&#x2F;anime?596623" title="ShokaX 安裝教學"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>ShokaX主題</span><h3>ShokaX 安裝教學</h3></a></div><div class="item right"></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text"> 前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#github-actions-%E4%BB%8B%E7%B4%B9"><span class="toc-number">2.</span> <span class="toc-text"> GitHub Actions 介紹</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#github-actions-%E4%BD%BF%E7%94%A8"><span class="toc-number">3.</span> <span class="toc-text"> GitHub Actions 使用</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9C%A8-github-setting-%E7%94%A2%E7%94%9F%E4%B8%80%E5%80%8B-key"><span class="toc-number">3.1.</span> <span class="toc-text"> 在 Github Setting 產生一個 Key</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#workflow-trigger"><span class="toc-number">3.2.</span> <span class="toc-text"> Workflow Trigger</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#jobs"><span class="toc-number">3.3.</span> <span class="toc-text"> Jobs</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#steps"><span class="toc-number">3.4.</span> <span class="toc-text"> Steps</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#workflows-%E7%9A%84%E5%AE%8C%E6%95%B4%E7%AF%84%E4%BE%8B"><span class="toc-number">4.</span> <span class="toc-text"> Workflows 的完整範例</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A8%AD%E5%AE%9Agithub-page"><span class="toc-number">5.</span> <span class="toc-text"> 設定 GitHub Page</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li ><a href="/shokaX/ShokaX_modify/" rel="bookmark" title="修改shokaX主題">修改shokaX主題</a></li><li ><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/" rel="bookmark" title="ShokaX插件-增加Footer高度">ShokaX插件-增加Footer高度</a></li><li ><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/" rel="bookmark" title="ShokaX插件-移除頂部模糊效果">ShokaX插件-移除頂部模糊效果</a></li><li ><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/" rel="bookmark" title="ShokaX插件-櫻花">ShokaX插件-櫻花</a></li><li ><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E9%BB%9E%E6%93%8A%E6%84%9B%E5%BF%83%E6%95%88%E6%9E%9C/" rel="bookmark" title="ShokaX插件-點擊愛心效果">ShokaX插件-點擊愛心效果</a></li><li ><a href="/shokaX/ShokaX_install/" rel="bookmark" title="ShokaX 安裝教學">ShokaX 安裝教學</a></li><li  class="active"><a href="/shokaX/ShokaX_github_action/" rel="bookmark" title="ShokaX 使用 GitHub Actions 自動部署到 Github Page">ShokaX 使用 GitHub Actions 自動部署到 Github Page</a></li></ul></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="minz" src="/assets/avatar.png"/><p class="name" itemprop="name">minz</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">26</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">3</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">30</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;minz71"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https:&#x2F;&#x2F;t.me&#x2F;minzli"><i class="ic i-paper-plane"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/shokaX/ShokaX_install/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>隨機文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%8E%92%E5%BA%8F%E6%BC%94%E7%AE%97%E6%B3%95/">排序演算法</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/">作業系統</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/">資料結構</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/shokaX/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/">ShokaX插件-櫻花</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/CS/domainSearch/">域名搜尋工具</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%9F%A9%E9%99%A3%E9%A1%8C%E7%9B%AE/">矩陣程式題目</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/other/netflixShare/">Netflix共享</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/">線性代數</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/shokaX/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX_github_action/">ShokaX 使用 GitHub Actions 自動部署到 Github Page</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/">離散數學</a></span></li></ul></div></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2024</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">55k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">50 分鐘</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `shokaX/ShokaX_github_action/`,
+        favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜尋",
+        empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+        stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章時效性提示</span><br>這是一篇發佈於 {{publish}} 天前，最後一次更新在 {{updated}} 天前的文章，部分信息可能已經發生改變，請注意甄別。</p></div>`,
+    quiz: {
+        choice: `單選題`,
+        multiple: `多選題`,
+        true_false: `判斷題`,
+        essay: `問答題`,
+        gap_fill: `填空題`,
+        mistake: `錯題備註`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-XK9M052LSR"></script><script data-pjax="data-pjax">window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-XK9M052LSR');</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="/js/siteInit.js?v=0.4.11" type="module" fetchpriority="high" defer></script><script type="text/javascript">  document.addEventListener('DOMContentLoaded', () => {
+// 配置設定
+const CONFIG = {
+    // 愛心數量
+    HEART_COUNT: {
+        MOBILE: 3,  // 手機版愛心數量
+        DESKTOP: 6  // 桌面版愛心數量
+    },
+    // 愛心顏色
+    HEART_COLORS: ['#ff9999', '#ffb3ba', '#ffc8dd', '#bae1ff', '#a2d2ff'],
+    // 愛心大小範圍（像素）
+    HEART_SIZE: {
+        MIN: 10,
+        MAX: 20
+    },
+    // 動畫持續時間（毫秒）
+    ANIMATION_DURATION: 1000,
+    // 最大愛心數量（用於清理）
+    MAX_HEARTS: 30,
+    // 移動範圍（像素）
+    MOVE_RANGE: {
+        X: 80,
+        Y: 80
+    },
+    // 緩動函數類型
+    EASING: 'easeOutQuad'
+};
+
+addStyles();
+addMetaViewport();
+
+const heartsContainer = document.createElement('div');
+heartsContainer.style.cssText = `
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+`;
+document.body.appendChild(heartsContainer);
+
+// 使用事件委託
+document.body.addEventListener('click', (event) => {
+    createFirework(event.clientX, event.clientY);
+});
+
+document.body.addEventListener('touchstart', (event) => {
+    const touch = event.touches[0];
+    createFirework(touch.clientX, touch.clientY);
+});
+
+function addStyles() {
+    const style = document.createElement('style');
+    style.textContent = `
+        .heart {
+            position: absolute;
+            pointer-events: none;
+            will-change: transform, opacity;
+        }
+    `;
+    document.head.appendChild(style);
+}
+
+function addMetaViewport() {
+    if (!document.querySelector('meta[name="viewport"]')) {
+        const meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';
+        document.head.appendChild(meta);
+    }
+}
+
+function createFirework(x, y) {
+    const fragment = document.createDocumentFragment();
+    const heartCount = window.innerWidth < 768 ? CONFIG.HEART_COUNT.MOBILE : CONFIG.HEART_COUNT.DESKTOP;
+
+    for (let i = 0; i < heartCount; i++) {
+        const color = getRandomColor();
+        const heart = createHeart(x, y, color);
+        fragment.appendChild(heart);
+    }
+
+    heartsContainer.appendChild(fragment);
+    clearOldHearts();
+}
+
+function getRandomColor() {
+    return CONFIG.HEART_COLORS[Math.floor(Math.random() * CONFIG.HEART_COLORS.length)];
+}
+
+function createHeart(x, y, color) {
+    const heart = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    heart.setAttribute("viewBox", "0 0 512 512");
+    heart.classList.add('heart');
+    heart.style.transform = `translate(${x}px, ${y}px)`;
+
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", "M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z");
+    path.setAttribute("fill", color);
+
+    heart.appendChild(path);
+
+    const size = CONFIG.HEART_SIZE.MIN + Math.random() * (CONFIG.HEART_SIZE.MAX - CONFIG.HEART_SIZE.MIN);
+    heart.style.width = `${size}px`;
+    heart.style.height = `${size}px`;
+
+    animateHeart(heart, x, y);
+
+    return heart;
+}
+
+function animateHeart(heart, initialX, initialY) {
+    const startTime = performance.now();
+    const targetX = initialX + (Math.random() - 0.5) * CONFIG.MOVE_RANGE.X;
+    const targetY = initialY - Math.random() * CONFIG.MOVE_RANGE.Y; // Always move upwards
+
+    function update(currentTime) {
+        const elapsed = currentTime - startTime;
+        if (elapsed >= CONFIG.ANIMATION_DURATION) {
+            heart.remove();
+            return;
+        }
+
+        const progress = elapsed / CONFIG.ANIMATION_DURATION;
+        const easedProgress = easing[CONFIG.EASING](progress);
+
+        const currentX = initialX + (targetX - initialX) * easedProgress;
+        const currentY = initialY + (targetY - initialY) * easedProgress;
+        const currentOpacity = 1 - easedProgress;
+
+        heart.style.transform = `translate(${currentX}px, ${currentY}px)`;
+        heart.style.opacity = currentOpacity;
+
+        requestAnimationFrame(update);
+    }
+
+    requestAnimationFrame(update);
+}
+
+// Easing functions
+const easing = {
+    easeOutQuad: t => 1 - (1 - t) * (1 - t),
+    easeOutCubic: t => 1 - Math.pow(1 - t, 3),
+    easeOutQuart: t => 1 - Math.pow(1 - t, 4),
+    easeOutQuint: t => 1 - Math.pow(1 - t, 5)
+};
+
+function clearOldHearts() {
+    const hearts = heartsContainer.getElementsByClassName('heart');
+    if (hearts.length > CONFIG.MAX_HEARTS) {
+        for (let i = 0; i < hearts.length - CONFIG.MAX_HEARTS; i++) {
+            hearts[i].remove();
+        }
+    }
+}});</script></body></html>
