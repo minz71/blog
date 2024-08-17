@@ -5,8 +5,8 @@
         <link>https://blog.minz.li</link>
         <description></description>
         <language>zh-TW</language>
-        <pubDate>Sat, 10 Aug 2024 16:00:00 +0000</pubDate>
-        <lastBuildDate>Sat, 10 Aug 2024 16:00:00 +0000</lastBuildDate>
+        <pubDate>Fri, 16 Aug 2024 16:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 16 Aug 2024 16:00:00 +0000</lastBuildDate>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
@@ -42,16 +42,16 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/tool/VMware/</guid>
-            <title>VMware Workstation 虛擬機介紹</title>
+            <title>VMware Workstation 虛擬機下載</title>
             <link>https://blog.minz.li/tool/VMware/</link>
             <category>VMware</category>
             <category>VMware下載</category>
             <category>虛擬機</category>
-            <pubDate>Sat, 10 Aug 2024 16:00:00 +0000</pubDate>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
 &lt;p&gt;VMware Workstation 是由 VMware 開發的桌面虛擬機軟體，&lt;br /&gt;
 博通（Broadcom）於 2023 年 11 月收購 VMware 後，&lt;br /&gt;
-於 2024 年 5 月 14 日，&lt;a href=&#34;%22https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供&lt;strong&gt;個人免費使用&lt;/strong&gt;。&lt;/p&gt;
+於 2024 年 5 月 14 日，&lt;a href=&#34;https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供&lt;strong&gt;個人免費使用&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;VMware Workstation Pro : 支援 Windows 與 Linux&lt;/li&gt;
 &lt;li&gt;VMware Fusion Pro : 支援 macOS&lt;/li&gt;

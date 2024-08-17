@@ -1,3 +1,6 @@
+https://blog.minz.li/tool/VMware/
+https://blog.minz.li/tool/claude/
+https://blog.minz.li/tool/lmsys/
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/
 https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%8E%92%E5%BA%8F%E6%BC%94%E7%AE%97%E6%B3%95/
@@ -24,9 +27,6 @@ https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/
 https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/
 https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/
 https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E9%BB%9E%E6%93%8A%E6%84%9B%E5%BF%83%E6%95%88%E6%9E%9C/
-https://blog.minz.li/tool/VMware/
-https://blog.minz.li/tool/claude/
-https://blog.minz.li/tool/lmsys/
 https://blog.minz.li/
 https://blog.minz.li/tags/domain/
 https://blog.minz.li/tags/TLD-LIST/
