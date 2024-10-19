@@ -65,20 +65,29 @@
 &lt;h2 id=&#34;直接在檔案server下載&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#直接在檔案server下載&#34;&gt;#&lt;/a&gt; 直接在檔案 server 下載&lt;/h2&gt;
 &lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;VMware Workstation Pro ( Windows 與 Linux )&#34;&gt;
 &lt;p&gt;下載連結: &lt;a href=&#34;https://softwareupdate.vmware.com/cds/vmw-desktop/ws/&#34;&gt;https://softwareupdate.vmware.com/cds/vmw-desktop/ws/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目前的最新版本是 17.6.1&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 (17.5.2) &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; core &amp;gt; VMware-workstation-17.5.2-23775571.exe.tar&lt;/p&gt;
+&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; core &amp;gt; VMware-workstation-17.5.2-23775571.exe.tar&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;這個是主程式的安裝，tools 的部分到 packages 目錄下載。&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 (17.5.2) &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; packages&lt;/p&gt;
+&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; packages&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;VMware Fusion Pro ( macOS )&#34;&gt;
 &lt;p&gt;下載連結: &lt;a href=&#34;https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/&#34;&gt;https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;目前的最新版本是 13.6.1&lt;/li&gt;
+&lt;/ul&gt;
 &lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 (13.5.2) &amp;gt; 對應的資料夾 &amp;gt; universal &amp;gt; core &amp;gt; com.vmware.fusion.zip.tar&lt;/p&gt;
+&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; universal &amp;gt; core &amp;gt; com.vmware.fusion.zip.tar&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;將 tar 檔案解壓縮後，會得到安裝程式&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;broadcom官網&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#broadcom官網&#34;&gt;#&lt;/a&gt; Broadcom 官網&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;註冊登入 Broadcom 帳號&lt;/li&gt;
@@ -112,6 +121,15 @@
 &lt;li&gt;
 &lt;p&gt;回到步驟 2 的頁面，點擊下載&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;vmware-tools&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-tools&#34;&gt;#&lt;/a&gt; VMware Tools&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&#34;&gt;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&lt;/a&gt;&lt;br /&gt;
+ 安裝後，虛擬機器可以有更流暢的操作體驗，包括：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;滑鼠：提高操作系統中的滑鼠控制。&lt;/li&gt;
+&lt;li&gt;時間同步：能夠將操作系統的時間與主機同步。&lt;/li&gt;
+&lt;li&gt;改善的用戶體驗：提供剪貼板共享、拖拽文件、等功能。&lt;/li&gt;
+&lt;li&gt;快照功能：能在虛擬機快照時保持操作系統的一致性。&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>
