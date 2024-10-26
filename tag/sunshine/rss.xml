@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>minz的筆記本 • Posts by &#34;sunshine&#34; tag</title>
+        <link>https://blog.minz.li</link>
+        <description></description>
+        <language>zh-TW</language>
+        <pubDate>Fri, 25 Oct 2024 16:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 25 Oct 2024 16:00:00 +0000</lastBuildDate>
+        <category>domain</category>
+        <category>TLD-LIST</category>
+        <category>eu.org</category>
+        <category>cloudflare</category>
+        <category>madVR</category>
+        <category>API</category>
+        <category>DevOps</category>
+        <category>Docker</category>
+        <category>WSL</category>
+        <category>UiPath</category>
+        <category>Netflix</category>
+        <category>Netflix共享</category>
+        <category>Github Action</category>
+        <category>ShokaX</category>
+        <category>ShokaX安裝</category>
+        <category>Hexo主題</category>
+        <category>ShokaX主題</category>
+        <category>ShokaX插件</category>
+        <category>VMware</category>
+        <category>VMware下載</category>
+        <category>虛擬機</category>
+        <category>Claude</category>
+        <category>llm</category>
+        <category>Anthropic</category>
+        <category>LMSYS</category>
+        <category>sunshine</category>
+        <category>Parsec VDD</category>
+        <category>Moonlight</category>
+        <category>物件導向</category>
+        <category>大學課程</category>
+        <category>程式碼</category>
+        <category>機率與統計</category>
+        <category>演算法</category>
+        <category>線性代數</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/tool/streamMonitor/</guid>
+            <title>免費開源解決方案 將iPad變成電腦第二螢幕</title>
+            <link>https://blog.minz.li/tool/streamMonitor/</link>
+            <category>sunshine</category>
+            <category>Parsec VDD</category>
+            <category>Moonlight</category>
+            <pubDate>Fri, 25 Oct 2024 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
+&lt;p&gt;將電腦的畫面串流到平板上顯示，讓平板成為電腦的額外螢幕。&lt;br /&gt;
+這個解決方案結合了三個開源軟體，能實現低延遲、高畫質的串流效果。&lt;/p&gt;
+&lt;h1 id=&#34;虛擬螢幕驅動&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虛擬螢幕驅動&#34;&gt;#&lt;/a&gt; 虛擬螢幕驅動&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/nomi-san/parsec-vdd&#34;&gt;https://github.com/nomi-san/parsec-vdd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;parsec-vdd 可以在你的 Windows 上建立一個虛擬的螢幕。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安裝 Parsec VDD&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 &lt;a href=&#34;https://github.com/nomi-san/parsec-vdd/releases&#34;&gt;Gitgub Releases&lt;/a&gt; 頁面找到對應的系統版本&lt;/li&gt;
+&lt;li&gt;適用於 Windows 的安裝檔案  &lt;code&gt;ParsecVDisplay-v0.45-setup.exe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設置 Parsec VDD&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在 Custom 添加 iPad 的解析度 (例如 iPad Pro 11&amp;quot; 2388 * 1668)&lt;/li&gt;
+&lt;li&gt;點擊 Add Display 添加一個虛擬螢幕&lt;/li&gt;
+&lt;li&gt;在螢幕點擊右鍵可以設定解析度等&lt;/li&gt;
+&lt;li&gt;在螢幕點擊右鍵找到螢幕的名稱，供後續設定使用，例如:  &lt;code&gt;\\.\DISPLAY21&lt;/code&gt; &lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/parsecvdd_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;sunshine&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sunshine&#34;&gt;#&lt;/a&gt; Sunshine&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/LizardByte/Sunshine&#34;&gt;https://github.com/LizardByte/Sunshine&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Sunshine 是一個開源的串流伺服器。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;安裝 Sunshine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在 &lt;a href=&#34;https://github.com/LizardByte/Sunshine/releases&#34;&gt;Github Releases&lt;/a&gt; 頁面找到對應的系統版本&lt;/li&gt;
+&lt;li&gt;適用於 Windows 的安裝檔案  &lt;code&gt;sunshine-windows-installer.exe&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定 Sunshine&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;開啟 Sunshine 的 Web UI，&lt;a href=&#34;http://localhost:47990&#34;&gt;http://localhost:47990&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;設置使用者名稱與密碼&lt;/li&gt;
+&lt;li&gt;設定輸出的螢幕，剛剛設定的虛擬螢幕  &lt;code&gt;\\.\DISPLAY21&lt;/code&gt; &lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/sunshine_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;moonlight&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#moonlight&#34;&gt;#&lt;/a&gt; Moonlight&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://moonlight-stream.org/&#34;&gt;https://moonlight-stream.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Moonlight 是一個用於串流遊戲與桌面的開源專案。&lt;/p&gt;
+&lt;p&gt;可以在 &lt;a href=&#34;https://apps.apple.com/tw/app/moonlight-game-streaming/id1000551566&#34;&gt;App Store&lt;/a&gt; 或 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.limelight&#34;&gt;Google Play&lt;/a&gt; 下載&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;確保設備與主機在同一網路&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;連接成功後即可開始串流&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

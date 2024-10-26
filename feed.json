@@ -5,6 +5,18 @@
     "home_page_url": "https://blog.minz.li",
     "items": [
         {
+            "id": "https://blog.minz.li/tool/streamMonitor/",
+            "url": "https://blog.minz.li/tool/streamMonitor/",
+            "title": "免費開源解決方案 將iPad變成電腦第二螢幕",
+            "date_published": "2024-10-25T16:00:00.000Z",
+            "content_html": "<h1 id=\"介紹\"><a class=\"anchor\" href=\"#介紹\">#</a> 介紹</h1>\n<p>將電腦的畫面串流到平板上顯示，讓平板成為電腦的額外螢幕。<br />\n這個解決方案結合了三個開源軟體，能實現低延遲、高畫質的串流效果。</p>\n<h1 id=\"虛擬螢幕驅動\"><a class=\"anchor\" href=\"#虛擬螢幕驅動\">#</a> 虛擬螢幕驅動</h1>\n<p><a href=\"https://github.com/nomi-san/parsec-vdd\">https://github.com/nomi-san/parsec-vdd</a></p>\n<p>parsec-vdd 可以在你的 Windows 上建立一個虛擬的螢幕。</p>\n<ol>\n<li>\n<p>安裝 Parsec VDD</p>\n<ul>\n<li>在 <a href=\"https://github.com/nomi-san/parsec-vdd/releases\">Gitgub Releases</a> 頁面找到對應的系統版本</li>\n<li>適用於 Windows 的安裝檔案  <code>ParsecVDisplay-v0.45-setup.exe</code></li>\n</ul>\n</li>\n<li>\n<p>設置 Parsec VDD</p>\n<ol>\n<li>在 Custom 添加 iPad 的解析度 (例如 iPad Pro 11&quot; 2388 * 1668)</li>\n<li>點擊 Add Display 添加一個虛擬螢幕</li>\n<li>在螢幕點擊右鍵可以設定解析度等</li>\n<li>在螢幕點擊右鍵找到螢幕的名稱，供後續設定使用，例如:  <code>\\\\.\\DISPLAY21</code> <br />\n<img loading=\"lazy\" data-src=\"/assets/tool/subMonitor/parsecvdd_setting.webp\" alt=\"\" width=\"70%\" /></li>\n</ol>\n</li>\n</ol>\n<h1 id=\"sunshine\"><a class=\"anchor\" href=\"#sunshine\">#</a> Sunshine</h1>\n<p><a href=\"https://github.com/LizardByte/Sunshine\">https://github.com/LizardByte/Sunshine</a></p>\n<p>Sunshine 是一個開源的串流伺服器。</p>\n<ol>\n<li>\n<p>安裝 Sunshine</p>\n<ul>\n<li>在 <a href=\"https://github.com/LizardByte/Sunshine/releases\">Github Releases</a> 頁面找到對應的系統版本</li>\n<li>適用於 Windows 的安裝檔案  <code>sunshine-windows-installer.exe</code></li>\n</ul>\n</li>\n<li>\n<p>設定 Sunshine</p>\n<ol>\n<li>開啟 Sunshine 的 Web UI，<a href=\"http://localhost:47990\">http://localhost:47990</a></li>\n<li>設置使用者名稱與密碼</li>\n<li>設定輸出的螢幕，剛剛設定的虛擬螢幕  <code>\\\\.\\DISPLAY21</code> <br />\n<img loading=\"lazy\" data-src=\"/assets/tool/subMonitor/sunshine_setting.webp\" alt=\"\" width=\"70%\" /></li>\n</ol>\n</li>\n</ol>\n<h1 id=\"moonlight\"><a class=\"anchor\" href=\"#moonlight\">#</a> Moonlight</h1>\n<p><a href=\"https://moonlight-stream.org/\">https://moonlight-stream.org/</a></p>\n<p>Moonlight 是一個用於串流遊戲與桌面的開源專案。</p>\n<p>可以在 <a href=\"https://apps.apple.com/tw/app/moonlight-game-streaming/id1000551566\">App Store</a> 或 <a href=\"https://play.google.com/store/apps/details?id=com.limelight\">Google Play</a> 下載</p>\n<ul>\n<li>\n<p>點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿<br />\n<img loading=\"lazy\" data-src=\"/assets/tool/subMonitor/moonlight_setting.webp\" alt=\"\" width=\"70%\" /></p>\n</li>\n<li>\n<p>確保設備與主機在同一網路</p>\n</li>\n<li>\n<p>Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)</p>\n</li>\n<li>\n<p>首次連接時需要在 Sunshine 輸入 pin 配對</p>\n</li>\n<li>\n<p>連接成功後即可開始串流</p>\n</li>\n</ul>\n",
+            "tags": [
+                "sunshine",
+                "Parsec VDD",
+                "Moonlight"
+            ]
+        },
+        {
             "id": "https://blog.minz.li/tool/VMware/",
             "url": "https://blog.minz.li/tool/VMware/",
             "title": "VMware Workstation 虛擬機下載",
