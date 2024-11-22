@@ -3,13 +3,13 @@
     <id>https://blog.minz.li</id>
     <title>minz的筆記本 • Posts by &#34;虛擬機&#34; tag</title>
     <link href="https://blog.minz.li" />
-    <updated>2024-08-16T16:00:00.000Z</updated>
+    <updated>2024-11-21T16:00:00.000Z</updated>
     <category term="domain" />
     <category term="TLD-LIST" />
     <category term="eu.org" />
     <category term="cloudflare" />
-    <category term="madVR" />
     <category term="API" />
+    <category term="madVR" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
@@ -35,8 +35,8 @@
     <category term="物件導向" />
     <category term="大學課程" />
     <category term="程式碼" />
-    <category term="機率與統計" />
     <category term="演算法" />
+    <category term="機率與統計" />
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
@@ -47,15 +47,11 @@
         <content type="html">&lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
 &lt;p&gt;VMware Workstation 是由 VMware 開發的桌面虛擬機軟體，&lt;br /&gt;
 博通（Broadcom）於 2023 年 11 月收購 VMware 後，&lt;br /&gt;
-於 2024 年 5 月 14 日，&lt;a href=&#34;https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供&lt;strong&gt;個人免費使用&lt;/strong&gt;。&lt;/p&gt;
+於 2024 年 5 月 14 日，&lt;a href=&#34;https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供免費使用。&lt;br /&gt;
+商業使用現在也是&lt;a href=&#34;https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/&#34;&gt;免費&lt;/a&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;VMware Workstation Pro : 支援 Windows 與 Linux&lt;/li&gt;
 &lt;li&gt;VMware Fusion Pro : 支援 macOS&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;現在提供兩種授權模式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;免費個人使用（Free Personal Use）&lt;/li&gt;
-&lt;li&gt;付費商業使用（Paid Commercial Use）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;下載-vmware&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下載-vmware&#34;&gt;#&lt;/a&gt; 下載 VMware&lt;/h1&gt;
 &lt;h2 id=&#34;直接在檔案server下載&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#直接在檔案server下載&#34;&gt;#&lt;/a&gt; 直接在檔案 server 下載&lt;/h2&gt;
@@ -120,17 +116,17 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;vmware-tools&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-tools&#34;&gt;#&lt;/a&gt; VMware Tools&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&#34;&gt;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&lt;/a&gt;&lt;br /&gt;
- 安裝後，虛擬機器可以有更流暢的操作體驗，包括：&lt;/p&gt;
+ 安裝後，虛擬機可以有更流暢的操作體驗，包括：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;滑鼠：提高操作系統中的滑鼠控制。&lt;/li&gt;
 &lt;li&gt;時間同步：能夠將操作系統的時間與主機同步。&lt;/li&gt;
-&lt;li&gt;改善的用戶體驗：提供剪貼板共享、拖拽文件、等功能。&lt;/li&gt;
+&lt;li&gt;改善的用戶體驗：剪貼板共享、拖拽文件、等功能。&lt;/li&gt;
 &lt;li&gt;快照功能：能在虛擬機快照時保持操作系統的一致性。&lt;/li&gt;
 &lt;/ol&gt;
 </content>
         <category term="VMware" />
         <category term="VMware下載" />
         <category term="虛擬機" />
-        <updated>2024-08-16T16:00:00.000Z</updated>
+        <updated>2024-11-21T16:00:00.000Z</updated>
     </entry>
 </feed>
