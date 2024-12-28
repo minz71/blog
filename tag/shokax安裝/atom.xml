@@ -4,12 +4,15 @@
     <title>minz的筆記本 • Posts by &#34;shokax安裝&#34; tag</title>
     <link href="https://blog.minz.li" />
     <updated>2024-08-02T16:00:00.000Z</updated>
+    <category term="Groq" />
+    <category term="llama" />
+    <category term="whisper" />
     <category term="domain" />
     <category term="TLD-LIST" />
     <category term="eu.org" />
     <category term="cloudflare" />
-    <category term="API" />
     <category term="madVR" />
+    <category term="API" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
@@ -35,8 +38,8 @@
     <category term="物件導向" />
     <category term="大學課程" />
     <category term="程式碼" />
-    <category term="演算法" />
     <category term="機率與統計" />
+    <category term="演算法" />
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />

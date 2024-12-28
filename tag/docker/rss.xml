@@ -7,12 +7,15 @@
         <language>zh-TW</language>
         <pubDate>Thu, 30 May 2024 16:00:00 +0000</pubDate>
         <lastBuildDate>Thu, 30 May 2024 16:00:00 +0000</lastBuildDate>
+        <category>Groq</category>
+        <category>llama</category>
+        <category>whisper</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
         <category>cloudflare</category>
-        <category>API</category>
         <category>madVR</category>
+        <category>API</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
@@ -38,8 +41,8 @@
         <category>物件導向</category>
         <category>大學課程</category>
         <category>程式碼</category>
-        <category>演算法</category>
         <category>機率與統計</category>
+        <category>演算法</category>
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>

@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "minz的筆記本 • All posts by \"groq\" tag",
+    "description": "",
+    "home_page_url": "https://blog.minz.li",
+    "items": [
+        {
+            "id": "https://blog.minz.li/AI/Groq/",
+            "url": "https://blog.minz.li/AI/Groq/",
+            "title": "在 Groq 高性能低延遲的使用 llama 系列模型",
+            "date_published": "2024-12-27T16:00:00.000Z",
+            "content_html": "<h1 id=\"介紹\"><a class=\"anchor\" href=\"#介紹\">#</a> 介紹</h1>\n<p>Groq 的主要產品是 LPU (Language Processing Units)，能夠大幅提升模型的推論速度，這表示模型回答的速度加快，比 GPT-4o 快了數倍。<br />\nGroq 的 實驗性模型  <code>llama-3.3-70b-specdec</code>  在 GroqCloud 上的推論速度最快可以達到 <a href=\"https://groq.com/groq-first-generation-14nm-chip-just-got-a-6x-speed-boost-introducing-llama-3-1-70b-speculative-decoding-on-groqcloud/\">1,660 tokens/s</a> 。</p>\n<ul>\n<li>低延遲 (Seconds to First Token Received)</li>\n</ul>\n<p><img loading=\"lazy\" data-src=\"https://groq.com/wp-content/uploads/2024/11/latency-1536x762.jpg.webp\" alt=\"\" /></p>\n<ul>\n<li>高性能 (High Output Tokens per Second)</li>\n</ul>\n<p><img loading=\"lazy\" data-src=\"https://groq.com/wp-content/uploads/2024/11/output-speed2-1536x762.jpg.webp\" alt=\"\" /></p>\n<h1 id=\"可以使用的-models\"><a class=\"anchor\" href=\"#可以使用的-models\">#</a> 可以使用的 Models</h1>\n<ul>\n<li>可以在 <a href=\"https://console.groq.com/docs/models\">https://console.groq.com/docs/models</a> 查看可以使用的模型</li>\n<li>目前多為 llama、gemma、whisper 系列</li>\n</ul>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/Groq/groq_models.webp\" alt=\"\" width=\"80%\" /></p>\n<h1 id=\"使用\"><a class=\"anchor\" href=\"#使用\">#</a> 使用</h1>\n<p>可以在官方網站 <a href=\"https://groq.com/\">https://groq.com/</a> 或是<a href=\"https://console.groq.com/playground\"> playground</a> 直接使用</p>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/Groq/groq_home.webp\" alt=\"\" width=\"80%\" /></p>\n<h1 id=\"api\"><a class=\"anchor\" href=\"#api\">#</a> API</h1>\n<p><a href=\"https://console.groq.com/keys\">https://console.groq.com/keys</a><br />\n 在左邊 API Keys 的選單中點擊 Create API Key，目前免費層級有提供一定的額度使用，API 兼容 openai 格式，修改 base_url 和 model 後可以直接使用。</p>\n<figure class=\"highlight python\"><figcaption data-lang=\"python\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">import</span> os</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token keyword\">import</span> openai</pre></td></tr><tr><td data-num=\"3\"></td><td><pre></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>client <span class=\"token operator\">=</span> openai<span class=\"token punctuation\">.</span>OpenAI<span class=\"token punctuation\">(</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>    base_url<span class=\"token operator\">=</span><span class=\"token string\">\"https://api.groq.com/openai/v1\"</span><span class=\"token punctuation\">,</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>    api_key<span class=\"token operator\">=</span>os<span class=\"token punctuation\">.</span>environ<span class=\"token punctuation\">.</span>get<span class=\"token punctuation\">(</span><span class=\"token string\">\"GROQ_API_KEY\"</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre><span class=\"token punctuation\">)</span></pre></td></tr></table></figure>",
+            "tags": [
+                "Groq",
+                "llama",
+                "whisper"
+            ]
+        }
+    ]
+}
