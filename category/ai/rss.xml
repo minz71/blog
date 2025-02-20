@@ -5,11 +5,13 @@
         <link>https://blog.minz.li</link>
         <description></description>
         <language>zh-TW</language>
-        <pubDate>Fri, 27 Dec 2024 16:00:00 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Dec 2024 16:00:00 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 16:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 16:00:00 +0000</lastBuildDate>
         <category>Groq</category>
+        <category>Cerebras</category>
+        <category>SambaNova</category>
+        <category>Deepseek</category>
         <category>llama</category>
-        <category>whisper</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
@@ -22,10 +24,10 @@
         <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
+        <category>Github Action</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>Github Action</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>VMware</category>
@@ -35,26 +37,28 @@
         <category>llm</category>
         <category>Anthropic</category>
         <category>LMSYS</category>
-        <category>物件導向</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
-        <category>程式碼</category>
+        <category>物件導向</category>
         <category>大學課程</category>
-        <category>演算法</category>
+        <category>程式碼</category>
         <category>機率與統計</category>
+        <category>演算法</category>
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/AI/Groq/</guid>
-            <title>在 Groq 高性能低延遲的使用 llama 系列模型</title>
-            <link>https://blog.minz.li/AI/Groq/</link>
+            <guid isPermalink="true">https://blog.minz.li/AI/AI-Accelerators/</guid>
+            <title>超越 GPU 在 Groq/Cerebras/SambaNova 使用高速輸出的 Deepseek</title>
+            <link>https://blog.minz.li/AI/AI-Accelerators/</link>
             <category>Groq</category>
+            <category>Cerebras</category>
+            <category>SambaNova</category>
+            <category>Deepseek</category>
             <category>llama</category>
-            <category>whisper</category>
-            <pubDate>Fri, 27 Dec 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
+            <pubDate>Wed, 19 Feb 2025 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;groq-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#groq-介紹&#34;&gt;#&lt;/a&gt; Groq 介紹&lt;/h1&gt;
 &lt;p&gt;Groq 的主要產品是 LPU (Language Processing Units)，能夠大幅提升模型的推論速度，這表示模型回答的速度加快，比 GPT-4o 快了數倍。&lt;br /&gt;
 Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 GroqCloud 上的推論速度最快可以達到 &lt;a href=&#34;https://groq.com/groq-first-generation-14nm-chip-just-got-a-6x-speed-boost-introducing-llama-3-1-70b-speculative-decoding-on-groqcloud/&#34;&gt;1,660 tokens/s&lt;/a&gt; 。&lt;/p&gt;
 &lt;ul&gt;
@@ -65,19 +69,91 @@ Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 Gr
 &lt;li&gt;高性能 (High Output Tokens per Second)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://groq.com/wp-content/uploads/2024/11/output-speed2-1536x762.jpg.webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;可以使用的-models&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可以使用的-models&#34;&gt;#&lt;/a&gt; 可以使用的 Models&lt;/h1&gt;
+&lt;h2 id=&#34;可以使用的-models&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可以使用的-models&#34;&gt;#&lt;/a&gt; 可以使用的 Models&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;可以在 &lt;a href=&#34;https://console.groq.com/docs/models&#34;&gt;https://console.groq.com/docs/models&lt;/a&gt; 查看可以使用的模型&lt;/li&gt;
 &lt;li&gt;目前多為 llama、gemma、whisper 系列&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/Groq/groq_models.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h1&gt;
+&lt;h2 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在官方網站 &lt;a href=&#34;https://groq.com/&#34;&gt;https://groq.com/&lt;/a&gt; 或是&lt;a href=&#34;https://console.groq.com/playground&#34;&gt; playground&lt;/a&gt; 直接使用&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/Groq/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api&#34;&gt;#&lt;/a&gt; API&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.groq.com/keys&#34;&gt;https://console.groq.com/keys&lt;/a&gt;&lt;br /&gt;
  在左邊 API Keys 的選單中點擊 Create API Key，目前免費層級有提供一定的額度使用，API 兼容 openai 格式，修改 base_url 和 model 後可以直接使用。&lt;/p&gt;
-&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; os&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; openai&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;client &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; openai&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;OpenAI&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    base_url&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;https://api.groq.com/openai/v1&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    api_key&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;environ&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;get&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;GROQ_API_KEY&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+&lt;figure class=&#34;highlight python&#34;&gt;&lt;figcaption data-lang=&#34;python&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; os&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; openai&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;client &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; openai&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;OpenAI&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    base_url&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;https://api.groq.com/openai/v1&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    api_key&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;os&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;environ&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;get&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;GROQ_API_KEY&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;cerebras-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cerebras-介紹&#34;&gt;#&lt;/a&gt; Cerebras 介紹&lt;/h1&gt;
+&lt;p&gt;Cerebras 研發的產品是 Wafer Scale Engine（WSE，晶圓級引擎），是一款 超大型 AI 加速晶片。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cerebras.ai/blog/cerebras-launches-worlds-fastest-deepseek-r1-llama-70b-inference&#34;&gt;推理速度&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://cerebras.ai/wp-content/uploads/2025/01/deepseek-chart.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;可以使用的-models-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可以使用的-models-2&#34;&gt;#&lt;/a&gt; 可以使用的 Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;可以在 &lt;a href=&#34;https://inference-docs.cerebras.ai/introduction&#34;&gt;https://inference-docs.cerebras.ai/introduction&lt;/a&gt; 查看可以使用的模型&lt;/li&gt;
+&lt;li&gt;目前只有 llama 系列&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-2&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
+&lt;p&gt;可以在首頁&lt;a href=&#34;https://inference.cerebras.ai/&#34;&gt; https://inference.cerebras.ai/&lt;/a&gt; 直接使用&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/cerebras_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;api-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-2&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.cerebras.ai/platform/&#34;&gt;https://cloud.cerebras.ai/platform/&lt;/a&gt;&lt;br /&gt;
+ 首頁右上方點擊 Get API Key，&lt;strong&gt;需要填寫 Google 表單申請&lt;/strong&gt;，目前免費層級有提供一定的額度使用，&lt;br /&gt;
+API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.cerebras.ai/v1&lt;/code&gt;  和  &lt;code&gt;model&lt;/code&gt;  後可以直接使用。&lt;/p&gt;
+&lt;h1 id=&#34;sambanova-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sambanova-介紹&#34;&gt;#&lt;/a&gt; Sambanova 介紹&lt;/h1&gt;
+&lt;p&gt;SambaNova 開發的產品是 SN40L ，Reconfigurable Dataflow Unit (RDU)，專為 AI 推理與訓練設計的整合式加速晶片。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;SambaNova 與其他競品的比較&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sambanova.ai/blog/sn40l-chip-best-inference-solution&#34;&gt;來源&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;指標&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;SambaNova SN40L&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Cerebras WSE-3&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Groq LPU&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;晶片數（70B 模型）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;16 晶片&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;336 晶片（4 晶圓）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;576 晶片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;算力密度&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;優於 Groq 40 倍 / Cerebras 10 倍&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;高算力但受限於 SRAM 與多晶圓管線並行成本&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;需大量晶片互連以補足 SRAM 容量限制&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;記憶體架構&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;SRAM + HBM + DDR&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;全 SRAM&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;全 SRAM&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;量化需求&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;無（16-bit 原生）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;無（官方宣稱使用 16-bit）&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;推測&lt;/strong&gt;需 int8 量化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;可以使用的-models-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#可以使用的-models-3&#34;&gt;#&lt;/a&gt; 可以使用的 Models&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;可以在 &lt;a href=&#34;https://docs.sambanova.ai/cloud/docs/get-started/supported-models&#34;&gt;https://docs.sambanova.ai/cloud/docs/get-started/supported-models&lt;/a&gt; 查看可以使用的模型&lt;/li&gt;
+&lt;li&gt;目前只有 DeepSeek、llama、Qwen 系列&lt;/li&gt;
+&lt;li&gt;DeepSeek R1 671B 需要填表申請&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;使用-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-3&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
+&lt;p&gt;可以在官方網站 &lt;a href=&#34;https://cloud.sambanova.ai/&#34;&gt;playground&lt;/a&gt; 直接使用&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/sambanova_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;api-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-3&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://cloud.sambanova.ai/apis&#34;&gt;https://cloud.sambanova.ai/apis&lt;/a&gt;&lt;br /&gt;
+ 在左邊 API Keys 的選單中點擊 Create API Key，目前提供新用戶 5 美元 (3 個月到期)，&lt;br /&gt;
+API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanova.ai&lt;/code&gt;  和 model 後可以直接使用。&lt;/p&gt;
+ ]]></description>
         </item>
     </channel>
 </rss>

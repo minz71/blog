@@ -8,8 +8,10 @@
         <pubDate>Sun, 16 Jun 2024 16:00:00 +0000</pubDate>
         <lastBuildDate>Sun, 16 Jun 2024 16:00:00 +0000</lastBuildDate>
         <category>Groq</category>
+        <category>Cerebras</category>
+        <category>SambaNova</category>
+        <category>Deepseek</category>
         <category>llama</category>
-        <category>whisper</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
@@ -22,10 +24,10 @@
         <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
+        <category>Github Action</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>Github Action</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>VMware</category>
@@ -35,14 +37,14 @@
         <category>llm</category>
         <category>Anthropic</category>
         <category>LMSYS</category>
-        <category>物件導向</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
-        <category>程式碼</category>
+        <category>物件導向</category>
         <category>大學課程</category>
-        <category>演算法</category>
+        <category>程式碼</category>
         <category>機率與統計</category>
+        <category>演算法</category>
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
