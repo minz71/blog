@@ -19,10 +19,10 @@
     <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
-    <category term="Github Action" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="Github Action" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="VMware" />
@@ -32,14 +32,14 @@
     <category term="llm" />
     <category term="Anthropic" />
     <category term="LMSYS" />
+    <category term="物件導向" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="物件導向" />
-    <category term="大學課程" />
     <category term="程式碼" />
-    <category term="機率與統計" />
+    <category term="大學課程" />
     <category term="演算法" />
+    <category term="機率與統計" />
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
@@ -98,22 +98,13 @@
 &lt;p&gt;Moonlight 是一個用於串流遊戲與桌面的開源專案。&lt;/p&gt;
 &lt;p&gt;可以在 &lt;a href=&#34;https://apps.apple.com/tw/app/moonlight-game-streaming/id1000551566&#34;&gt;App Store&lt;/a&gt; 或 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.limelight&#34;&gt;Google Play&lt;/a&gt; 下載&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;確保設備與主機在同一網路&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;連接成功後即可開始串流&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;IOS 設備在 APP 開啟時需要允許 &lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;確保設備與主機在同一網路&lt;/li&gt;
+&lt;li&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
+&lt;li&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/li&gt;
+&lt;li&gt;連接成功後即可開始串流&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         <category term="sunshine" />

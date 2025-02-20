@@ -22,10 +22,10 @@
         <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
-        <category>Github Action</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
+        <category>Github Action</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>VMware</category>
@@ -35,14 +35,14 @@
         <category>llm</category>
         <category>Anthropic</category>
         <category>LMSYS</category>
+        <category>物件導向</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
-        <category>物件導向</category>
-        <category>大學課程</category>
         <category>程式碼</category>
-        <category>機率與統計</category>
+        <category>大學課程</category>
         <category>演算法</category>
+        <category>機率與統計</category>
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
@@ -105,22 +105,13 @@
 &lt;p&gt;Moonlight 是一個用於串流遊戲與桌面的開源專案。&lt;/p&gt;
 &lt;p&gt;可以在 &lt;a href=&#34;https://apps.apple.com/tw/app/moonlight-game-streaming/id1000551566&#34;&gt;App Store&lt;/a&gt; 或 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.limelight&#34;&gt;Google Play&lt;/a&gt; 下載&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;確保設備與主機在同一網路&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;連接成功後即可開始串流&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;IOS 設備在 APP 開啟時需要允許 &lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;確保設備與主機在同一網路&lt;/li&gt;
+&lt;li&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
+&lt;li&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/li&gt;
+&lt;li&gt;連接成功後即可開始串流&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
