@@ -12,6 +12,11 @@
         <category>SambaNova</category>
         <category>Deepseek</category>
         <category>llama</category>
+        <category>llm</category>
+        <category>benchmark</category>
+        <category>LMSYS</category>
+        <category>livebench</category>
+        <category>aider</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
@@ -34,9 +39,7 @@
         <category>VMware下載</category>
         <category>虛擬機</category>
         <category>Claude</category>
-        <category>llm</category>
         <category>Anthropic</category>
-        <category>LMSYS</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -52,8 +55,8 @@
             <guid isPermalink="true">https://blog.minz.li/tool/claude/</guid>
             <title>Anthropic 的大語言模型 Claude</title>
             <link>https://blog.minz.li/tool/claude/</link>
-            <category>Claude</category>
             <category>llm</category>
+            <category>Claude</category>
             <category>Anthropic</category>
             <pubDate>Fri, 12 Jul 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;anthropic-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-介紹&#34;&gt;#&lt;/a&gt; Anthropic 介紹&lt;/h1&gt;
