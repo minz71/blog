@@ -5,6 +5,18 @@
     "home_page_url": "https://blog.minz.li",
     "items": [
         {
+            "id": "https://blog.minz.li/AI/OpenWebui_direct/",
+            "url": "https://blog.minz.li/AI/OpenWebui_direct/",
+            "title": "新版本的 Open-webui  使用者可以使用自己的 API key",
+            "date_published": "2025-02-26T16:00:00.000Z",
+            "content_html": "<p>Open-webui 在 <a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.5.11\">0.5.11 版本</a>後，使用者可以使用自己的 API key。</p>\n<ol>\n<li>註冊一個帳號</li>\n</ol>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/OpenWebui/OpenWebui_1.webp\" alt=\"\" width=\"80%\" /></p>\n<details class=\"info\"><summary>如果出現帳號待啟用，需要通知管理員開啟權限</summary><div>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/OpenWebui/OpenWebui_2.webp\" alt=\"\" width=\"80%\" /></p>\n</div></details>\n<ol start=\"2\">\n<li>點選右上角的使用者的圖像，選擇設定</li>\n</ol>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/OpenWebui/OpenWebui_3.webp\" alt=\"\" width=\"80%\" /></p>\n<ol start=\"3\">\n<li>輸入  <code>API URL</code>  跟  <code>key</code></li>\n</ol>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/OpenWebui/OpenWebui_4.webp\" alt=\"\" width=\"80%\" /></p>\n<ol start=\"4\">\n<li>回到首頁按下 F5 重新整理後刷新則會自動取得模型</li>\n</ol>\n<p><img loading=\"lazy\" data-src=\"/assets/AI/OpenWebui/OpenWebui_5.webp\" alt=\"\" width=\"80%\" /></p>\n",
+            "tags": [
+                "Open-webui",
+                "Custom",
+                "API"
+            ]
+        },
+        {
             "id": "https://blog.minz.li/CS/weatherAPI/",
             "url": "https://blog.minz.li/CS/weatherAPI/",
             "title": "API使用範例-氣象資料開放平台",

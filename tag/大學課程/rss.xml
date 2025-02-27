@@ -17,12 +17,14 @@
         <category>LMSYS</category>
         <category>livebench</category>
         <category>aider</category>
+        <category>Open-webui</category>
+        <category>Custom</category>
+        <category>API</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
         <category>cloudflare</category>
         <category>madVR</category>
-        <category>API</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
@@ -43,14 +45,14 @@
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
+        <category>物件導向</category>
         <category>大學課程</category>
         <category>程式碼</category>
-        <category>物件導向</category>
         <category>機率與統計</category>
         <category>演算法</category>
+        <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
-        <category>線性代數</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/</guid>
             <title>作業系統</title>

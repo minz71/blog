@@ -14,12 +14,14 @@
     <category term="LMSYS" />
     <category term="livebench" />
     <category term="aider" />
+    <category term="Open-webui" />
+    <category term="Custom" />
+    <category term="API" />
     <category term="domain" />
     <category term="TLD-LIST" />
     <category term="eu.org" />
     <category term="cloudflare" />
     <category term="madVR" />
-    <category term="API" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
@@ -40,14 +42,14 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
+    <category term="物件導向" />
     <category term="大學課程" />
     <category term="程式碼" />
-    <category term="物件導向" />
     <category term="機率與統計" />
     <category term="演算法" />
+    <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
-    <category term="線性代數" />
     <entry>
         <id>https://blog.minz.li/CS/madVR/</id>
         <title>madVR 安裝教學</title>
