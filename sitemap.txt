@@ -40,6 +40,7 @@ https://blog.minz.li/tags/llama/
 https://blog.minz.li/tags/llm/
 https://blog.minz.li/tags/benchmark/
 https://blog.minz.li/tags/LMSYS/
+https://blog.minz.li/tags/Chatbot-Arena/
 https://blog.minz.li/tags/livebench/
 https://blog.minz.li/tags/aider/
 https://blog.minz.li/tags/Open-webui/

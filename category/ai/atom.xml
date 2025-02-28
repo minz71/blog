@@ -12,6 +12,7 @@
     <category term="llm" />
     <category term="benchmark" />
     <category term="LMSYS" />
+    <category term="Chatbot Arena" />
     <category term="livebench" />
     <category term="aider" />
     <category term="Open-webui" />
@@ -79,6 +80,103 @@
         <category term="Custom" />
         <category term="API" />
         <updated>2025-02-26T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.minz.li/AI/AI_BenchMark/</id>
+        <title>AI 大語言模型評測網站</title>
+        <link rel="alternate" href="https://blog.minz.li/AI/AI_BenchMark/"/>
+        <content type="html">&lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
+&lt;p&gt;隨著 AI 大語言模型的快速迭代，能力也增強了許多，可以在以下的網站查看目前模型的排名。&lt;/p&gt;
+&lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
+旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
+希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;本文主要介紹 Chatbot Arena，LMSYS Org 有其他的 projects。&lt;br /&gt;
+詳情可參考: &lt;a href=&#34;https://lmsys.org/projects/&#34;&gt;https://lmsys.org/projects/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;chatbot-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chatbot-arena&#34;&gt;#&lt;/a&gt; Chatbot Arena&lt;/h2&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LMSYS&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://lmarena.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://lmarena.ai/favicon.jpeg&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://lmarena.ai/&#34; class=&#34;title&#34;&gt;LMSYS&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;arena.lmsys.org&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;⚔️ Arena (battle)&lt;br /&gt;
+ 使用者可以輸入問題，會隨機提供不同的模型回答，使用者可以對回答較佳的模型投票，投票後會顯示剛剛回答的模型。&lt;/li&gt;
+&lt;li&gt;⚔️ Arena (side-by-side)&lt;br /&gt;
+ 可以讓使用者選擇 2 個&lt;strong&gt;指定&lt;/strong&gt;的模型，使用者可以對回答較佳的模型投票。&lt;/li&gt;
+&lt;li&gt;💬 Direct Chat&lt;br /&gt;
+ 使用者可以直接和模型對話，可以選擇指定的模型。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;向模型提問的範例：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena1.webp&#34; alt=&#34;&#34; title=&#34;詢問模型&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;60%&#34; /&gt;&lt;br /&gt;
+可以看到有許多大公司都贊助了 LMSYS，&lt;br /&gt;
+在新模型發布時，都會在第一時間提供給最新的語言模型，&lt;br /&gt;
+例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。&lt;/p&gt;
+&lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎？&lt;/h2&gt;
+&lt;p&gt;在 GPT-4o-mini 勝出其他大模型後，許多人對這個榜單提出質疑，因此提供用戶的&lt;a href=&#34;https://huggingface.co/spaces/lmsys/gpt-4o-mini_battles&#34;&gt;對話與投票紀錄&lt;/a&gt;，&lt;br /&gt;
+&lt;a href=&#34;https://lmsys.org/blog/2024-08-28-style-control/&#34;&gt;之後也提出  &lt;code&gt;style control&lt;/code&gt;  功能&lt;/a&gt;，在模型 A 在內容上更優秀，而模型 B 在風格 (排版) 上更優秀，&lt;br /&gt;
+目標是要有辦法區分模型分數是來自 &lt;code&gt;內容&lt;/code&gt; 或是 &lt;code&gt;風格&lt;/code&gt; 。&lt;/p&gt;
+&lt;h1 id=&#34;aider-leaderboards&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aider-leaderboards&#34;&gt;#&lt;/a&gt; Aider Leaderboards&lt;/h1&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;title&#34;&gt;Aider Leaderboards&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://aider.chat/docs/leaderboards/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Aider 是一個開源的 AI 程式碼撰寫工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aider LLM Leaderboards 是由 Aider 開發的一組基準測試，用於評估大型語言模型（LLM）編輯程式碼的能力。&lt;br /&gt;
+這些基準測試專注於模型編輯&lt;strong&gt;現有程式碼&lt;/strong&gt;的能力，確保模型能夠一致地遵循系統提示詞（Prompt）完成編輯任務，適合評估在程式碼編輯的表現。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;如何進行基準測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何進行基準測試&#34;&gt;#&lt;/a&gt; 如何進行基準測試？&lt;/h2&gt;
+&lt;p&gt;基準測試是 &lt;a href=&#34;https://aider.chat/2024/12/21/polyglot.html#the-polyglot-benchmark&#34;&gt;Aider’s polyglot benchmark&lt;/a&gt;，選取 Exercism 的 225 個困難的程式練習，測量模型&lt;strong&gt;完成任務&lt;/strong&gt;的百分比以及使用&lt;strong&gt;正確編輯格式&lt;/strong&gt;的百分比。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;diff 輸出程式碼的部分更改&lt;/li&gt;
+&lt;li&gt;whole 輸出整個程式碼文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;livebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livebench&#34;&gt;#&lt;/a&gt; LiveBench&lt;/h1&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livebench.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://livebench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://livebench.ai/&#34; class=&#34;title&#34;&gt;LiveBench&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://livebench.ai/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;LiveBench 是一個用於評估大型語言模型（LLM）的基準測試平台，目標是防止測試集污染並提供客觀評分。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每月更新問題，確保模型沒有見過這些問題&lt;/li&gt;
+&lt;li&gt;可以自行驗證分數，也可以接入模型 API 進行跑分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h1&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;title&#34;&gt;LiveCodeBench&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://livecodebench.github.io/leaderboard.html&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;LiveCodeBench 是由加州大學柏克萊分校、MIT、康乃爾大學等團隊共同開發的程式碼大型語言模型（Code LLMs）評估基準&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;持續更新的題目庫，&lt;strong&gt;避免資料污染&lt;/strong&gt;的模型效能評測&lt;/li&gt;
+&lt;li&gt;使用 &lt;strong&gt;LeetCode、AtCoder、Codeforces&lt;/strong&gt; 平台的程式競賽題目&lt;/li&gt;
+&lt;li&gt;可以調整題目時間，確保在模型的訓練截止日期之後&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="llm" />
+        <category term="benchmark" />
+        <category term="LMSYS" />
+        <category term="Chatbot Arena" />
+        <category term="livebench" />
+        <category term="aider" />
+        <updated>2025-02-23T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://blog.minz.li/AI/AI-Accelerators/</id>

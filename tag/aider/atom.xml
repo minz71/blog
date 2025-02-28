@@ -12,6 +12,7 @@
     <category term="llm" />
     <category term="benchmark" />
     <category term="LMSYS" />
+    <category term="Chatbot Arena" />
     <category term="livebench" />
     <category term="aider" />
     <category term="Open-webui" />
@@ -142,6 +143,7 @@
         <category term="llm" />
         <category term="benchmark" />
         <category term="LMSYS" />
+        <category term="Chatbot Arena" />
         <category term="livebench" />
         <category term="aider" />
         <updated>2025-02-23T16:00:00.000Z</updated>
