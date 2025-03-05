@@ -21,15 +21,15 @@
         <category>Open-webui</category>
         <category>Custom</category>
         <category>API</category>
+        <category>DevOps</category>
+        <category>Docker</category>
+        <category>WSL</category>
+        <category>UiPath</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
         <category>cloudflare</category>
         <category>madVR</category>
-        <category>DevOps</category>
-        <category>Docker</category>
-        <category>WSL</category>
-        <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
@@ -56,7 +56,7 @@
         <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/AI/OpenWebui_direct/</guid>
-            <title>新版本的 Open-webui  使用者可以使用自己的 API key</title>
+            <title>在 Open-webui 使用自己的 API key</title>
             <link>https://blog.minz.li/AI/OpenWebui_direct/</link>
             <category>Open-webui</category>
             <category>Custom</category>
