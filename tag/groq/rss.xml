@@ -18,31 +18,25 @@
         <category>Chatbot Arena</category>
         <category>livebench</category>
         <category>aider</category>
+        <category>Claude</category>
+        <category>Anthropic</category>
         <category>Open-webui</category>
         <category>Custom</category>
         <category>API</category>
-        <category>DevOps</category>
-        <category>Docker</category>
-        <category>WSL</category>
-        <category>UiPath</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
         <category>cloudflare</category>
         <category>madVR</category>
+        <category>DevOps</category>
+        <category>Docker</category>
+        <category>WSL</category>
+        <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
-        <category>Github Action</category>
-        <category>ShokaX</category>
-        <category>ShokaX安裝</category>
-        <category>Hexo主題</category>
-        <category>ShokaX主題</category>
-        <category>ShokaX插件</category>
         <category>VMware</category>
         <category>VMware下載</category>
         <category>虛擬機</category>
-        <category>Claude</category>
-        <category>Anthropic</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -54,6 +48,12 @@
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
+        <category>Github Action</category>
+        <category>ShokaX</category>
+        <category>ShokaX安裝</category>
+        <category>Hexo主題</category>
+        <category>ShokaX主題</category>
+        <category>ShokaX插件</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/AI/AI-Accelerators/</guid>
             <title>超越 GPU 在 Groq/Cerebras/SambaNova 使用高速輸出的 Deepseek</title>

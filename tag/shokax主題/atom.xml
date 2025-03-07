@@ -15,31 +15,25 @@
     <category term="Chatbot Arena" />
     <category term="livebench" />
     <category term="aider" />
+    <category term="Claude" />
+    <category term="Anthropic" />
     <category term="Open-webui" />
     <category term="Custom" />
     <category term="API" />
-    <category term="DevOps" />
-    <category term="Docker" />
-    <category term="WSL" />
-    <category term="UiPath" />
     <category term="domain" />
     <category term="TLD-LIST" />
     <category term="eu.org" />
     <category term="cloudflare" />
     <category term="madVR" />
+    <category term="DevOps" />
+    <category term="Docker" />
+    <category term="WSL" />
+    <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
-    <category term="Github Action" />
-    <category term="ShokaX" />
-    <category term="ShokaX安裝" />
-    <category term="Hexo主題" />
-    <category term="ShokaX主題" />
-    <category term="ShokaX插件" />
     <category term="VMware" />
     <category term="VMware下載" />
     <category term="虛擬機" />
-    <category term="Claude" />
-    <category term="Anthropic" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
@@ -51,6 +45,12 @@
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
+    <category term="Github Action" />
+    <category term="ShokaX" />
+    <category term="ShokaX安裝" />
+    <category term="Hexo主題" />
+    <category term="ShokaX主題" />
+    <category term="ShokaX插件" />
     <entry>
         <id>https://blog.minz.li/shokaX/ShokaX_modify/</id>
         <title>修改shokaX主題</title>

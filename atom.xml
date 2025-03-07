@@ -15,31 +15,25 @@
     <category term="Chatbot Arena" />
     <category term="livebench" />
     <category term="aider" />
+    <category term="Claude" />
+    <category term="Anthropic" />
     <category term="Open-webui" />
     <category term="Custom" />
     <category term="API" />
-    <category term="DevOps" />
-    <category term="Docker" />
-    <category term="WSL" />
-    <category term="UiPath" />
     <category term="domain" />
     <category term="TLD-LIST" />
     <category term="eu.org" />
     <category term="cloudflare" />
     <category term="madVR" />
+    <category term="DevOps" />
+    <category term="Docker" />
+    <category term="WSL" />
+    <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
-    <category term="Github Action" />
-    <category term="ShokaX" />
-    <category term="ShokaX安裝" />
-    <category term="Hexo主題" />
-    <category term="ShokaX主題" />
-    <category term="ShokaX插件" />
     <category term="VMware" />
     <category term="VMware下載" />
     <category term="虛擬機" />
-    <category term="Claude" />
-    <category term="Anthropic" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
@@ -51,6 +45,12 @@
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
+    <category term="Github Action" />
+    <category term="ShokaX" />
+    <category term="ShokaX安裝" />
+    <category term="Hexo主題" />
+    <category term="ShokaX主題" />
+    <category term="ShokaX插件" />
     <entry>
         <id>https://blog.minz.li/AI/OpenWebui_direct/</id>
         <title>在 Open-webui 使用自己的 API key</title>
@@ -642,86 +642,6 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
         <updated>2024-07-27T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <id>https://blog.minz.li/tool/claude/</id>
-        <title>Anthropic 的大語言模型 Claude</title>
-        <link rel="alternate" href="https://blog.minz.li/tool/claude/"/>
-        <content type="html">&lt;h1 id=&#34;anthropic-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-介紹&#34;&gt;#&lt;/a&gt; Anthropic 介紹&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;是一家位於美國加州舊金山的人工智慧安全研究公司&lt;/li&gt;
-&lt;li&gt;主要開發 Claude 語言模型&lt;/li&gt;
-&lt;li&gt;該公司成立於&lt;strong&gt; 2021&lt;/strong&gt; 年&lt;/li&gt;
-&lt;li&gt;由 OpenAI 前研究副總裁 Dario Amodei 和 GPT-3 論文的第一作者 Tom Brown 等人共同創立&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;anthropic-主要投資者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-主要投資者&#34;&gt;#&lt;/a&gt; Anthropic 主要投資者&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazon&lt;/li&gt;
-&lt;li&gt;Google&lt;/li&gt;
-&lt;li&gt;Menlo Ventures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;在 Alameda Research 破產後，持有的約 8% 的股份，大部分的出售給 &lt;a href=&#34;%22https://www.cnbc.com/2024/03/25/ftx-estate-sells-majority-stake-in-startup-anthropic-for-884-million.html%22&#34;&gt;UAE 及其主權財富基金&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;關於 Anthropic 的融資，可以參考 &lt;a href=&#34;https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors&#34;&gt;這裡&lt;/a&gt;。&lt;/p&gt;
-&lt;h1 id=&#34;使用-claude-的語言模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-claude-的語言模型&#34;&gt;#&lt;/a&gt; 使用 Claude 的語言模型&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Claude&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://claude.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://claude.ai/favicon.ico&#34;&gt;&lt;/a&gt;
-        &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://claude.ai/&#34; class=&#34;title&#34;&gt;Claude&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://claude.ai/&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h2 id=&#34;在網頁上使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在網頁上使用&#34;&gt;#&lt;/a&gt; 在網頁上使用&lt;/h2&gt;
-&lt;p&gt;在 &lt;a href=&#34;https://claude.ai/&#34;&gt;https://claude.ai/&lt;/a&gt; 註冊一個帳號，&lt;strong&gt;驗證手機號碼&lt;/strong&gt;後就可以使用。&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;以下是 2024/07/13 的資訊，由於模型更新速度很快，之後可能會有所變動。&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;免費板使用的模型是  &lt;code&gt;Sonnet 3.5 Sonnet&lt;/code&gt; ，&lt;a href=&#34;https://support.anthropic.com/zh-TW/articles/8325610-claude-pro%E7%9A%84%E5%83%B9%E6%A0%BC%E6%98%AF%E5%A4%9A%E5%B0%91&#34;&gt;付費方案&lt;/a&gt;每個月 20 美元，可以在  &lt;code&gt;Sonnet 3.5 Sonnet&lt;/code&gt;  使用更長的上下文，未來應該會推出  &lt;code&gt;Sonnet 3.5 Opus&lt;/code&gt; 。&lt;/p&gt;
-&lt;h2 id=&#34;使用api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用api&#34;&gt;#&lt;/a&gt; 使用 API&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://support.anthropic.com/zh-TW/articles/8114521-%E6%88%91%E5%A6%82%E4%BD%95%E5%AD%98%E5%8F%96claude-api&#34;&gt;Claude 網站上使用&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://aws.amazon.com/tw/bedrock/claude/&#34;&gt; Amazon Bedrock Claude&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude&#34;&gt;Vertex AI&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;claude-系列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#claude-系列&#34;&gt;#&lt;/a&gt; Claude 系列&lt;/h1&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;系列&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;回應速度&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;聰明程度&lt;/th&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;價格&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Opus&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;較慢&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;非常高&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Input $15 / 1M tokens &lt;br&gt; Output $75 / 1M tokens&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Sonnet&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;中等&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;高&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Input $3 / 1M tokens &lt;br&gt; Output $15 / 1M tokens&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Haiku&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;最快&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;較低&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;Input $0.25 / 1M tokens &lt;br&gt; Output $1.25 / 1M tokens&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h1 id=&#34;anthropic-prompt-library&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-prompt-library&#34;&gt;#&lt;/a&gt; Anthropic prompt library&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;模型的回答品質，很大的程度取決於 prompt，也就是問模型的提示詞&lt;/li&gt;
-&lt;li&gt;以下是 Anthropic 提供的 prompt 範例&lt;br /&gt;
-&lt;a href=&#34;https://docs.anthropic.com/zh-TW/prompt-library/library&#34;&gt; https://docs.anthropic.com/zh-TW/prompt-library/library&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-        <category term="llm" />
-        <category term="Claude" />
-        <category term="Anthropic" />
-        <updated>2024-07-12T16:00:00.000Z</updated>
-    </entry>
-    <entry>
         <id>https://blog.minz.li/CS/domainSearch/</id>
         <title>域名搜尋工具</title>
         <link rel="alternate" href="https://blog.minz.li/CS/domainSearch/"/>
@@ -1146,6 +1066,89 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 </content>
         <category term="API" />
         <updated>2024-02-27T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://blog.minz.li/AI/Claude/</id>
+        <title>Anthropic 的大語言模型 Claude</title>
+        <link rel="alternate" href="https://blog.minz.li/AI/Claude/"/>
+        <content type="html">&lt;h1 id=&#34;anthropic-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-介紹&#34;&gt;#&lt;/a&gt; Anthropic 介紹&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;是一家位於美國加州舊金山的人工智慧安全研究公司&lt;/li&gt;
+&lt;li&gt;主要開發 Claude 語言模型&lt;/li&gt;
+&lt;li&gt;該公司成立於&lt;strong&gt; 2021&lt;/strong&gt; 年&lt;/li&gt;
+&lt;li&gt;由 OpenAI 前研究副總裁 Dario Amodei 和 GPT-3 論文的第一作者 Tom Brown 等人共同創立&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;anthropic-主要投資者&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-主要投資者&#34;&gt;#&lt;/a&gt; Anthropic 主要投資者&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon&lt;/li&gt;
+&lt;li&gt;Google&lt;/li&gt;
+&lt;li&gt;Menlo Ventures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;在 Alameda Research 破產後，持有的約 8% 的股份，大部分的出售給 &lt;a href=&#34;%22https://www.cnbc.com/2024/03/25/ftx-estate-sells-majority-stake-in-startup-anthropic-for-884-million.html%22&#34;&gt;UAE 及其主權財富基金&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;關於 Anthropic 的融資，可以參考 &lt;a href=&#34;https://tracxn.com/d/companies/anthropic/__SzoxXDMin-NK5tKB7ks8yHr6S9Mz68pjVCzFEcGFZ08/funding-and-investors&#34;&gt;這裡&lt;/a&gt;。&lt;/p&gt;
+&lt;h1 id=&#34;使用-claude-的語言模型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-claude-的語言模型&#34;&gt;#&lt;/a&gt; 使用 Claude 的語言模型&lt;/h1&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Claude&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://claude.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://claude.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://claude.ai/&#34; class=&#34;title&#34;&gt;Claude&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://claude.ai/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;在網頁上使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在網頁上使用&#34;&gt;#&lt;/a&gt; 在網頁上使用&lt;/h2&gt;
+&lt;p&gt;在 &lt;a href=&#34;https://claude.ai/&#34;&gt;https://claude.ai/&lt;/a&gt; 註冊一個帳號，&lt;strong&gt;驗證手機號碼&lt;/strong&gt;後就可以使用。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下是 2025/02/25 的資訊，由於模型更新速度很快，之後可能會有所變動。&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;目前免費板使用的模型是  &lt;code&gt;Sonnet 3.7 Sonnet&lt;/code&gt; ，&lt;a href=&#34;https://support.anthropic.com/zh-TW/articles/8325610-claude-pro%E7%9A%84%E5%83%B9%E6%A0%BC%E6%98%AF%E5%A4%9A%E5%B0%91&#34;&gt;付費方案&lt;/a&gt;每個月 20 美元，可以在使用更長的上下文，以及新推出進階思考功能。&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;如果使用模型的人數過多，免費用戶的網頁版將&lt;strong&gt;降級&lt;/strong&gt;，可能會提供提供較低階模型 (Haiku)。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;可以查看目前的服務狀態&lt;br /&gt;
+&lt;a href=&#34;https://status.anthropic.com/&#34;&gt; https://status.anthropic.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;使用api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用api&#34;&gt;#&lt;/a&gt; 使用 API&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://support.anthropic.com/zh-TW/articles/8114521-%E6%88%91%E5%A6%82%E4%BD%95%E5%AD%98%E5%8F%96claude-api&#34;&gt;Claude 網站上使用&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://aws.amazon.com/tw/bedrock/claude/&#34;&gt; Amazon Bedrock Claude&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/use-claude&#34;&gt;Vertex AI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.anthropic.com/en/docs/build-with-claude/token-counting#count-tokens-in-basic-messages&#34;&gt;Token 計算說明&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;https://lunary.ai/anthropic-tokenizer&#34;&gt;線上版 Token 計算&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;claude-系列&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#claude-系列&#34;&gt;#&lt;/a&gt; Claude 系列&lt;/h1&gt;
+&lt;p&gt;有以下 3 個系列&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Opus 系列&lt;br /&gt;
+目前的 Opus 3 是 2024 年 2 月推出的模型，在文學上可能較出色，目前不是很強的模型，可以期待未來推出新版本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sonnet 系列&lt;br /&gt;
+ Sonnet 3.7 是不錯的模型，目前寫程式的表現不錯，也可以進行推理，提升回答的品質。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Haiku 系列&lt;br /&gt;
+ Haiku 3.5 的價格比之前 Haiku 3 更貴，要更好的品質使用 Sonnet 3.5 即可，若是要更低的價格可以使用 GPT-4o mini，因此，感覺沒有使用 Haiku 3.5 的理由。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;anthropic-prompt&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#anthropic-prompt&#34;&gt;#&lt;/a&gt; Anthropic Prompt&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Anthropic 有提供 prompt 範例&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;可以點選右下角的 Ask AI ，直接讓 AI 告訴你適合的提示詞&lt;br /&gt;
+&lt;a href=&#34;https://docs.anthropic.com/zh-TW/prompt-library/library&#34;&gt; https://docs.anthropic.com/zh-TW/prompt-library/library&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;網頁版的官方提示詞&lt;br /&gt;
+ Anthropic 有公開網頁版的 system prompt 提示詞，可以提升模型表現的提示詞。&lt;br /&gt;
+&lt;a href=&#34;https://docs.anthropic.com/en/release-notes/system-prompts&#34;&gt;https://docs.anthropic.com/en/release-notes/system-prompts&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        <category term="llm" />
+        <category term="Claude" />
+        <category term="Anthropic" />
+        <updated>2024-02-24T16:00:00.000Z</updated>
     </entry>
     <entry>
         <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9D%A2%E8%A9%A6%E5%BF%83%E5%BE%97/</id>
