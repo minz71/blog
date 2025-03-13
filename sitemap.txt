@@ -1,5 +1,5 @@
-https://blog.minz.li/links/index.html
 https://blog.minz.li/about/index.html
+https://blog.minz.li/links/index.html
 https://blog.minz.li/404.html
 https://blog.minz.li/AI/Claude/
 https://blog.minz.li/AI/OpenWebui_direct/
