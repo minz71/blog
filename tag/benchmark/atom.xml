@@ -44,10 +44,10 @@
     <category term="Parsec VDD" />
     <category term="Moonlight" />
     <category term="物件導向" />
-    <category term="大學課程" />
     <category term="程式碼" />
-    <category term="機率與統計" />
+    <category term="大學課程" />
     <category term="演算法" />
+    <category term="機率與統計" />
     <category term="線性代數" />
     <category term="資料結構" />
     <category term="離散數學" />
@@ -82,7 +82,7 @@
 &lt;ul&gt;
 &lt;li&gt;向模型提問的範例：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena1.webp&#34; alt=&#34;&#34; title=&#34;詢問模型&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena1.webp&#34; alt=&#34;詢問模型&#34; title=&#34;詢問模型&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
