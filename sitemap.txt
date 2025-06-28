@@ -1,6 +1,7 @@
 https://blog.minz.li/about/index.html
 https://blog.minz.li/links/index.html
 https://blog.minz.li/404.html
+https://blog.minz.li/CS/diskpart/
 https://blog.minz.li/AI/AI_BenchMark/
 https://blog.minz.li/tool/streamMonitor/
 https://blog.minz.li/AI/Claude/
@@ -48,6 +49,7 @@ https://blog.minz.li/tags/Anthropic/
 https://blog.minz.li/tags/Open-webui/
 https://blog.minz.li/tags/Custom/
 https://blog.minz.li/tags/API/
+https://blog.minz.li/tags/diskpart/
 https://blog.minz.li/tags/domain/
 https://blog.minz.li/tags/TLD-LIST/
 https://blog.minz.li/tags/eu-org/

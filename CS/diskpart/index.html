@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="zh-TW"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"/><meta name="theme-color" content="#222"/><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"/><meta name="renderer" content="webkit"/><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"/><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"/><meta name="google-site-verification" content="IiSUoe1UObAB2MUuFyfwZI8qo4EUfApRjIppB8GNBlM"/><link rel="alternate" href="/rss.xml" title="minz的筆記本" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="minz的筆記本" type="application/atom+xml"><link rel="alternate" type="application/json" title="minz的筆記本" href="https://blog.minz.li/feed.json"/><link rel="preconnect" href="https://s4.zstatic.net"/><link rel="preconnect" href="https://at.alicdn.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto%20Sans%20TC:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&display=swap&subset=latin,latin-ext" media="none" onload="this.media&#x3D;&#39;all&#39;"><link rel="stylesheet" href="/css/app.css?v=0.4.22"><link rel="modulepreload" href="/js/chunk-MJZO6WU5.js"></link><link rel="modulepreload" href="/js/chunk-TXCEPSBH.js"></link><link rel="modulepreload" href="/js/chunk-U5XPU55A.js"></link><link rel="modulepreload" href="/js/copy-tex-523D3UGM.js"></link><link rel="modulepreload" href="/js/post-QJ46TGXR.js"></link><link rel="modulepreload" href="/js/quicklink-JFEY5COJ.js"></link><link rel="modulepreload" href="/js/search-3BUWGPVW.js"></link><link rel="modulepreload" href="/js/siteInit.js"></link><link rel="preload" href="https://picbed.codle.cc/api/anime?867582" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/api/anime?31704" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/api/anime?766456" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/api/anime?20613" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/api/anime?213668" as="image" fetchpriority="high"><link rel="preload" href="https://picbed.codle.cc/api/anime?691774" as="image" fetchpriority="high"><meta name="keywords" content="diskpart"/><meta name="description" content="將磁碟分割區全部刪除"/><link rel="canonical" href="https://blog.minz.li/CS/diskpart/"><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+    // Initial setup for existing elements
+    setupLinkBlocks();
+    
+    // Use mutation observer to detect new elements added to the DOM
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.addedNodes && mutation.addedNodes.length > 0) {
+                setupLinkBlocks();
+            }
+        });
+    });
+    
+    // Start observing the document with the configured parameters
+    observer.observe(document.body, { childList: true, subtree: true });
+});
+
+function setupLinkBlocks() {
+    const linkBlocks = document.querySelectorAll('.item');
+    
+    linkBlocks.forEach(block => {
+        // Skip if already initialized
+        if (block.dataset.initialized) return;
+        
+        const linkElement = block.querySelector('a.title');
+        if (!linkElement) return;
+        
+        const href = linkElement.getAttribute('href');
+        block.setAttribute('tabindex', '0');
+        block.style.cursor = 'pointer';
+        block.addEventListener('click', function(e) {
+            if (!e.target.closest('a')) {
+                window.open(href, '_blank');
+            }
+        });
+        
+        // Mark as initialized
+        block.dataset.initialized = 'true';
+    });
+}</script><script>window.sakuraConfig = {
+  sakura: 30,
+  xSpeed: 0.5,
+  ySpeed: 0.5,
+  rSpeed: 0.025,
+  direction: "TopRight",
+  zIndex: -1
+};</script><script src="https://cdn.jsdelivr.net/gh/minz71/sakura-rain/sakura-rain.js" defer="defer"></script><title>使用 diskpart 指令強制刪除磁碟分割區</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">使用 diskpart 指令強制刪除磁碟分割區</h1><div class="meta"><span class="item" title="創建時間：2025-06-28 00:00:00"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">發表於</span><time itemprop="dateCreated datePublished" datetime="2025-06-28T00:00:00+08:00">2025-06-28</time></span><span class="item" title="文章字數"><span class="icon"><i class="ic i-pen"></i></span><span class="text">文章字數</span><span>902</span><span class="text">字</span></span><span class="item" title="所需閱讀時間"><span class="icon"><i class="ic i-clock"></i></span><span class="text">所需閱讀時間</span><span>1 分鐘</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切換導航欄"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">Minz</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?867582&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?31704&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?766456&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?20613&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?213668&quot;);"></li><li class="item" style="background-image: url(&quot;https://picbed.codle.cc/api/anime?691774&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemListElement itemscope itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首頁</a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-TW"><link itemprop="mainEntityOfPage" href="https://blog.minz.li/CS/diskpart/"/><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.png"/><meta itemprop="name" content="minz"/><meta itemprop="description" content=", "/></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="minz的筆記本"/></span><div class="body md" itemprop="articleBody"><p>diskpart 是 Windows 的磁碟分割工具。</p>
+<h2 id="開啟系統管理員權限的命令提示字元cmd-進入-diskpart"><a class="anchor" href="#開啟系統管理員權限的命令提示字元cmd-進入-diskpart">#</a> 開啟系統管理員權限的命令提示字元 (CMD) 進入 diskpart</h2>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>diskpart</pre></td></tr></table></figure><p>執行後，命令提示字元會變為  <code>DISKPART&gt;</code></p>
+<h2 id="列出電腦磁碟"><a class="anchor" href="#列出電腦磁碟">#</a> 列出電腦磁碟</h2>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>list disk</pre></td></tr></table></figure><p>範例輸出:</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>DISKPART<span class="token operator">></span> list disk</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>  磁碟 <span class="token comment">###  狀態           大小     可用     Dyn  Gpt</span></pre></td></tr><tr><td data-num="4"></td><td><pre>  --------  -------------  -------  -------  ---  ---</pre></td></tr><tr><td data-num="5"></td><td><pre>  磁碟 <span class="token number">0</span>    連線              <span class="token number">931</span> GB      <span class="token number">0</span> B</pre></td></tr><tr><td data-num="6"></td><td><pre>  磁碟 <span class="token number">1</span>    連線              <span class="token number">476</span> GB  <span class="token number">1024</span> KB        *</pre></td></tr></table></figure><h2 id="選擇哪個硬碟"><a class="anchor" href="#選擇哪個硬碟">#</a> 選擇哪個硬碟</h2>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>Select Disk <span class="token number">1</span></pre></td></tr></table></figure><p>範例輸出:</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>DISKPART<span class="token operator">></span> <span class="token keyword">select</span> disk <span class="token number">1</span></pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>磁碟 <span class="token number">1</span> 是所選擇的磁碟。</pre></td></tr></table></figure><h2 id="列出該磁碟所有分割區"><a class="anchor" href="#列出該磁碟所有分割區">#</a> 列出該磁碟所有分割區</h2>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>list partition</pre></td></tr></table></figure><p>範例輸出:</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>DISKPART<span class="token operator">></span> list partition</pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>  磁碟分割  <span class="token comment">###  類型              大小     位移</span></pre></td></tr><tr><td data-num="4"></td><td><pre>  -------------  ----------------  -------  -------</pre></td></tr><tr><td data-num="5"></td><td><pre>  磁碟分割  <span class="token number">1</span>    主要                 <span class="token number">931</span> GB  <span class="token number">1024</span> KB</pre></td></tr></table></figure><h2 id="選擇哪個分割區"><a class="anchor" href="#選擇哪個分割區">#</a> 選擇哪個分割區</h2>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">select</span> partition <span class="token number">1</span></pre></td></tr></table></figure><p>範例輸出:</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>DISKPART<span class="token operator">></span> <span class="token keyword">select</span> partition <span class="token number">1</span></pre></td></tr><tr><td data-num="2"></td><td><pre></pre></td></tr><tr><td data-num="3"></td><td><pre>磁碟分割 <span class="token number">1</span> 是所選擇的磁碟分割。</pre></td></tr></table></figure><h2 id="刪除選擇的分割區"><a class="anchor" href="#刪除選擇的分割區">#</a> 刪除選擇的分割區</h2>
+<p><strong>執行後會強制刪除</strong>所選的分割區</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tr><td data-num="1"></td><td><pre>delete partition override</pre></td></tr></table></figure><div class="tags"><a href="/tags/diskpart/" rel="tag"><i class="ic i-tag"></i>diskpart</a></div></div><footer><div class="meta"></div><div id="copyright"><ul><li class="author"><strong>作者：</strong>minz<i class="ic i-at"><em>@</em></i>minz的筆記本</li><li class="link"><strong>文章連結：</strong><a href="https://blog.minz.li/CS/diskpart/" title="使用 diskpart 指令強制刪除磁碟分割區">https://blog.minz.li/CS/diskpart/</a></li><li class="license"><strong>版權聲明：</strong><span class="red">本頁內容禁止轉載！</span></li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/AI/AI_BenchMark/" rel="prev" itemprop="url" data-background-image="https:&#x2F;&#x2F;picbed.codle.cc&#x2F;api&#x2F;anime?985750" title="分享一些 AI 模型評測排名網站"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>AI</span><h3>分享一些 AI 模型評測排名網站</h3></a></div><div class="item right"></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目錄"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%96%8B%E5%95%9F%E7%B3%BB%E7%B5%B1%E7%AE%A1%E7%90%86%E5%93%A1%E6%AC%8A%E9%99%90%E7%9A%84%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E5%AD%97%E5%85%83cmd-%E9%80%B2%E5%85%A5-diskpart"><span class="toc-number">1.</span> <span class="toc-text"> 開啟系統管理員權限的命令提示字元 (CMD) 進入 diskpart</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E5%87%BA%E9%9B%BB%E8%85%A6%E7%A3%81%E7%A2%9F"><span class="toc-number">2.</span> <span class="toc-text"> 列出電腦磁碟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%B8%E6%93%87%E5%93%AA%E5%80%8B%E7%A1%AC%E7%A2%9F"><span class="toc-number">3.</span> <span class="toc-text"> 選擇哪個硬碟</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%97%E5%87%BA%E8%A9%B2%E7%A3%81%E7%A2%9F%E6%89%80%E6%9C%89%E5%88%86%E5%89%B2%E5%8D%80"><span class="toc-number">4.</span> <span class="toc-text"> 列出該磁碟所有分割區</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%81%B8%E6%93%87%E5%93%AA%E5%80%8B%E5%88%86%E5%89%B2%E5%8D%80"><span class="toc-number">5.</span> <span class="toc-text"> 選擇哪個分割區</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%AA%E9%99%A4%E9%81%B8%E6%93%87%E7%9A%84%E5%88%86%E5%89%B2%E5%8D%80"><span class="toc-number">6.</span> <span class="toc-text"> 刪除選擇的分割區</span></a></li></ol></div><div class="related panel pjax" data-title="系列文章"></div><div class="overview panel" data-title="本站概要"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="minz" src="/assets/avatar.png"/><p class="name" itemprop="name">minz</p><div class="description" itemprop="description"></div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">31</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">5</span><span class="name">分類</span></a></div><div class="item tags"><a href="/tags/"><span class="count">48</span><span class="name">標籤</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/minz71" class="item github" title="https:&#x2F;&#x2F;github.com&#x2F;minz71"><i class="ic i-github"></i></a><a target="_blank" rel="noopener" href="https://t.me/minzli" class="item telegram" title="https:&#x2F;&#x2F;t.me&#x2F;minzli"><i class="ic i-paper-plane"></i></a><a href="mailto:admin@minz.li" class="item email" title="mailto:admin@minz.li"><i class="ic i-envelope"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首頁</a></li><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>關於我</a></li><li class="item"><a href="/links/" rel="section"><i class="ic i-paper-plane"></i>連結</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/AI/AI_BenchMark/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>隨機文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/">演算法</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/CS/domainSearch/">域名搜尋工具</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/DevOps/releaseDockerCache/">刪除 WSL 環境下的 docker build cache</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/shokaX/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/">ShokaX插件-櫻花</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/AI/" title="分類於AI">AI</a></div><span><a href="/AI/OpenWebui_direct/">在 Open-webui 使用自己的 API key</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/shokaX/" title="分類於ShokaX主題">ShokaX主題</a></div><span><a href="/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%B7%BB%E5%8A%A0Footer%E9%AB%98%E5%BA%A6/">ShokaX插件-增加Footer高度</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/UiPath/" title="分類於UiPath">UiPath</a></div><span><a href="/UiPath/Introduction/">UiPath介紹</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/other/netflixShare/">Netflix共享</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/" title="分類於面試題目">面試題目</a></div><span><a href="/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/">線性代數</a></span></li><li class="item"><div class="breadcrumb"></div><span><a href="/CS/madVR/">madVR 安裝教學</a></span></li></ul></div></div><div class="status"><div class="copyright">&copy; 2023 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">minz @ Minz</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="總字數">69k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="所需總閱讀時間">1:03</span></div><div class="powered-by">基於 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config type="text/javascript">var LOCAL = {
+    ispost: true,
+    path: `CS/diskpart/`,
+    favicon: {
+        show: `（●´3｀●）やれやれだぜ`,
+        hide: `(´Д｀)大変だ！`
+    },
+    search: {
+        placeholder: "文章搜尋",
+        empty: "關於 「 ${query} 」 ，什麼也沒搜到",
+        stats: "${time} ms 內找到 ${hits} 條結果"
+    },
+    nocopy: "false",
+    copyright: `複製成功，轉載請遵守 <i class="ic i-creative-commons"></i>BY-NC-SA 協議。`,
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章時效性提示</span><br>這是一篇發佈於 {{publish}} 天前，最後一次更新在 {{updated}} 天前的文章，部分信息可能已經發生改變，請注意甄別。</p></div>`,
+    quiz: {
+        choice: `單選題`,
+        multiple: `多選題`,
+        true_false: `判斷題`,
+        essay: `問答題`,
+        gap_fill: `填空題`,
+        mistake: `錯題備註`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-XK9M052LSR"></script><script data-pjax="data-pjax">window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+gtag('config', 'G-XK9M052LSR');</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO&#x2F;+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn&#x2F;6Z&#x2F;hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha384-Zm+UU4tdcfAm29vg+MTbfu&#x2F;&#x2F;q5B&#x2F;lInMbMCr4T8c9rQFyOv6PlfQYpB5wItcXWe7" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js" integrity="sha384-TOxsBplaL96&#x2F;QDWPIUg+ye3v89qSE3s22XNtJMmCeZEep3cVDmXy1zEfZvVv+y2m" crossorigin="anonymous" fetchpriority="high"></script><script src="/js/siteInit.js?v=0.4.22" type="module" fetchpriority="high" defer></script><script src="https://cdn.jsdelivr.net/gh/minz71/mouse-firework@build/dist/index.umd.js"></script><script>window.addEventListener('load', function() {
+  if (typeof window.firework === 'function') {
+    window.firework({
+      excludeElements: ["a"],
+      particles: [
+        {
+          shape: "heart",
+          move: "emit",
+          easing: "easeOutSine",
+          colors: [
+            "rgba(255,182,185,.9)",
+            "rgba(250,227,217,.9)",
+            "rgba(187,222,214,.9)",
+            "rgba(138,198,209,.9)",
+          ],
+          number: 10,
+          duration: [1200, 1800],
+          shapeOptions: {
+            radius: [12, 24],
+          },
+        },
+        {
+          shape: "circle",
+          move: ["diffuse"],
+          easing: "easeOutExpo",
+          colors: ["#ffe5ec"],
+          number: 2,
+          duration: [1200, 1800],
+          shapeOptions:{
+              radius: 15,
+              alpha: 0.5,
+              lineWidth: 6
+          }
+      }
+      ],
+    });
+  }
+});</script></body></html>
