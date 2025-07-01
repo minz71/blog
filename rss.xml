@@ -24,15 +24,9 @@
         <category>Custom</category>
         <category>API</category>
         <category>diskpart</category>
-        <category>domain</category>
-        <category>TLD-LIST</category>
-        <category>eu.org</category>
-        <category>cloudflare</category>
-        <category>madVR</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
-        <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
@@ -41,9 +35,15 @@
         <category>Hexo主題</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
         <category>虛擬機</category>
+        <category>domain</category>
+        <category>TLD-LIST</category>
+        <category>eu.org</category>
+        <category>cloudflare</category>
+        <category>madVR</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -77,9 +77,9 @@
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;delete partition override&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/AI/AI_BenchMark/</guid>
+            <guid isPermalink="true">https://blog.minz.li/AI/BenchMark/</guid>
             <title>分享一些 AI 模型評測排名網站</title>
-            <link>https://blog.minz.li/AI/AI_BenchMark/</link>
+            <link>https://blog.minz.li/AI/BenchMark/</link>
             <category>llm</category>
             <category>benchmark</category>
             <category>LMSYS</category>
@@ -110,13 +110,13 @@
 &lt;ul&gt;
 &lt;li&gt;向模型提問的範例：&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena1.webp&#34; alt=&#34;詢問模型&#34; title=&#34;詢問模型&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;figcaption data-lang=&#34;plain&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;今天有 3 個蘋果，我昨天吃了 1 個，請問還剩下幾個?&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysArena1.webp&#34; alt=&#34;詢問模型&#34; title=&#34;詢問模型&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysArena2.webp&#34; alt=&#34;&#34; title=&#34;投票後&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
 可以看到有許多大模型公司都贊助了 LMSYS，且會提供最新 (或是測試中未公開) 的語言模型給 LMSYS 測試。&lt;br /&gt;
 模型未公開時會使用代號名稱，例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。&lt;/p&gt;
 &lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎？&lt;/h2&gt;
@@ -133,7 +133,7 @@
 &lt;/ul&gt;
 &lt;p&gt;Aider LLM Leaderboards 是由 Aider 開發的一組基準測試，用於評估大型語言模型（LLM）編輯程式碼的能力。&lt;br /&gt;
 這些基準測試專注於模型編輯&lt;strong&gt;現有程式碼&lt;/strong&gt;的能力，確保模型能夠一致地遵循系統提示詞（Prompt）完成編輯任務，適合評估在程式碼編輯的表現。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;如何進行基準測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何進行基準測試&#34;&gt;#&lt;/a&gt; 如何進行基準測試？&lt;/h2&gt;
 &lt;p&gt;基準測試是 &lt;a href=&#34;https://aider.chat/2024/12/21/polyglot.html#the-polyglot-benchmark&#34;&gt;Aider’s polyglot benchmark&lt;/a&gt;，選取 Exercism 的 225 個困難的程式練習，測量模型&lt;strong&gt;完成任務&lt;/strong&gt;的百分比以及使用&lt;strong&gt;正確編輯格式&lt;/strong&gt;的百分比。&lt;/p&gt;
 &lt;ul&gt;
@@ -151,7 +151,7 @@
 &lt;li&gt;每月更新問題，確保模型沒有見過這些問題&lt;/li&gt;
 &lt;li&gt;可以自行驗證分數，也可以接入模型 API 進行跑分&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h1&gt;
 &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
@@ -164,7 +164,7 @@
 &lt;li&gt;使用 &lt;strong&gt;LeetCode、AtCoder、Codeforces&lt;/strong&gt; 平台的程式競賽題目&lt;/li&gt;
 &lt;li&gt;可以調整題目時間，確保在模型的訓練截止日期之後&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI_BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;vectara-的模型幻覺排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vectara-的模型幻覺排行榜&#34;&gt;#&lt;/a&gt; Vectara 的模型幻覺排行榜&lt;/h1&gt;
 &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;hallucination-leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://avatars.githubusercontent.com/u/108304503?s=200&amp;v=4&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
@@ -306,9 +306,9 @@
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;虛擬螢幕的 friendly_name 是 ParsecVDA&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
 4. 回到  &lt;code&gt;Configuration&lt;/code&gt;  頁面，填入剛剛的  &lt;code&gt;device_id&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;修改sunshine使用者名稱跟密碼&lt;/summary&gt;&lt;div&gt;
@@ -325,7 +325,7 @@
 &lt;ul&gt;
 &lt;li&gt;IOS 設備在 APP 開啟時需要允許 &lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;確保設備與主機在同一網路&lt;/li&gt;
 &lt;li&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
 &lt;li&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/li&gt;
@@ -348,11 +348,11 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;在設定頁開啟將  &lt;code&gt;Touchscreen Mode&lt;/code&gt;  設定 &lt;code&gt;Disabled&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;到連接的螢幕中的  &lt;code&gt;Quick Menu&lt;/code&gt;  啟用  &lt;code&gt;Enable Pan/Zoom&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
@@ -452,28 +452,28 @@
 &lt;ol&gt;
 &lt;li&gt;註冊一個帳號&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/OpenWebui/OpenWebui_1.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_1.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;如果出現帳號待啟用，需要通知管理員開啟權限&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/OpenWebui/OpenWebui_2.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_2.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;點選右上角的使用者的圖像，選擇設定&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/OpenWebui/OpenWebui_3.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_3.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;輸入  &lt;code&gt;API URL&lt;/code&gt;  跟  &lt;code&gt;key&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/OpenWebui/OpenWebui_4.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_4.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;回到首頁按下 F5 重新整理後刷新則會自動取得模型&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/OpenWebui/OpenWebui_5.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_5.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/AI/AI-Accelerators/</guid>
+            <guid isPermalink="true">https://blog.minz.li/AI/Accelerators/</guid>
             <title>超越 GPU 在 Groq/Cerebras/SambaNova 使用高速輸出的 Deepseek</title>
-            <link>https://blog.minz.li/AI/AI-Accelerators/</link>
+            <link>https://blog.minz.li/AI/Accelerators/</link>
             <category>Groq</category>
             <category>Cerebras</category>
             <category>SambaNova</category>
@@ -498,7 +498,7 @@ Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 Gr
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在官方網站 &lt;a href=&#34;https://groq.com/&#34;&gt;https://groq.com/&lt;/a&gt; 或是&lt;a href=&#34;https://console.groq.com/playground&#34;&gt; playground&lt;/a&gt; 直接使用&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.groq.com/keys&#34;&gt;https://console.groq.com/keys&lt;/a&gt;&lt;br /&gt;
  在左邊 API Keys 的選單中點擊 Create API Key，目前免費層級有提供一定的額度使用，API 兼容 openai 格式，修改 base_url 和 model 後可以直接使用。&lt;/p&gt;
@@ -515,7 +515,7 @@ Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 Gr
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-2&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在首頁&lt;a href=&#34;https://inference.cerebras.ai/&#34;&gt; https://inference.cerebras.ai/&lt;/a&gt; 直接使用&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/cerebras_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/cerebras_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-2&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.cerebras.ai/platform/&#34;&gt;https://cloud.cerebras.ai/platform/&lt;/a&gt;&lt;br /&gt;
  首頁右上方點擊 Get API Key，&lt;strong&gt;需要填寫 Google 表單申請&lt;/strong&gt;，目前免費層級有提供一定的額度使用，&lt;br /&gt;
@@ -570,7 +570,7 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.cerebras
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-3&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在官方網站 &lt;a href=&#34;https://cloud.sambanova.ai/&#34;&gt;playground&lt;/a&gt; 直接使用&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/sambanova_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/sambanova_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-3&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.sambanova.ai/apis&#34;&gt;https://cloud.sambanova.ai/apis&lt;/a&gt;&lt;br /&gt;
  在左邊 API Keys 的選單中點擊 Create API Key，目前提供新用戶 5 美元 (3 個月到期)，&lt;br /&gt;
@@ -595,33 +595,6 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanov
 &lt;li&gt;VMware Fusion Pro : 支援 macOS&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;下載-vmware&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下載-vmware&#34;&gt;#&lt;/a&gt; 下載 VMware&lt;/h1&gt;
-&lt;h2 id=&#34;直接在檔案server下載&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#直接在檔案server下載&#34;&gt;#&lt;/a&gt; 直接在檔案 server 下載&lt;/h2&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;VMware Workstation Pro ( Windows 與 Linux )&#34;&gt;
-&lt;p&gt;下載連結: &lt;a href=&#34;https://softwareupdate.vmware.com/cds/vmw-desktop/ws/&#34;&gt;https://softwareupdate.vmware.com/cds/vmw-desktop/ws/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目前的最新版本是 17.6.1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; core &amp;gt; VMware-workstation-17.5.2-23775571.exe.tar&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;這個是主程式的安裝，tools 的部分到 packages 目錄下載。&lt;/p&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; 選擇系統 (linux/windows) &amp;gt; packages&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;VMware Fusion Pro ( macOS )&#34;&gt;
-&lt;p&gt;下載連結: &lt;a href=&#34;https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/&#34;&gt;https://softwareupdate.vmware.com/cds/vmw-desktop/fusion/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;目前的最新版本是 13.6.1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&#34;note info&#34;&gt;
-&lt;p&gt;選擇版本 &amp;gt; 對應的資料夾 &amp;gt; universal &amp;gt; core &amp;gt; com.vmware.fusion.zip.tar&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;將 tar 檔案解壓縮後，會得到安裝程式&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;broadcom官網&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#broadcom官網&#34;&gt;#&lt;/a&gt; Broadcom 官網&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;註冊登入 Broadcom 帳號&lt;/li&gt;
 &lt;/ol&gt;
@@ -631,25 +604,24 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanov
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro&#34;&gt;VMware Workstation Pro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&amp;amp;freeDownloads=true&#34;&gt;VMware Workstation Pro&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Fusion&#34;&gt;VMware Fusion Pro&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Fusion&amp;amp;freeDownloads=true&#34;&gt;VMware Fusion&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;以下使用 windows 安裝目前的最新版本 (17.5.2)&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;點擊下載連結後選擇版本&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/vmware1.webp&#34; alt=&#34;&#34; title=&#34;選擇版本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;點擊下載連結後先選擇作業系統，再選擇 VMware 版本&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware1.webp&#34; alt=&#34;&#34; title=&#34;選擇版本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;同意條款後，點擊下載&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/vmware2.webp&#34; alt=&#34;&#34; title=&#34;點擊下載icon&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware2.webp&#34; alt=&#34;&#34; title=&#34;點擊下載icon&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;填寫基本資料，點選 submit 送出&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/vmware3.webp&#34; alt=&#34;&#34; title=&#34;填寫基本資料&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware3.webp&#34; alt=&#34;&#34; title=&#34;填寫基本資料&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;回到步驟 2 的頁面，點擊下載&lt;/p&gt;
@@ -680,7 +652,7 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanov
 &lt;li&gt;將 public 目錄下的檔案 (編譯後的靜態網頁)，推送到公開倉庫&lt;/li&gt;
 &lt;li&gt;將這個倉庫設定為 GitHub Page&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/github_action_imagine.webp&#34; alt=&#34;&#34; title=&#34;流程&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/github_action_imagine.webp&#34; alt=&#34;&#34; title=&#34;流程&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;github-actions-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-actions-介紹&#34;&gt;#&lt;/a&gt; GitHub Actions 介紹&lt;/h1&gt;
 &lt;p&gt;GitHub Actions 是 GitHub 提供的一項 CI/CD（持續集成和持續部署）服務，讓使用者能夠自動化軟件開發工作流。&lt;br /&gt;
 它允許你在特定事件發生時執行定義好的動作，例如程式碼推送、Pull Request 創建、Release 發布等，&lt;br /&gt;
@@ -690,23 +662,23 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanov
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;點擊 Developer Settings&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey.webp&#34; alt=&#34;&#34; title=&#34;點擊 Developer Settings&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey.webp&#34; alt=&#34;&#34; title=&#34;點擊 Developer Settings&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;點擊 Generate new token&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey2.webp&#34; alt=&#34;&#34; title=&#34;點擊 Generate new token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey2.webp&#34; alt=&#34;&#34; title=&#34;點擊 Generate new token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;權限添加 workflow&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey3.webp&#34; alt=&#34;&#34; title=&#34;權限添加 workflow&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey3.webp&#34; alt=&#34;&#34; title=&#34;權限添加 workflow&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;回到專案的 repo Setting&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionSecretKey.webp&#34; alt=&#34;&#34; title=&#34;回到專案的 repo Setting&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionSecretKey.webp&#34; alt=&#34;&#34; title=&#34;回到專案的 repo Setting&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Name 填入自定義名稱， secret 填入 第 &lt;code&gt;3&lt;/code&gt;  步產生的 token&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionSecretKey2.webp&#34; alt=&#34;&#34; title=&#34;Name 填入自定義名稱， secret 填入 第`3`步產生的 token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionSecretKey2.webp&#34; alt=&#34;&#34; title=&#34;Name 填入自定義名稱， secret 填入 第`3`步產生的 token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;workflow-trigger&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#workflow-trigger&#34;&gt;#&lt;/a&gt; Workflow Trigger&lt;/h2&gt;
@@ -788,7 +760,7 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.sambanov
         &lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;title&#34;&gt;優萌初華&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;Shoka作者&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 Shoka 作者於&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;部落格底下的留言中的回覆&lt;/a&gt;，&lt;br /&gt;
 該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt; 2021/10/03&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -824,7 +796,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: 第一篇文章&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: 2024-04-24&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;tags: ShokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 第一篇文章&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;這是內容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;可以看到第一篇文章了。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;seo-設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo-設置&#34;&gt;#&lt;/a&gt; SEO 設置&lt;/h1&gt;
 &lt;ul&gt;
@@ -842,7 +814,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E9%BB%9E%E6%93%8A%E6%84%9B%E5%BF%83%E6%95%88%E6%9E%9C/</link>
             <category>ShokaX插件</category>
             <pubDate>Thu, 01 Aug 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/clickHeart.webp&#34; alt=&#34;&#34; title=&#34;點擊愛心效果&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/clickHeart.webp&#34; alt=&#34;&#34; title=&#34;點擊愛心效果&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;關閉原本的點擊特效&lt;/li&gt;
 &lt;/ul&gt;
@@ -854,7 +826,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/</link>
             <category>ShokaX插件</category>
             <pubDate>Sat, 27 Jul 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/sakuraScript.webp&#34; alt=&#34;&#34; title=&#34;添加櫻花掉落的效果&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/sakuraScript.webp&#34; alt=&#34;&#34; title=&#34;添加櫻花掉落的效果&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;程式碼放在 Gitub&lt;br /&gt;
 &lt;a href=&#34;https://github.com/minz71/sakura-rain&#34;&gt;https://github.com/minz71/sakura-rain&lt;/a&gt;&lt;/li&gt;
@@ -865,9 +837,9 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/CS/domainSearch/</guid>
+            <guid isPermalink="true">https://blog.minz.li/tool/domainSearch/</guid>
             <title>域名搜尋工具</title>
-            <link>https://blog.minz.li/CS/domainSearch/</link>
+            <link>https://blog.minz.li/tool/domainSearch/</link>
             <category>domain</category>
             <category>TLD-LIST</category>
             <category>eu.org</category>
@@ -892,11 +864,11 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;首頁&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/1.png&#34; alt=&#34;首頁&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/1.png&#34; alt=&#34;首頁&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;搜尋結果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/2.png&#34; alt=&#34;搜尋結果&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/2.png&#34; alt=&#34;搜尋結果&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;二級域名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二級域名&#34;&gt;#&lt;/a&gt; 二級域名&lt;/h1&gt;
@@ -952,15 +924,15 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;h1 id=&#34;使用-cloudflare-的範例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-cloudflare-的範例&#34;&gt;#&lt;/a&gt; 使用 Cloudflare 的範例&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;添加網站&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddWebsite.webp&#34; alt=&#34;添加網站&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/cfAddWebsite.webp&#34; alt=&#34;添加網站&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;輸入 domain name&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddWebsite2.webp&#34; alt=&#34;輸入 domain name&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/cfAddWebsite2.webp&#34; alt=&#34;輸入 domain name&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;選擇 Free 套餐&lt;/li&gt;
 &lt;li&gt;添加一筆 DNS 紀錄&lt;/li&gt;
 &lt;li&gt;找到 cloudflare 提供的 nameserver&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/cfAddNS.webp&#34; alt=&#34;cloudflare 提供的 nameserver&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/cfAddNS.webp&#34; alt=&#34;cloudflare 提供的 nameserver&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;在 &lt;a href=&#34;http://nic.eu.org&#34;&gt;nic.eu.org&lt;/a&gt; 的 Name servers 欄位填入&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/domainSearch/euorgNS.webp&#34; alt=&#34;nic.eu.org 的 Name servers 欄位&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/domainSearch/euorgNS.webp&#34; alt=&#34;nic.eu.org 的 Name servers 欄位&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>
@@ -1068,9 +1040,9 @@ phone: 可以不填寫&lt;br /&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/CS/madVR/</guid>
+            <guid isPermalink="true">https://blog.minz.li/tool/madVR/</guid>
             <title>madVR 安裝教學</title>
-            <link>https://blog.minz.li/CS/madVR/</link>
+            <link>https://blog.minz.li/tool/madVR/</link>
             <category>madVR</category>
             <pubDate>Wed, 28 Feb 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;madvr-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#madvr-介紹&#34;&gt;#&lt;/a&gt; MadVR 介紹&lt;/h2&gt;
@@ -1095,11 +1067,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;ol&gt;
 &lt;li&gt;下載&lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34;&gt; LAVFilter 解碼器&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/installLAV.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/installLAV.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;依圖片設定 LAVFilter&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/LAVsetup.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/LAVsetup.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;音訊建議使用 LAV Audio Decoder&lt;/p&gt;
 &lt;/div&gt;
@@ -1113,11 +1085,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 內建視訊處理設定 選擇 &amp;quot;不使用&amp;quot;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 全域濾鏡優先順序 新增系統慮鏡 &amp;quot;LAV Video Decoder&amp;quot; 優先順序選擇強制啟用&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;視訊 &amp;gt; 視訊渲染方式 &amp;gt; madVR&lt;/p&gt;
@@ -1126,18 +1098,18 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;PotPlayer 使用獨佔模式可能有全螢幕下時間軸不顯示的 Bug&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;音訊 &amp;gt; 預設輸出裝置 內建 WASAPI&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;音訊 &gt; 標準化 &gt; 取消勾選 (依需求設定)&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h2 id=&#34;nvidia-顯卡設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvidia-顯卡設定&#34;&gt;#&lt;/a&gt; NVIDIA 顯卡設定&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;管理 3D 設定 &amp;gt; 新增 PotPlayer &amp;gt; 垂直同步：開啟 &amp;gt; 電源管理模式：慣用的最大效能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/NVIDIA.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/NVIDIA.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;NVIDIA 色彩設置&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;安裝madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝madvr&#34;&gt;#&lt;/a&gt; 安裝 madVR&lt;/h2&gt;
@@ -1147,11 +1119,11 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;用系統管理員模式執行 install.bat&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;出現成功安裝&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;設置madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#設置madvr&#34;&gt;#&lt;/a&gt; 設置 madVR&lt;/h2&gt;
@@ -1161,15 +1133,15 @@ phone: 可以不填寫&lt;br /&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;將螢幕設定為 Digital Monitor / TV 並設定 10bit&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;開啟去色帶功能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;由於片源的幀數通常為 24，螢幕的刷新率通常不是 24 的整數倍，因此建議開啟 smooth motion 功能。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;scaling algorithms&lt;/p&gt;
@@ -1241,52 +1213,52 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;到&lt;a href=&#34;https://opendata.cwa.gov.tw/index&#34;&gt;氣象資料開放平台&lt;/a&gt;註冊帳號&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherData.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/openWeatherData.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;註冊一個帳號 &lt;a href=&#34;https://pweb.cwa.gov.tw/emember/register&#34;&gt;https://pweb.cwa.gov.tw/emember/register&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/openWeatherDataRegister.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/openWeatherDataRegister.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;到電子信箱啟用會員後再次&lt;a href=&#34;https://opendata.cwa.gov.tw/userLogin&#34;&gt;登入&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/emailConfirm.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/emailConfirm.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;登入後取得授權碼並將授權碼複製下來&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/getToken.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/getToken.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;前往開發指南查看&lt;a href=&#34;https://opendata.cwa.gov.tw/dist/opendata-swagger.html&#34;&gt; api 文件&lt;/a&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiDoc.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/apiDoc.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;可以在 swagger 文檔中使用 API request&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger1.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/trySwagger1.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;填入需要的參數後點擊 Execute 執行&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/trySwagger2.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/trySwagger2.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;執行後的回傳結果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/result.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/result.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;執行程式碼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#執行程式碼&#34;&gt;#&lt;/a&gt; 執行程式碼&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/urlFormat.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/urlFormat.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;BaseUrl&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/baseUrl.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/baseUrl.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;API Path&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/apiPath.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/apiPath.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; baseUrl &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;https://opendata.cwa.gov.tw/api/v1/&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; path &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;rest/datastore/F-D0047-063&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;const&lt;/span&gt; Authorization &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;yourAuthorization&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;fetch&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt; baseUrl &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; path &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;?Authorization=&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; Authorization&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;response&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; response&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;json&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;then&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;myJson&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    console&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;myJson&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token comment&#34;&gt;// 輸出 json 資料&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;結果輸出&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/weatherAPI/consoleTest.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/CS/weatherAPI/consoleTest.webp&#34; alt=&#34;&#34; width=&#34;85%&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
  ]]></description>
         </item>
@@ -1315,9 +1287,9 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/UiPath/Introduction/</guid>
+            <guid isPermalink="true">https://blog.minz.li/tool/Uipath/</guid>
             <title>UiPath介紹</title>
-            <link>https://blog.minz.li/UiPath/Introduction/</link>
+            <link>https://blog.minz.li/tool/Uipath/</link>
             <category>UiPath</category>
             <pubDate>Tue, 19 Dec 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;UiPath&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.uipath.com/&#34; class=&#34;image&#34; data-background-image=&#34;https://play-lh.googleusercontent.com/swjV4_QK7DMpiQpn2uGt4L4Iz8IQaKc1lIoLKDvnqGiEm1UKwIukhhV8f_VYayZ8yyc=w240-h480-rw&#34;&gt;&lt;/a&gt;
@@ -1332,8 +1304,8 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
 &lt;li&gt;圖形化介面編輯腳本&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;開始使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#開始使用&#34;&gt;#&lt;/a&gt; 開始使用&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/2.png&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/1.png&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/Uipath/2.webp&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/Uipath/1.webp&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本&#34;&gt;#&lt;/a&gt; 版本&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/SBuMsZL.png&#34; alt=&#34;&#34; title=&#34;不同版本的差異&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uipath-studio-介面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-studio-介面&#34;&gt;#&lt;/a&gt; UiPath Studio 介面&lt;/h2&gt;
@@ -1391,7 +1363,7 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;解決方式&lt;/li&gt;
 &lt;/ul&gt;
@@ -1415,11 +1387,11 @@ NGU Sharp 除了選擇&amp;quot;luma doubling&amp;quot;品質以外，其餘全�
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/</link>
             <category>ShokaX插件</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_before.png&#34; alt=&#34;&#34; title=&#34;移除前&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_after.png&#34; alt=&#34;&#34; title=&#34;移除後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_before.png&#34; alt=&#34;&#34; title=&#34;移除前&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_after.png&#34; alt=&#34;&#34; title=&#34;移除後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;並且在頂部以外的地方保留模糊效果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留模糊效果&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留模糊效果&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/removeTopBlur.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/removeTopBlur.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/removeTopBlur.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;#nav&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;100%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;0px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&amp;amp;.show&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;180%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;20px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>

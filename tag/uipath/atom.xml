@@ -21,15 +21,9 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
-    <category term="domain" />
-    <category term="TLD-LIST" />
-    <category term="eu.org" />
-    <category term="cloudflare" />
-    <category term="madVR" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
-    <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
@@ -38,9 +32,15 @@
     <category term="Hexo主題" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
+    <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
     <category term="虛擬機" />
+    <category term="domain" />
+    <category term="TLD-LIST" />
+    <category term="eu.org" />
+    <category term="cloudflare" />
+    <category term="madVR" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
@@ -53,9 +53,9 @@
     <category term="資料結構" />
     <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/UiPath/Introduction/</id>
+        <id>https://blog.minz.li/tool/Uipath/</id>
         <title>UiPath介紹</title>
-        <link rel="alternate" href="https://blog.minz.li/UiPath/Introduction/"/>
+        <link rel="alternate" href="https://blog.minz.li/tool/Uipath/"/>
         <content type="html">&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;UiPath&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.uipath.com/&#34; class=&#34;image&#34; data-background-image=&#34;https://play-lh.googleusercontent.com/swjV4_QK7DMpiQpn2uGt4L4Iz8IQaKc1lIoLKDvnqGiEm1UKwIukhhV8f_VYayZ8yyc=w240-h480-rw&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://www.uipath.com/&#34; class=&#34;title&#34;&gt;UiPath&lt;/a&gt;
@@ -68,8 +68,8 @@
 &lt;li&gt;圖形化介面編輯腳本&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;開始使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#開始使用&#34;&gt;#&lt;/a&gt; 開始使用&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/2.png&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/UiPath/1.png&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/Uipath/2.webp&#34; alt=&#34;&#34; title=&#34;可以串接的服務&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/Uipath/1.webp&#34; alt=&#34;&#34; title=&#34;選擇範本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#版本&#34;&gt;#&lt;/a&gt; 版本&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://i.imgur.com/SBuMsZL.png&#34; alt=&#34;&#34; title=&#34;不同版本的差異&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;uipath-studio-介面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#uipath-studio-介面&#34;&gt;#&lt;/a&gt; UiPath Studio 介面&lt;/h2&gt;

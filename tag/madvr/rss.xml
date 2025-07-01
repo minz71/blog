@@ -24,15 +24,9 @@
         <category>Custom</category>
         <category>API</category>
         <category>diskpart</category>
-        <category>domain</category>
-        <category>TLD-LIST</category>
-        <category>eu.org</category>
-        <category>cloudflare</category>
-        <category>madVR</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
-        <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
@@ -41,9 +35,15 @@
         <category>Hexo主題</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
         <category>虛擬機</category>
+        <category>domain</category>
+        <category>TLD-LIST</category>
+        <category>eu.org</category>
+        <category>cloudflare</category>
+        <category>madVR</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -56,9 +56,9 @@
         <category>資料結構</category>
         <category>離散數學</category>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/CS/madVR/</guid>
+            <guid isPermalink="true">https://blog.minz.li/tool/madVR/</guid>
             <title>madVR 安裝教學</title>
-            <link>https://blog.minz.li/CS/madVR/</link>
+            <link>https://blog.minz.li/tool/madVR/</link>
             <category>madVR</category>
             <pubDate>Wed, 28 Feb 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;madvr-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#madvr-介紹&#34;&gt;#&lt;/a&gt; MadVR 介紹&lt;/h2&gt;
@@ -83,11 +83,11 @@
 &lt;ol&gt;
 &lt;li&gt;下載&lt;a href=&#34;https://github.com/Nevcairiel/LAVFilters/releases&#34;&gt; LAVFilter 解碼器&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/installLAV.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/installLAV.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;依圖片設定 LAVFilter&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/LAVsetup.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/LAVsetup.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;音訊建議使用 LAV Audio Decoder&lt;/p&gt;
 &lt;/div&gt;
@@ -101,11 +101,11 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 內建視訊處理設定 選擇 &amp;quot;不使用&amp;quot;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;濾鏡 / 解編碼器 &amp;gt; 全域濾鏡優先順序 新增系統慮鏡 &amp;quot;LAV Video Decoder&amp;quot; 優先順序選擇強制啟用&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;視訊 &amp;gt; 視訊渲染方式 &amp;gt; madVR&lt;/p&gt;
@@ -114,18 +114,18 @@
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;PotPlayer 使用獨佔模式可能有全螢幕下時間軸不顯示的 Bug&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;音訊 &amp;gt; 預設輸出裝置 內建 WASAPI&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;音訊 &gt; 標準化 &gt; 取消勾選 (依需求設定)&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/setup5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/setup5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;h2 id=&#34;nvidia-顯卡設定&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nvidia-顯卡設定&#34;&gt;#&lt;/a&gt; NVIDIA 顯卡設定&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;管理 3D 設定 &amp;gt; 新增 PotPlayer &amp;gt; 垂直同步：開啟 &amp;gt; 電源管理模式：慣用的最大效能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/NVIDIA.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/NVIDIA.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;NVIDIA 色彩設置&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;安裝madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安裝madvr&#34;&gt;#&lt;/a&gt; 安裝 madVR&lt;/h2&gt;
@@ -135,11 +135,11 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;用系統管理員模式執行 install.bat&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR1.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;出現成功安裝&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;設置madvr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#設置madvr&#34;&gt;#&lt;/a&gt; 設置 madVR&lt;/h2&gt;
@@ -149,15 +149,15 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;將螢幕設定為 Digital Monitor / TV 並設定 10bit&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR3.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;開啟去色帶功能&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR5.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;由於片源的幀數通常為 24，螢幕的刷新率通常不是 24 的整數倍，因此建議開啟 smooth motion 功能。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/madVR/madVR4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/madVR/madVR4.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;scaling algorithms&lt;/p&gt;

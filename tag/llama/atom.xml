@@ -21,15 +21,9 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
-    <category term="domain" />
-    <category term="TLD-LIST" />
-    <category term="eu.org" />
-    <category term="cloudflare" />
-    <category term="madVR" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
-    <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
@@ -38,9 +32,15 @@
     <category term="Hexo主題" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
+    <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
     <category term="虛擬機" />
+    <category term="domain" />
+    <category term="TLD-LIST" />
+    <category term="eu.org" />
+    <category term="cloudflare" />
+    <category term="madVR" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
@@ -53,9 +53,9 @@
     <category term="資料結構" />
     <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/AI/AI-Accelerators/</id>
+        <id>https://blog.minz.li/AI/Accelerators/</id>
         <title>超越 GPU 在 Groq/Cerebras/SambaNova 使用高速輸出的 Deepseek</title>
-        <link rel="alternate" href="https://blog.minz.li/AI/AI-Accelerators/"/>
+        <link rel="alternate" href="https://blog.minz.li/AI/Accelerators/"/>
         <content type="html">&lt;h1 id=&#34;groq-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#groq-介紹&#34;&gt;#&lt;/a&gt; Groq 介紹&lt;/h1&gt;
 &lt;p&gt;Groq 的主要產品是 LPU (Language Processing Units)，能夠大幅提升模型的推論速度，這表示模型回答的速度加快，比 GPT-4o 快了數倍。&lt;br /&gt;
 Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 GroqCloud 上的推論速度最快可以達到 &lt;a href=&#34;https://groq.com/groq-first-generation-14nm-chip-just-got-a-6x-speed-boost-introducing-llama-3-1-70b-speculative-decoding-on-groqcloud/&#34;&gt;1,660 tokens/s&lt;/a&gt; 。&lt;/p&gt;
@@ -74,7 +74,7 @@ Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 Gr
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在官方網站 &lt;a href=&#34;https://groq.com/&#34;&gt;https://groq.com/&lt;/a&gt; 或是&lt;a href=&#34;https://console.groq.com/playground&#34;&gt; playground&lt;/a&gt; 直接使用&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/groq_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://console.groq.com/keys&#34;&gt;https://console.groq.com/keys&lt;/a&gt;&lt;br /&gt;
  在左邊 API Keys 的選單中點擊 Create API Key，目前免費層級有提供一定的額度使用，API 兼容 openai 格式，修改 base_url 和 model 後可以直接使用。&lt;/p&gt;
@@ -91,7 +91,7 @@ Groq 的 實驗性模型  &lt;code&gt;llama-3.3-70b-specdec&lt;/code&gt;  在 Gr
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-2&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在首頁&lt;a href=&#34;https://inference.cerebras.ai/&#34;&gt; https://inference.cerebras.ai/&lt;/a&gt; 直接使用&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/cerebras_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/cerebras_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-2&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.cerebras.ai/platform/&#34;&gt;https://cloud.cerebras.ai/platform/&lt;/a&gt;&lt;br /&gt;
  首頁右上方點擊 Get API Key，&lt;strong&gt;需要填寫 Google 表單申請&lt;/strong&gt;，目前免費層級有提供一定的額度使用，&lt;br /&gt;
@@ -146,7 +146,7 @@ API 兼容 openai 格式，修改 base_url 為  &lt;code&gt;https://api.cerebras
 &lt;/ul&gt;
 &lt;h2 id=&#34;使用-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用-3&#34;&gt;#&lt;/a&gt; 使用&lt;/h2&gt;
 &lt;p&gt;可以在官方網站 &lt;a href=&#34;https://cloud.sambanova.ai/&#34;&gt;playground&lt;/a&gt; 直接使用&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/AI/AI-Accelerators/sambanova_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/Accelerators/sambanova_home.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;api-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#api-3&#34;&gt;#&lt;/a&gt; API&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://cloud.sambanova.ai/apis&#34;&gt;https://cloud.sambanova.ai/apis&lt;/a&gt;&lt;br /&gt;
  在左邊 API Keys 的選單中點擊 Create API Key，目前提供新用戶 5 美元 (3 個月到期)，&lt;br /&gt;

@@ -21,15 +21,9 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
-    <category term="domain" />
-    <category term="TLD-LIST" />
-    <category term="eu.org" />
-    <category term="cloudflare" />
-    <category term="madVR" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
-    <category term="UiPath" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
@@ -38,9 +32,15 @@
     <category term="Hexo主題" />
     <category term="ShokaX主題" />
     <category term="ShokaX插件" />
+    <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
     <category term="虛擬機" />
+    <category term="domain" />
+    <category term="TLD-LIST" />
+    <category term="eu.org" />
+    <category term="cloudflare" />
+    <category term="madVR" />
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
@@ -108,9 +108,9 @@
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;虛擬螢幕的 friendly_name 是 ParsecVDA&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
 4. 回到  &lt;code&gt;Configuration&lt;/code&gt;  頁面，填入剛剛的  &lt;code&gt;device_id&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;修改sunshine使用者名稱跟密碼&lt;/summary&gt;&lt;div&gt;
@@ -127,7 +127,7 @@
 &lt;ul&gt;
 &lt;li&gt;IOS 設備在 APP 開啟時需要允許 &lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;確保設備與主機在同一網路&lt;/li&gt;
 &lt;li&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
 &lt;li&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/li&gt;
@@ -150,11 +150,11 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;在設定頁開啟將  &lt;code&gt;Touchscreen Mode&lt;/code&gt;  設定 &lt;code&gt;Disabled&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;到連接的螢幕中的  &lt;code&gt;Quick Menu&lt;/code&gt;  啟用  &lt;code&gt;Enable Pan/Zoom&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/tool/subMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>

@@ -24,15 +24,9 @@
         <category>Custom</category>
         <category>API</category>
         <category>diskpart</category>
-        <category>domain</category>
-        <category>TLD-LIST</category>
-        <category>eu.org</category>
-        <category>cloudflare</category>
-        <category>madVR</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
-        <category>UiPath</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
@@ -41,9 +35,15 @@
         <category>Hexo主題</category>
         <category>ShokaX主題</category>
         <category>ShokaX插件</category>
+        <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
         <category>虛擬機</category>
+        <category>domain</category>
+        <category>TLD-LIST</category>
+        <category>eu.org</category>
+        <category>cloudflare</category>
+        <category>madVR</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -69,7 +69,7 @@
 &lt;li&gt;將 public 目錄下的檔案 (編譯後的靜態網頁)，推送到公開倉庫&lt;/li&gt;
 &lt;li&gt;將這個倉庫設定為 GitHub Page&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/github_action_imagine.webp&#34; alt=&#34;&#34; title=&#34;流程&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/github_action_imagine.webp&#34; alt=&#34;&#34; title=&#34;流程&#34; width=&#34;60%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;github-actions-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github-actions-介紹&#34;&gt;#&lt;/a&gt; GitHub Actions 介紹&lt;/h1&gt;
 &lt;p&gt;GitHub Actions 是 GitHub 提供的一項 CI/CD（持續集成和持續部署）服務，讓使用者能夠自動化軟件開發工作流。&lt;br /&gt;
 它允許你在特定事件發生時執行定義好的動作，例如程式碼推送、Pull Request 創建、Release 發布等，&lt;br /&gt;
@@ -79,23 +79,23 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;點擊 Developer Settings&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey.webp&#34; alt=&#34;&#34; title=&#34;點擊 Developer Settings&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey.webp&#34; alt=&#34;&#34; title=&#34;點擊 Developer Settings&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;點擊 Generate new token&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey2.webp&#34; alt=&#34;&#34; title=&#34;點擊 Generate new token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey2.webp&#34; alt=&#34;&#34; title=&#34;點擊 Generate new token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;權限添加 workflow&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionGenKey3.webp&#34; alt=&#34;&#34; title=&#34;權限添加 workflow&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionGenKey3.webp&#34; alt=&#34;&#34; title=&#34;權限添加 workflow&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;回到專案的 repo Setting&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionSecretKey.webp&#34; alt=&#34;&#34; title=&#34;回到專案的 repo Setting&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionSecretKey.webp&#34; alt=&#34;&#34; title=&#34;回到專案的 repo Setting&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Name 填入自定義名稱， secret 填入 第 &lt;code&gt;3&lt;/code&gt;  步產生的 token&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/githubActionSecretKey2.webp&#34; alt=&#34;&#34; title=&#34;Name 填入自定義名稱， secret 填入 第`3`步產生的 token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/githubActionSecretKey2.webp&#34; alt=&#34;&#34; title=&#34;Name 填入自定義名稱， secret 填入 第`3`步產生的 token&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;workflow-trigger&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#workflow-trigger&#34;&gt;#&lt;/a&gt; Workflow Trigger&lt;/h2&gt;
@@ -177,7 +177,7 @@
         &lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;title&#34;&gt;優萌初華&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;Shoka作者&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 Shoka 作者於&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;部落格底下的留言中的回覆&lt;/a&gt;，&lt;br /&gt;
 該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt; 2021/10/03&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -213,7 +213,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
 &lt;/ol&gt;
 &lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: 第一篇文章&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: 2024-04-24&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;tags: ShokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 第一篇文章&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;這是內容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;可以看到第一篇文章了。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;seo-設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo-設置&#34;&gt;#&lt;/a&gt; SEO 設置&lt;/h1&gt;
 &lt;ul&gt;
@@ -231,7 +231,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E9%BB%9E%E6%93%8A%E6%84%9B%E5%BF%83%E6%95%88%E6%9E%9C/</link>
             <category>ShokaX插件</category>
             <pubDate>Thu, 01 Aug 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/clickHeart.webp&#34; alt=&#34;&#34; title=&#34;點擊愛心效果&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/clickHeart.webp&#34; alt=&#34;&#34; title=&#34;點擊愛心效果&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;關閉原本的點擊特效&lt;/li&gt;
 &lt;/ul&gt;
@@ -243,7 +243,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E6%AB%BB%E8%8A%B1/</link>
             <category>ShokaX插件</category>
             <pubDate>Sat, 27 Jul 2024 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/sakuraScript.webp&#34; alt=&#34;&#34; title=&#34;添加櫻花掉落的效果&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/sakuraScript.webp&#34; alt=&#34;&#34; title=&#34;添加櫻花掉落的效果&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;程式碼放在 Gitub&lt;br /&gt;
 &lt;a href=&#34;https://github.com/minz71/sakura-rain&#34;&gt;https://github.com/minz71/sakura-rain&lt;/a&gt;&lt;/li&gt;
@@ -263,7 +263,7 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <description><![CDATA[ &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;這是 Shoka 主題可能會出現的 bug，如果使用 ShokaX 可能不需要修改&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/shokaFooterBug.webp&#34; alt=&#34;&#34; title=&#34;內容過少時向下滑動的顯示 BUG&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;解決方式&lt;/li&gt;
 &lt;/ul&gt;
@@ -287,11 +287,11 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
             <link>https://blog.minz.li/shokaX/ShokaX%E6%8F%92%E4%BB%B6-%E7%A7%BB%E9%99%A4%E9%A0%82%E9%83%A8%E9%9C%A7%E9%9D%A2%E6%95%88%E6%9E%9C/</link>
             <category>ShokaX插件</category>
             <pubDate>Mon, 18 Dec 2023 16:00:00 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_before.png&#34; alt=&#34;&#34; title=&#34;移除前&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_after.png&#34; alt=&#34;&#34; title=&#34;移除後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_before.png&#34; alt=&#34;&#34; title=&#34;移除前&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_after.png&#34; alt=&#34;&#34; title=&#34;移除後&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;並且在頂部以外的地方保留模糊效果&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/assets/ShokaXPlugin/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留模糊效果&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/removeTopFrosted_other.jpg&#34; alt=&#34;&#34; title=&#34;頂部以外的地方保留模糊效果&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight js&#34;&gt;&lt;figcaption data-lang=&#34;JavaScript&#34;&gt;&lt;span&gt;/scripts/removeTopBlur.js&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;extend&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;filter&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;theme_inject&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token parameter&#34;&gt;injects&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    injects&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;style&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;push&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;views/removeTopBlur.styl&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight css&#34;&gt;&lt;figcaption data-lang=&#34;CSS&#34;&gt;&lt;span&gt;/views/removeTopBlur.styl&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token selector&#34;&gt;#nav&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;100%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;0px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token selector&#34;&gt;&amp;amp;.show&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token property&#34;&gt;backdrop-filter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;saturate&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;180%&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;blur&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;20px&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
