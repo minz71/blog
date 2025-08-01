@@ -3,7 +3,7 @@
     <channel>
         <title>minz的筆記本 • Posts by &#34;sunshine&#34; tag</title>
         <link>https://blog.minz.li</link>
-        <description></description>
+        <description>這是一個分享我學習筆記的空間</description>
         <language>zh-TW</language>
         <pubDate>Wed, 19 Mar 2025 16:00:00 +0000</pubDate>
         <lastBuildDate>Wed, 19 Mar 2025 16:00:00 +0000</lastBuildDate>
@@ -33,7 +33,6 @@
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
@@ -67,18 +66,18 @@
 &lt;p&gt;將電腦的畫面串流到平板上顯示，讓平板成為電腦的額外螢幕。&lt;br /&gt;
 首先建立一個虛擬螢幕，之後使用 sunshine 將這個螢幕串流到 moonlight。&lt;/p&gt;
 &lt;h1 id=&#34;虛擬螢幕驅動&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#虛擬螢幕驅動&#34;&gt;#&lt;/a&gt; 虛擬螢幕驅動&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;parsec-vdd&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/nomi-san/parsec-vdd&#34; class=&#34;image&#34; data-background-image=&#34;https://raw.githubusercontent.com/nomi-san/parsec-vdd/refs/heads/main/app/Resources/icon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;parsec-vdd&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/nomi-san/parsec-vdd&#34; class=&#34;image&#34; data-background-image=&#34;https://raw.githubusercontent.com/nomi-san/parsec-vdd/refs/heads/main/app/Resources/icon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://github.com/nomi-san/parsec-vdd&#34; class=&#34;title&#34;&gt;parsec-vdd&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://github.com/nomi-san/parsec-vdd&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;parsec-vdd 可以在你的 Windows 上建立一個虛擬的螢幕。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;安裝 Parsec VDD&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;a href=&#34;https://github.com/nomi-san/parsec-vdd/releases&#34;&gt;Gitgub Releases&lt;/a&gt; 頁面找到對應的系統版本&lt;/li&gt;
-&lt;li&gt;適用於 Windows 的安裝檔案  &lt;code&gt;ParsecVDisplay-v0.45-setup.exe&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;適用於 Windows 的安裝檔案 &lt;code&gt;ParsecVDisplay-v0.45-setup.exe&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -91,18 +90,18 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;sunshine&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sunshine&#34;&gt;#&lt;/a&gt; Sunshine&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Sunshine&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/LizardByte/Sunshine&#34; class=&#34;image&#34; data-background-image=&#34;https://app.lizardbyte.dev/Sunshine/assets/img/navbar-avatar.png&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Sunshine&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/LizardByte/Sunshine&#34; class=&#34;image&#34; data-background-image=&#34;https://app.lizardbyte.dev/Sunshine/assets/img/navbar-avatar.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://github.com/LizardByte/Sunshine&#34; class=&#34;title&#34;&gt;Sunshine&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://github.com/LizardByte/Sunshine&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Sunshine 是一個開源的串流伺服器。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;安裝 Sunshine&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;在 &lt;a href=&#34;https://github.com/LizardByte/Sunshine/releases&#34;&gt;Github Releases&lt;/a&gt; 頁面找到對應的系統版本&lt;/li&gt;
-&lt;li&gt;適用於 Windows 的安裝檔案  &lt;code&gt;sunshine-windows-installer.exe&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;適用於 Windows 的安裝檔案 &lt;code&gt;sunshine-windows-installer.exe&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -110,58 +109,59 @@
 &lt;ol&gt;
 &lt;li&gt;開啟 Sunshine 的 Web UI，&lt;a href=&#34;http://localhost:47990&#34;&gt;http://localhost:47990&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;設置使用者名稱與密碼&lt;/li&gt;
-&lt;li&gt;設定輸出的螢幕，首先開啟  &lt;code&gt;Troubleshooting&lt;/code&gt;  頁面查看  &lt;code&gt;device_id&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;設定輸出的螢幕，首先開啟 &lt;code&gt;Troubleshooting&lt;/code&gt; 頁面查看 &lt;code&gt;device_id&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;虛擬螢幕的 friendly_name 是 ParsecVDA&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
-4. 回到  &lt;code&gt;Configuration&lt;/code&gt;  頁面，填入剛剛的  &lt;code&gt;device_id&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/streamMonitor/sunshine_Troubleshooting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;br /&gt;
+4. 回到 &lt;code&gt;Configuration&lt;/code&gt; 頁面，填入剛剛的 &lt;code&gt;device_id&lt;/code&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/streamMonitor/sunshine_Configuration.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;修改sunshine使用者名稱跟密碼&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;使用系統管理員開啟 powershell，替換  &lt;code&gt;username&lt;/code&gt;   &lt;code&gt;password&lt;/code&gt; ，輸入以下指令&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;.&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;sunshine.exe &lt;span class=&#34;token parameter variable&#34;&gt;--creds&lt;/span&gt; username password&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;p&gt;使用系統管理員開啟 powershell，替換 &lt;code&gt;username&lt;/code&gt; &lt;code&gt;password&lt;/code&gt;，輸入以下指令&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;sunshine.exe&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --creds&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; username&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; password&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/details&gt;
 &lt;h1 id=&#34;moonlight&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#moonlight&#34;&gt;#&lt;/a&gt; Moonlight&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Moonlight&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://moonlight-stream.org/&#34; class=&#34;image&#34; data-background-image=&#34;https://moonlight-stream.org/images/moonlight.svg&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Moonlight&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://moonlight-stream.org/&#34; class=&#34;image&#34; data-background-image=&#34;https://moonlight-stream.org/images/moonlight.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://moonlight-stream.org/&#34; class=&#34;title&#34;&gt;Moonlight&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://moonlight-stream.org/&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;Moonlight 是一個用於串流遊戲與桌面的開源專案。&lt;/p&gt;
 &lt;p&gt;可以在 &lt;a href=&#34;https://apps.apple.com/tw/app/moonlight-game-streaming/id1000551566&#34;&gt;App Store&lt;/a&gt; 或 &lt;a href=&#34;https://play.google.com/store/apps/details?id=com.limelight&#34;&gt;Google Play&lt;/a&gt; 下載&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;IOS 設備在 APP 開啟時需要允許 &lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;IOS 設備在 APP 開啟時需要允許&lt;code&gt;想要尋找並連接你區域網路上的裝置&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;點擊右上角的 Setting 可以調整解析度、Frame Rate、關閉虛擬搖桿&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/streamMonitor/moonlight_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/li&gt;
 &lt;li&gt;確保設備與主機在同一網路&lt;/li&gt;
-&lt;li&gt;Moonlight 會自動搜索區域網路的伺服器 (如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
+&lt;li&gt;Moonlight 會自動搜索區域網路的伺服器(如果沒有自動顯示，可以手動輸入主機 IP 地址)&lt;/li&gt;
 &lt;li&gt;首次連接時需要在 Sunshine 輸入 pin 配對&lt;/li&gt;
 &lt;li&gt;連接成功後即可開始串流&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;修改的-android-版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#修改的-android-版本&#34;&gt;#&lt;/a&gt; 修改的 android 版本&lt;/h2&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Moonlight&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/ClassicOldSong/moonlight-android&#34; class=&#34;image&#34; data-background-image=&#34;https://raw.githubusercontent.com/ClassicOldSong/moonlight-android/refs/heads/moonlight-noir/store-assets/lime_layer.svg&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Moonlight&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/ClassicOldSong/moonlight-android&#34; class=&#34;image&#34; data-background-image=&#34;https://raw.githubusercontent.com/ClassicOldSong/moonlight-android/refs/heads/moonlight-noir/store-assets/lime_layer.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://github.com/ClassicOldSong/moonlight-android&#34; class=&#34;title&#34;&gt;Moonlight&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://github.com/ClassicOldSong/moonlight-android&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;提供對於辦公用途，許多好用的功能，&lt;a href=&#34;https://github.com/ClassicOldSong/moonlight-android/blob/moonlight-noir/README.md#features&#34;&gt;詳細可以參考&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;有更好的手寫筆模式 (手寫筆為輸入，手指觸控為縮放)&lt;/p&gt;
+&lt;p&gt;有更好的手寫筆模式(手寫筆為輸入，手指觸控為縮放)&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;在設定頁開啟將  &lt;code&gt;Touchscreen Mode&lt;/code&gt;  設定 &lt;code&gt;Disabled&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在設定頁開啟將 &lt;code&gt;Touchscreen Mode&lt;/code&gt; 設定&lt;code&gt;Disabled&lt;/code&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/streamMonitor/Moonlight_android_setting.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;到連接的螢幕中的  &lt;code&gt;Quick Menu&lt;/code&gt;  啟用  &lt;code&gt;Enable Pan/Zoom&lt;/code&gt; &lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/streamMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;到連接的螢幕中的 &lt;code&gt;Quick Menu&lt;/code&gt; 啟用 &lt;code&gt;Enable Pan/Zoom&lt;/code&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/streamMonitor/Moonlight_android_setting2.webp&#34; alt=&#34;&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>

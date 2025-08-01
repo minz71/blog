@@ -30,7 +30,6 @@
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
-    <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
@@ -63,26 +62,26 @@
 &lt;li&gt;0/1 背包問題（0/1 Knapsack Problem）：每個物品要麼全部放入背包，要麼完全不放入背包，&lt;strong&gt;無法將物品分割&lt;/strong&gt;為部分放入。&lt;/li&gt;
 &lt;li&gt;分數背包問題（Fractional Knapsack Problem）：每個物品&lt;strong&gt;可以按比例分割&lt;/strong&gt;，可以將物品的一部分放入背包。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;假設有一個可放入總重量為 10 的背包，我們有以下物品可供選擇：&lt;/p&gt;
+&lt;p&gt;假設有一個可放入總重量為10的背包，我們有以下物品可供選擇：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;物品 1：價值 60，重量 4，價值 / 重量 = 15&lt;/li&gt;
-&lt;li&gt;物品 2：價值 80，重量 5，價值 / 重量 = 16&lt;/li&gt;
-&lt;li&gt;物品 3：價值 100，重量 8，價值 / 重量 = 12.5&lt;/li&gt;
+&lt;li&gt;物品1：價值 60，重量 4，價值/重量 = 15&lt;/li&gt;
+&lt;li&gt;物品2：價值 80，重量 5，價值/重量 = 16&lt;/li&gt;
+&lt;li&gt;物品3：價值 100，重量 8，價值/重量 = 12.5&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol&gt;
 &lt;li&gt;0/1 背包問題：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;最佳的物品組合是將物品 2 和物品 1 放入背包，總價值為 140。&lt;/p&gt;
+&lt;p&gt;最佳的物品組合是將物品2和物品1放入背包，總價值為 140。&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;分數背包問題：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;最佳的物品組合是將物品 2 和物品 1 完全放入背包，物品 3 的一部分（重量為 1）放入背包，總價值為 152.5。&lt;br /&gt;
-這是因為物品 2 的價值重量比最高，而物品 1 的價值重量比次之，物品 3 的價值重量比最低，&lt;br /&gt;
-因此我們先選取物品 2 和物品 1，再選取物品 3 的一部分。&lt;/p&gt;
+&lt;p&gt;最佳的物品組合是將物品2和物品1完全放入背包，物品3的一部分（重量為1）放入背包，總價值為 152.5。&lt;br /&gt;
+這是因為物品2的價值重量比最高，而物品1的價值重量比次之，物品3的價值重量比最低，&lt;br /&gt;
+因此我們先選取物品2和物品1，再選取物品3的一部分。&lt;/p&gt;
 &lt;h1 id=&#34;尤拉函數&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#尤拉函數&#34;&gt;#&lt;/a&gt; 尤拉函數&lt;/h1&gt;
-&lt;p&gt;尤拉函數（Euler&#39;s function），也稱為歐拉函數或歐拉 φ 函數。&lt;/p&gt;
+&lt;p&gt;尤拉函數（Euler&#39;s function），也稱為歐拉函數或歐拉φ函數。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;用來計算小於或等於給定正整數的自然數中與該正整數 &lt;code&gt;互質&lt;/code&gt; 的數的個數。&lt;/li&gt;
+&lt;li&gt;用來計算小於或等於給定正整數的自然數中與該正整數&lt;code&gt;互質&lt;/code&gt;的數的個數。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;尤拉函數的符號表示為 φ(n)，其中 n 是一個正整數。&lt;br /&gt;
 尤拉函數的計算方法基於歐拉定理，它指出若 a 和 n 是互質的正整數，則 a 的尤拉函數值 φ(n) 等於小於或等於 n 的正整數中與 n 互質的數的個數。&lt;/p&gt;

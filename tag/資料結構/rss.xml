@@ -3,7 +3,7 @@
     <channel>
         <title>minz的筆記本 • Posts by &#34;資料結構&#34; tag</title>
         <link>https://blog.minz.li</link>
-        <description></description>
+        <description>這是一個分享我學習筆記的空間</description>
         <language>zh-TW</language>
         <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
         <lastBuildDate>Wed, 01 Nov 2023 16:00:00 +0000</lastBuildDate>
@@ -33,7 +33,6 @@
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
@@ -62,7 +61,13 @@
             <category>資料結構</category>
             <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;circular-queue&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#circular-queue&#34;&gt;#&lt;/a&gt; Circular Queue&lt;/h1&gt;
-&lt;figure class=&#34;highlight mermaid&#34;&gt;&lt;figcaption data-lang=&#34;mermaid&#34;&gt;&lt;span&gt;圖&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;graph&lt;/span&gt; LR&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    A&lt;span class=&#34;token text string&#34;&gt;[A]&lt;/span&gt; &lt;span class=&#34;token arrow operator&#34;&gt;--&gt;&lt;/span&gt; B&lt;span class=&#34;token text string&#34;&gt;[B]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    B &lt;span class=&#34;token arrow operator&#34;&gt;--&gt;&lt;/span&gt; C&lt;span class=&#34;token text string&#34;&gt;[C]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    C &lt;span class=&#34;token arrow operator&#34;&gt;--&gt;&lt;/span&gt; D&lt;span class=&#34;token text string&#34;&gt;[D]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    D &lt;span class=&#34;token arrow operator&#34;&gt;--&gt;&lt;/span&gt; A&lt;span class=&#34;token text string&#34;&gt;[A]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;一般的隊列（Queue）:FIFO&lt;/p&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-mermaid&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;graph LR&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;    A&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;A&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;]&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; --&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; B&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;B&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;    B --&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; C&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;C&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;    C --&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; D&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;D&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;    D --&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;&gt;&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; A&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;A&lt;/span&gt;&lt;span style=&#34;color:#2993a3;--shiki-dark:#5eaab5&#34;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;一般的隊列（Queue）:FIFO&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -79,8 +84,8 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;插入和刪除操作&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;刪除操作都在前端進行&lt;br&gt;插入操作都在尾端進行&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;插入和刪除操作不固定&lt;br&gt;可以在任何位置進行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;刪除操作都在前端進行&amp;lt;br&amp;gt;插入操作都在尾端進行&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;插入和刪除操作不固定&amp;lt;br&amp;gt;可以在任何位置進行&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;記憶體空間&lt;/td&gt;
@@ -102,7 +107,7 @@
 &lt;p&gt;如果從節點 2 開始步驟如下：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;訪問節點 2&lt;br /&gt;
- 我們首先訪問節點 2，並將其標記為已訪問。&lt;/li&gt;
+我們首先訪問節點 2，並將其標記為已訪問。&lt;/li&gt;
 &lt;li&gt;選擇並訪問一個相鄰的未訪問節點&lt;br /&gt;
 從節點 2 的相鄰節點中選擇一個未訪問的節點（假設選擇節點 3），並訪問它。標記節點 3 為已訪問。&lt;/li&gt;
 &lt;li&gt;繼續深入訪問節點 3 的相鄰未訪問節點&lt;br /&gt;
@@ -118,7 +123,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;廣度優先搜尋 (Breadth-First Search, BFS)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;在 BFS 中，從起點節點開始，逐層地擴展搜索，先探索所有與起點節點相鄰的節點，然後再逐層探索與這些節點相鄰的節點，以此類推。&lt;/p&gt;
-&lt;p&gt;BFS 使用一個稱為 ** 佇列（Queue）** 的資料結構來維護待處理的節點。&lt;/p&gt;
+&lt;p&gt;BFS 使用一個稱為**佇列（Queue）**的資料結構來維護待處理的節點。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;將起點節點放入佇列中。&lt;/li&gt;
 &lt;li&gt;從佇列中取出一個節點，將其標記為已訪問，並擴展搜索到該節點相鄰的未訪問節點，將這些節點加入佇列中。&lt;/li&gt;
@@ -142,17 +147,17 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;順序&lt;/td&gt;
-&lt;td style=&#34;text-align:center&#34;&gt;不唯一 (若 vertex 從小到大拜訪則唯一)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;不唯一(若vertex從小到大拜訪則唯一)&lt;/td&gt;
 &lt;td style=&#34;text-align:center&#34;&gt;不唯一&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1 id=&#34;雜湊函數-hash-function&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#雜湊函數-hash-function&#34;&gt;#&lt;/a&gt; 雜湊函數 (Hash Function)&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;雜湊函數 (Hash Function)&lt;/strong&gt; 是一種數學函數，它將任意大小的輸入數據（稱為&lt;strong&gt;資料&lt;/strong&gt;）轉換為固定大小的輸出字串（稱為&lt;strong&gt;雜湊值&lt;/strong&gt;）。&lt;/p&gt;
-&lt;p&gt;例如我們將  &lt;code&gt;Hello World!&lt;/code&gt;  的字串分別用 MD5、SHA1、SHA256&lt;br /&gt;
-MD5:  &lt;code&gt;ed076287532e86365e841e92bfc50d8c&lt;/code&gt; &lt;br /&gt;
-SHA1:  &lt;code&gt;2ef7bde608ce5404e97d5f042f95f89f1c232871&lt;/code&gt; &lt;br /&gt;
-SHA256:  &lt;code&gt;7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如我們將 &lt;code&gt;Hello World!&lt;/code&gt; 的字串分別用MD5、SHA1、SHA256&lt;br /&gt;
+MD5: &lt;code&gt;ed076287532e86365e841e92bfc50d8c&lt;/code&gt;&lt;br /&gt;
+SHA1: &lt;code&gt;2ef7bde608ce5404e97d5f042f95f89f1c232871&lt;/code&gt;&lt;br /&gt;
+SHA256: &lt;code&gt;7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;雜湊函數會希望是不可逆&lt;/li&gt;
 &lt;li&gt;雜湊函數可能會有相同的情況（碰撞）&lt;/li&gt;

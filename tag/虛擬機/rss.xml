@@ -3,7 +3,7 @@
     <channel>
         <title>minz的筆記本 • Posts by &#34;虛擬機&#34; tag</title>
         <link>https://blog.minz.li</link>
-        <description></description>
+        <description>這是一個分享我學習筆記的空間</description>
         <language>zh-TW</language>
         <pubDate>Thu, 21 Nov 2024 16:00:00 +0000</pubDate>
         <lastBuildDate>Thu, 21 Nov 2024 16:00:00 +0000</lastBuildDate>
@@ -33,7 +33,6 @@
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
@@ -66,7 +65,7 @@
             <description><![CDATA[ &lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
 &lt;p&gt;VMware Workstation 是由 VMware 開發的桌面虛擬機軟體，&lt;br /&gt;
 博通（Broadcom）於 2023 年 11 月收購 VMware 後，&lt;br /&gt;
-於 2024 年 5 月 14 日，&lt;a href=&#34;https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供免費使用。&lt;br /&gt;
+於 2024年5月14日，&lt;a href=&#34;https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html&#34;&gt;宣布&lt;/a&gt;將以下虛擬化軟體供免費使用。&lt;br /&gt;
 商業使用現在也是&lt;a href=&#34;https://blogs.vmware.com/cloud-foundation/2024/11/11/vmware-fusion-and-workstation-are-now-free-for-all-users/&#34;&gt;免費&lt;/a&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;VMware Workstation Pro : 支援 Windows 與 Linux&lt;/li&gt;
@@ -74,7 +73,7 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;下載-vmware&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下載-vmware&#34;&gt;#&lt;/a&gt; 下載 VMware&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;註冊登入 Broadcom 帳號&lt;/li&gt;
+&lt;li&gt;註冊登入Broadcom帳號&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href=&#34;https://profile.broadcom.com/web/registration&#34;&gt;https://profile.broadcom.com/web/registration&lt;/a&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
@@ -91,23 +90,23 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;點擊下載連結後先選擇作業系統，再選擇 VMware 版本&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware1.webp&#34; alt=&#34;&#34; title=&#34;選擇版本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/VMware/vmware1.webp&#34; alt=&#34;&#34; title=&#34;選擇版本&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;同意條款後，點擊下載&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware2.webp&#34; alt=&#34;&#34; title=&#34;點擊下載icon&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/VMware/vmware2.webp&#34; alt=&#34;&#34; title=&#34;點擊下載icon&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;填寫基本資料，點選 submit 送出&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/tools/VMware/vmware3.webp&#34; alt=&#34;&#34; title=&#34;填寫基本資料&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;填寫基本資料，點選submit送出&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/tools/VMware/vmware3.webp&#34; alt=&#34;&#34; title=&#34;填寫基本資料&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;回到步驟 2 的頁面，點擊下載&lt;/p&gt;
+&lt;p&gt;回到步驟2的頁面，點擊下載&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;vmware-tools&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vmware-tools&#34;&gt;#&lt;/a&gt; VMware Tools&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&#34;&gt;https://knowledge.broadcom.com/external/article/315382/overview-of-vmware-tools.html&lt;/a&gt;&lt;br /&gt;
- 安裝後，虛擬機可以有更流暢的操作體驗，包括：&lt;/p&gt;
+安裝後，虛擬機可以有更流暢的操作體驗，包括：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;滑鼠：提高操作系統中的滑鼠控制。&lt;/li&gt;
 &lt;li&gt;時間同步：能夠將操作系統的時間與主機同步。&lt;/li&gt;

@@ -3,7 +3,7 @@
     <channel>
         <title>minz的筆記本 • Posts by &#34;線性代數&#34; tag</title>
         <link>https://blog.minz.li</link>
-        <description></description>
+        <description>這是一個分享我學習筆記的空間</description>
         <language>zh-TW</language>
         <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
         <lastBuildDate>Wed, 01 Nov 2023 16:00:00 +0000</lastBuildDate>
@@ -33,7 +33,6 @@
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
-        <category>ShokaX主題</category>
         <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
@@ -71,7 +70,7 @@
 &lt;h1 id=&#34;線性獨立&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#線性獨立&#34;&gt;#&lt;/a&gt; 線性獨立&lt;/h1&gt;
 &lt;p&gt;在線性代數中，線性獨立是指一組向量或一組函數的集合，其中沒有一個向量或函數可以表示為其他向量或函數的線性組合。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;換句話說，如果一組向量或函數中的每個成員都 &lt;code&gt;無法由其他成員線性組出&lt;/code&gt; ，則該組向量或函數是線性獨立的。&lt;/li&gt;
+&lt;li&gt;換句話說，如果一組向量或函數中的每個成員都&lt;code&gt;無法由其他成員線性組出&lt;/code&gt;，則該組向量或函數是線性獨立的。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;以下是一個簡單的範例來說明線性獨立的概念：&lt;/p&gt;
 &lt;p&gt;二維平面上的兩個向量 v₁ = (1, 0) 和 v₂ = (0, 1)。&lt;br /&gt;
@@ -81,10 +80,10 @@
 假設存在標量 a 和 b，使得 av₁ + bv₂ = v₃。&lt;br /&gt;
 將上述等式展開，我們可以得到以下方程組：&lt;br /&gt;
 a(1, 0) + b(0, 1) = (2, 3)&lt;br /&gt;
- 將方程組分解為兩個方程：&lt;br /&gt;
+將方程組分解為兩個方程：&lt;br /&gt;
 a = 2&lt;br /&gt;
 b = 3&lt;br /&gt;
- 因此，向量 v₃ 可以由向量 v₁ 和 v₂ 的線性組合表示，即 2v₁ + 3v₂ = v₃。&lt;br /&gt;
+因此，向量 v₃ 可以由向量 v₁ 和 v₂ 的線性組合表示，即 2v₁ + 3v₂ = v₃。&lt;br /&gt;
 這組向量 {v₁, v₂, v₃} 是線性相關的，而不是線性獨立的。&lt;/p&gt;
 &lt;h1 id=&#34;餘弦相似&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#餘弦相似&#34;&gt;#&lt;/a&gt; 餘弦相似&lt;/h1&gt;
 &lt;p&gt;餘弦相似（Cosine Similarity）是一種衡量兩個向量之間相似性的度量方法。&lt;br /&gt;
@@ -106,7 +105,7 @@ similarity = v₁ · v₂ / (||v₁|| * ||v₂||) = 11 / (2.236 * 5) ≈ 0.984&l
 &lt;/div&gt;
 &lt;h1 id=&#34;一個方陣要怎麼求反矩陣&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一個方陣要怎麼求反矩陣&#34;&gt;#&lt;/a&gt; 一個方陣要怎麼求反矩陣&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;高斯 - 喬登消去法（Gaussian-Jordan elimination）&lt;br /&gt;
+&lt;li&gt;高斯-喬登消去法（Gaussian-Jordan elimination）&lt;br /&gt;
 a. 將右邊放上基本矩陣&lt;br /&gt;
 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;[&lt;/mo&gt;&lt;mtable rowspacing=&#34;0.16em&#34; columnalign=&#34;center center center center center center&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;b&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;f&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;g&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;h&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo fence=&#34;true&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;
 \begin{bmatrix}
@@ -120,7 +119,7 @@ M347 1759 V0 H263 V1759 v0 v1759 h84z&#34;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/spa
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;b. 將左邊做列運算至基本矩陣&lt;br /&gt;
- c. 可得右邊為反矩陣&lt;br /&gt;
+c. 可得右邊為反矩陣&lt;br /&gt;
 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mo fence=&#34;true&#34;&gt;[&lt;/mo&gt;&lt;mtable rowspacing=&#34;0.16em&#34; columnalign=&#34;center center center center center center&#34; columnspacing=&#34;1em&#34;&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;mtr&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;0&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;mtd&gt;&lt;mstyle scriptlevel=&#34;0&#34; displaystyle=&#34;false&#34;&gt;&lt;mo stretchy=&#34;false&#34; lspace=&#34;0em&#34; rspace=&#34;0em&#34;&gt;?&lt;/mo&gt;&lt;/mstyle&gt;&lt;/mtd&gt;&lt;/mtr&gt;&lt;/mtable&gt;&lt;mo fence=&#34;true&#34;&gt;]&lt;/mo&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;
 \begin{bmatrix}
   1 &amp;amp; 0 &amp;amp; 0 &amp;amp; ? &amp;amp; ? &amp;amp; ? \\

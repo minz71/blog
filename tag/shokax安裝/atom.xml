@@ -30,7 +30,6 @@
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
-    <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
@@ -65,16 +64,16 @@
 &lt;p&gt;Shoka&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;是一個 Hexo 主題，Shoka 取的名字是 &lt;code&gt;書架&lt;/code&gt; ，是一個為了閱讀筆記而生的主題，&lt;br /&gt;
-相關介紹可以參考作者網站：&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;是一個 Hexo 主題，Shoka 取的名字是&lt;code&gt;書架&lt;/code&gt;，是一個為了閱讀筆記而生的主題，&lt;br /&gt;
+相關介紹可以參考作者網站：&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&lt;/a&gt;&lt;br /&gt;
 &lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;image&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://shoka.lostyu.me&#34; class=&#34;title&#34;&gt;優萌初華&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;Shoka作者&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/shokaX/shokaAuthor.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;br /&gt;
 Shoka 作者於&lt;a href=&#34;https://shoka.lostyu.me/computer-science/note/theme-shoka-doc/&#34;&gt;部落格底下的留言中的回覆&lt;/a&gt;，&lt;br /&gt;
-該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt; 2021/10/03&lt;/a&gt;&lt;/p&gt;
+該項目可能不再更新，Github 上最後的 Commit 日期是&lt;a href=&#34;https://github.com/amehime/hexo-theme-shoka&#34;&gt;2021/10/03&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;ShokaX&lt;/li&gt;
 &lt;/ul&gt;
@@ -92,33 +91,49 @@ ShokaX 是 Shoka 的精神續作，&lt;br /&gt;
 &lt;li&gt;使用 shokaX can&lt;br /&gt;
 &lt;a href=&#34;https://github.com/theme-shoka-x/shokax-can&#34;&gt;https://github.com/theme-shoka-x/shokax-can&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/theme-shoka-x/shokax-can &lt;span class=&#34;token parameter variable&#34;&gt;--depth&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; shokax-can&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;pnpm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;git&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; clone&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; https://github.com/theme-shoka-x/shokax-can&lt;/span&gt;&lt;span style=&#34;color:#A65E2B;--shiki-dark:#C99076&#34;&gt; --depth=1&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;cd&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; shokax-can&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;pnpm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;依說明文檔進行配置&lt;br /&gt;
-&lt;a href=&#34;https://docs.kaitaku.xyz/guide/config.html&#34;&gt; https://docs.kaitaku.xyz/guide/config.html&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://docs.kaitaku.xyz/guide/config.html&#34;&gt;https://docs.kaitaku.xyz/guide/config.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;啟動 hexo server&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo s &lt;span class=&#34;token comment&#34;&gt;# 如果報錯更換為 pnpm dlx hexo s&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;撰寫第一篇文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#撰寫第一篇文章&#34;&gt;#&lt;/a&gt; 撰寫第一篇文章&lt;/h1&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;hexo&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; s&lt;/span&gt;&lt;span style=&#34;color:#A0ADA0;--shiki-dark:#758575DD&#34;&gt; # 如果報錯更換為 pnpm dlx hexo s&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;撰寫第一篇文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#撰寫第一篇文章&#34;&gt;#&lt;/a&gt; 撰寫第一篇文章&lt;/h1&gt;
 &lt;ol&gt;
-&lt;li&gt;在 &lt;code&gt;source/_posts&lt;/code&gt;  資料夾下新增一個 &lt;code&gt;md&lt;/code&gt;  檔案，例如： &lt;code&gt;first.md&lt;/code&gt; 。&lt;/li&gt;
+&lt;li&gt;在&lt;code&gt;source/_posts&lt;/code&gt;資料夾下新增一個&lt;code&gt;md&lt;/code&gt;檔案，例如：&lt;code&gt;first.md&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;在檔案內容中新增一些內容，例如：&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;title: 第一篇文章&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;date: 2024-04-24&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;tags: ShokaX&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token title important&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;#&lt;/span&gt; 第一篇文章&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;這是內容&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;title: 第一篇文章&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;date: 2024-04-24&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;tags: ShokaX&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#1C6B48;--shiki-light-font-weight:bold;--shiki-dark:#4D9375;--shiki-dark-font-weight:bold&#34;&gt;---&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-light-font-weight:bold;--shiki-dark:#666666;--shiki-dark-font-weight:bold&#34;&gt;#&lt;/span&gt;&lt;span style=&#34;color:#1C6B48;--shiki-light-font-weight:bold;--shiki-dark:#4D9375;--shiki-dark-font-weight:bold&#34;&gt; 第一篇文章&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt;這是內容&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;可以看到第一篇文章了。&lt;br /&gt;
-&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/shokaX/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
+&lt;img loading=&#34;lazy&#34; src=&#34;/images/shokaX/firstpost.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h1 id=&#34;seo-設置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#seo-設置&#34;&gt;#&lt;/a&gt; SEO 設置&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;安裝 hexo-generator-sitemap&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; hexo-generator-sitemap&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#59873A;--shiki-dark:#80A665&#34;&gt;npm&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; install&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; hexo-generator-sitemap&lt;/span&gt;&lt;span style=&#34;color:#393A34;--shiki-dark:#DBD7CAEE&#34;&gt; &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://search.google.com/search-console&#34;&gt;Google SEO&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://analytics.google.com/&#34;&gt;Google Analytics&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;figure class=&#34;highlight yml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;seo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;google&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 填入資訊&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;visitor&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;googleAnalytics&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 填入資訊&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;seo&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  google&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#A0ADA0;--shiki-dark:#758575DD&#34;&gt; # 填入資訊&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;visitor&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  googleAnalytics&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#A0ADA0;--shiki-dark:#758575DD&#34;&gt; # 填入資訊&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+</content>
         <category term="ShokaX" />
         <category term="ShokaX安裝" />
         <category term="Hexo主題" />

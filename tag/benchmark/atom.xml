@@ -30,7 +30,6 @@
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
-    <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
@@ -59,47 +58,47 @@
         <content type="html">&lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
 &lt;p&gt;隨著 AI 大語言模型的快速迭代，能力也增強了許多，可以在以下的網站查看各個模型的排名。&lt;/p&gt;
 &lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
-&lt;p&gt;LMSYS Org (Large Model Systems Organization) 是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
+&lt;p&gt;LMSYS Org (Large Model Systems Organization)是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
 旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
 希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
 &lt;h2 id=&#34;chatbot-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chatbot-arena&#34;&gt;#&lt;/a&gt; Chatbot Arena&lt;/h2&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LMSYS&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://lmarena.ai/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://lmarena.ai/images/favicon-light.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LMSYS&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://lmarena.ai/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://lmarena.ai/images/favicon-light.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://lmarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;LMSYS&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://lmarena.ai/leaderboard&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysMode.webp&#34; alt=&#34;選擇模式&#34; title=&#34;選擇模式&#34; width=&#34;50%&#34; /&gt;&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysMode.webp&#34; alt=&#34;選擇模式&#34; title=&#34;選擇模式&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;⚔️ Arena (battle)&lt;br /&gt;
- 使用者可以輸入問題，會隨機提供不同的模型回答，使用者可以對回答較佳的模型投票，投票後會顯示剛剛回答的模型。&lt;/li&gt;
+使用者可以輸入問題，會隨機提供不同的模型回答，使用者可以對回答較佳的模型投票，投票後會顯示剛剛回答的模型。&lt;/li&gt;
 &lt;li&gt;⚔️ Arena (side-by-side)&lt;br /&gt;
- 可以讓使用者選擇 2 個&lt;strong&gt;指定&lt;/strong&gt;的模型，使用者可以對回答較佳的模型投票。&lt;/li&gt;
+可以讓使用者選擇2個&lt;strong&gt;指定&lt;/strong&gt;的模型，使用者可以對回答較佳的模型投票。&lt;/li&gt;
 &lt;li&gt;💬 Direct Chat&lt;br /&gt;
- 使用者可以直接和模型對話，可以選擇指定的模型。&lt;/li&gt;
+使用者可以直接和模型對話，可以選擇指定的模型。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysArena1.webp&#34; alt=&#34;向模型提問的範例&#34; title=&#34;向模型提問的範例&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysArena1.webp&#34; alt=&#34;向模型提問的範例&#34; title=&#34;向模型提問的範例&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
-可以看到有許多大模型公司都贊助了 LMSYS，且會提供最新 (或是測試中未公開) 的語言模型給 LMSYS 測試。&lt;br /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
+可以看到有許多大模型公司都贊助了 LMSYS，且會提供最新(或是測試中未公開)的語言模型給 LMSYS 測試。&lt;br /&gt;
 模型未公開時會使用代號名稱，例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。&lt;/p&gt;
-&lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎？&lt;/h2&gt;
+&lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎?&lt;/h2&gt;
 &lt;p&gt;在 GPT-4o-mini 勝出其他大模型後，許多人對這個榜單提出質疑，因此提供用戶的&lt;a href=&#34;https://huggingface.co/spaces/lmsys/gpt-4o-mini_battles&#34;&gt;對話與投票紀錄&lt;/a&gt;，&lt;br /&gt;
-&lt;a href=&#34;https://lmsys.org/blog/2024-08-28-style-control/&#34;&gt;之後也提出  &lt;code&gt;style control&lt;/code&gt;  功能&lt;/a&gt;，目標是要有辦法區分模型分數是來自 &lt;code&gt;內容&lt;/code&gt; 或是 &lt;code&gt;風格&lt;/code&gt; 。&lt;/p&gt;
+&lt;a href=&#34;https://lmsys.org/blog/2024-08-28-style-control/&#34;&gt;之後也提出 &lt;code&gt;style control&lt;/code&gt; 功能&lt;/a&gt;，目標是要有辦法區分模型分數是來自&lt;code&gt;內容&lt;/code&gt;或是&lt;code&gt;風格&lt;/code&gt;。&lt;/p&gt;
 &lt;h1 id=&#34;aider-leaderboards&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aider-leaderboards&#34;&gt;#&lt;/a&gt; Aider Leaderboards&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;title&#34;&gt;Aider Leaderboards&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://aider.chat/docs/leaderboards/&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Aider 是一個開源的 AI 程式碼撰寫工具。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Aider LLM Leaderboards 是由 Aider 開發的一組基準測試，用於評估大型語言模型（LLM）編輯程式碼的能力。&lt;br /&gt;
 這些基準測試專注於模型編輯&lt;strong&gt;現有程式碼&lt;/strong&gt;的能力，確保模型能夠一致地遵循系統提示詞（Prompt）完成編輯任務，適合評估在程式碼編輯的表現。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;如何進行基準測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何進行基準測試&#34;&gt;#&lt;/a&gt; 如何進行基準測試？&lt;/h2&gt;
 &lt;p&gt;基準測試是 &lt;a href=&#34;https://aider.chat/2024/12/21/polyglot.html#the-polyglot-benchmark&#34;&gt;Aider’s polyglot benchmark&lt;/a&gt;，選取 Exercism 的 225 個困難的程式練習，測量模型&lt;strong&gt;完成任務&lt;/strong&gt;的百分比以及使用&lt;strong&gt;正確編輯格式&lt;/strong&gt;的百分比。&lt;/p&gt;
 &lt;ul&gt;
@@ -107,39 +106,39 @@
 &lt;li&gt;whole 輸出整個程式碼文件&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;livebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livebench&#34;&gt;#&lt;/a&gt; LiveBench&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livebench.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://livebench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livebench.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://livebench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://livebench.ai/&#34; class=&#34;title&#34;&gt;LiveBench&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://livebench.ai/&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;LiveBench 是一個用於評估大型語言模型（LLM）的基準測試平台，目標是防止測試集污染並提供客觀評分。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;每月更新問題，確保模型沒有見過這些問題&lt;/li&gt;
 &lt;li&gt;可以自行驗證分數，也可以接入模型 API 進行跑分&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;title&#34;&gt;LiveCodeBench&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://livecodebench.github.io/leaderboard.html&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;LiveCodeBench 是由加州大學柏克萊分校、MIT、康乃爾大學等團隊共同開發的程式碼大型語言模型（Code LLMs）評估基準&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;持續更新的題目庫，&lt;strong&gt;避免資料污染&lt;/strong&gt;的模型效能評測&lt;/li&gt;
 &lt;li&gt;使用 &lt;strong&gt;LeetCode、AtCoder、Codeforces&lt;/strong&gt; 平台的程式競賽題目&lt;/li&gt;
 &lt;li&gt;可以調整題目時間，確保在模型的訓練截止日期之後&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;vectara-的模型幻覺排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vectara-的模型幻覺排行榜&#34;&gt;#&lt;/a&gt; Vectara 的模型幻覺排行榜&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;hallucination-leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://avatars.githubusercontent.com/u/108304503?s=200&amp;v=4&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;hallucination-leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://avatars.githubusercontent.com/u/108304503?s=200&amp;v=4&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;title&#34;&gt;hallucination-leaderboard&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://github.com/vectara/hallucination-leaderboard&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;透過 &lt;a href=&#34;https://huggingface.co/vectara/hallucination_evaluation_model&#34;&gt;Hughes Hallucination Evaluation Model (HHEM)&lt;/a&gt; 來測試模型幻覺。&lt;/p&gt;
-&lt;p&gt;所謂「幻覺」（hallucinated）或「事實不一致」（factually inconsistent），是指&lt;strong&gt;一段文本（待判斷的假設）無法由源文本（給定的證據 / 前提）所支持&lt;/strong&gt;。在檢索增強生成（RAG）的情境中，模型會從資料集中檢索到多段文本（通常稱為事實或上下文），若生成的摘要（假設）與這些源文本（給定的證據 / 前提）不符，即構成幻覺。&lt;/p&gt;
-&lt;p&gt;RAG 中一種幻覺類型是，LLM 生成的陳述在現實世界中是正確的，但是並未出現在提供的源文本。&lt;/p&gt;
+&lt;p&gt;所謂「幻覺」（hallucinated）或「事實不一致」（factually inconsistent），是指&lt;strong&gt;一段文本（待判斷的假設）無法由源文本（給定的證據/前提）所支持&lt;/strong&gt;。在檢索增強生成（RAG）的情境中，模型會從資料集中檢索到多段文本（通常稱為事實或上下文），若生成的摘要（假設）與這些源文本（給定的證據/前提）不符，即構成幻覺。&lt;/p&gt;
+&lt;p&gt;RAG中一種幻覺類型是，LLM 生成的陳述在現實世界中是正確的，但是並未出現在提供的源文本。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;檢索到的事實（前提）：「法國的首都是柏林」(源文本內容)&lt;/li&gt;
 &lt;li&gt;LLM 回答的摘要（假設）：「法國的首都是巴黎」(符合真實世界知識)&lt;/li&gt;
@@ -148,11 +147,11 @@
 &lt;p&gt;這表示 LLM 未依賴 RAG 提供的資料，反而仰賴預訓練時學到的知識。&lt;/p&gt;
 &lt;/div&gt;
 &lt;h1 id=&#34;fictionlive-評估模型在長上下文上的能力&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fictionlive-評估模型在長上下文上的能力&#34;&gt;#&lt;/a&gt; fiction.live 評估模型在長上下文上的能力&lt;/h1&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;fiction.live&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&#34; class=&#34;image&#34; data-background-image=&#34;https://fiction.live/staticAssets/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;fiction.live&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&#34; class=&#34;image&#34; data-background-image=&#34;https://fiction.live/staticAssets/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&#34; class=&#34;title&#34;&gt;fiction.live&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;核心目標： 測試 AI 模型在處理長篇文本時，能否維持回答品質，並深度理解動態發展的故事情節。&lt;/p&gt;
 &lt;h2 id=&#34;測試數據來源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#測試數據來源&#34;&gt;#&lt;/a&gt; 測試數據來源&lt;/h2&gt;
 &lt;ul&gt;
@@ -205,11 +204,11 @@
 &lt;ul&gt;
 &lt;li&gt;採取用戶投票的 AI 繪圖模型排行榜&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://artificialanalysis.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://artificialanalysis.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 </content>
         <category term="llm" />
         <category term="benchmark" />

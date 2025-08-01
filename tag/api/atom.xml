@@ -30,7 +30,6 @@
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
-    <category term="ShokaX主題" />
     <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
@@ -60,22 +59,22 @@
 &lt;ol&gt;
 &lt;li&gt;註冊一個帳號&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_1.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/OpenWebui/OpenWebui_1.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;details class=&#34;info&#34;&gt;&lt;summary&gt;如果出現帳號待啟用，需要通知管理員開啟權限&lt;/summary&gt;&lt;div&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_2.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/OpenWebui/OpenWebui_2.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;&lt;/details&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;點選右上角的使用者的圖像，選擇設定&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_3.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/OpenWebui/OpenWebui_3.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;輸入  &lt;code&gt;API URL&lt;/code&gt;  跟  &lt;code&gt;key&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;輸入 &lt;code&gt;API URL&lt;/code&gt; 跟 &lt;code&gt;key&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_4.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/OpenWebui/OpenWebui_4.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;回到首頁按下 F5 重新整理後刷新則會自動取得模型&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/images/AI/OpenWebui/OpenWebui_5.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/OpenWebui/OpenWebui_5.webp&#34; alt=&#34;&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 </content>
         <category term="Open-webui" />
         <category term="Custom" />
