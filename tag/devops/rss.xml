@@ -5,8 +5,8 @@
         <link>https://blog.minz.li</link>
         <description>這是一個分享我學習筆記的空間</description>
         <language>zh-TW</language>
-        <pubDate>Fri, 09 Aug 2024 16:00:00 +0000</pubDate>
-        <lastBuildDate>Fri, 09 Aug 2024 16:00:00 +0000</lastBuildDate>
+        <pubDate>Fri, 01 Aug 2025 16:00:00 +0000</pubDate>
+        <lastBuildDate>Fri, 01 Aug 2025 16:00:00 +0000</lastBuildDate>
         <category>Groq</category>
         <category>Cerebras</category>
         <category>SambaNova</category>
@@ -54,6 +54,50 @@
         <category>線性代數</category>
         <category>資料結構</category>
         <category>離散數學</category>
+        <item>
+            <guid isPermalink="true">https://blog.minz.li/DevOps/watchtower/</guid>
+            <title>Watchtower 自動更新 Docker 容器</title>
+            <link>https://blog.minz.li/DevOps/watchtower/</link>
+            <category>DevOps</category>
+            <category>Docker</category>
+            <pubDate>Fri, 01 Aug 2025 16:00:00 +0000</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;watchtower&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/containrrr/watchtower&#34; class=&#34;image&#34; data-background-image=&#34;https://containrrr.dev/watchtower/images/logo-450px.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://github.com/containrrr/watchtower&#34; class=&#34;title&#34;&gt;watchtower&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://github.com/containrrr/watchtower&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;watchtower-介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#watchtower-介紹&#34;&gt;#&lt;/a&gt; Watchtower 介紹&lt;/h2&gt;
+&lt;p&gt;Watchtower 會偵測是否有新的映像可用，然後嘗試安裝新的版本，並使用新版本 image 重新啟動容器。&lt;/p&gt;
+&lt;h2 id=&#34;docker-compose-範例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docker-compose-範例&#34;&gt;#&lt;/a&gt; docker-compose 範例&lt;/h2&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;services&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;  watchtower&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    container_name&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; watchtower&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    image&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; containrrr/watchtower:latest&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    restart&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; always&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    environment&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      TZ&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;Asia/Taipei&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      WATCHTOWER_ROLLING_RESTART&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      WATCHTOWER_NOTIFICATION_REPORT&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;      WATCHTOWER_NOTIFICATION_URL&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt; &#34;&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt;telegram://XXX:XXX@telegram/?Chats=XXX&lt;/span&gt;&lt;span style=&#34;color:#B5695977;--shiki-dark:#C98A7D77&#34;&gt;&#34;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    volumes&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;      -&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; /var/run/docker.sock:/var/run/docker.sock&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;span style=&#34;color:#998418;--shiki-dark:#B8A965&#34;&gt;    command&lt;/span&gt;&lt;span style=&#34;color:#999999;--shiki-dark:#666666&#34;&gt;:&lt;/span&gt;&lt;span style=&#34;color:#B56959;--shiki-dark:#C98A7D&#34;&gt; --schedule &#34;0 0 1 * * *&#34; --cleanup app1 app2 app3&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;--interval 86400 &lt;strong&gt;Poll interval 以秒為間隔檢查&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;--schedule  使用 6 欄位的 &lt;a href=&#34;https://pkg.go.dev/github.com/robfig/cron@v1.2.0?tab=doc#hdr-CRON_Expression_Format&#34;&gt;Cron expression&lt;/a&gt;  例如:&amp;quot;0 0 1 * * *&amp;quot; 每天1點檢查&lt;/li&gt;
+&lt;li&gt;--cleanup 容器名稱&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;說明文檔: &lt;a href=&#34;https://containrrr.dev/watchtower/arguments/&#34;&gt;https://containrrr.dev/watchtower/arguments/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;在 arm 平台使用需要注意 image 有沒有提供 arm 架構&lt;br /&gt;
+如果該 image 只有 x86 版本也會 watchtower 拉取&lt;br /&gt;
+並出現無法執行 image 錯誤&lt;br /&gt;
+&lt;a href=&#34;https://github.com/containrrr/watchtower/issues/1309&#34;&gt;GitHub issue #1309&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX_github_action/</guid>
             <title>ShokaX 使用 GitHub Actions 自動部署到 Github Page</title>
