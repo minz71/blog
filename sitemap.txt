@@ -54,10 +54,10 @@ https://blog.minz.li/tags/WSL/
 https://blog.minz.li/tags/Netflix/
 https://blog.minz.li/tags/Netflix%E5%85%B1%E4%BA%AB/
 https://blog.minz.li/tags/Github-Action/
+https://blog.minz.li/tags/ShokaX%E6%8F%92%E4%BB%B6/
 https://blog.minz.li/tags/ShokaX/
 https://blog.minz.li/tags/ShokaX%E5%AE%89%E8%A3%9D/
 https://blog.minz.li/tags/Hexo%E4%B8%BB%E9%A1%8C/
-https://blog.minz.li/tags/ShokaX%E6%8F%92%E4%BB%B6/
 https://blog.minz.li/tags/UiPath/
 https://blog.minz.li/tags/VMware/
 https://blog.minz.li/tags/VMware%E4%B8%8B%E8%BC%89/
@@ -79,6 +79,7 @@ https://blog.minz.li/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/
 https://blog.minz.li/tags/%E8%B3%87%E6%96%99%E7%B5%90%E6%A7%8B/
 https://blog.minz.li/tags/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/
 https://blog.minz.li/categories/AI/
+https://blog.minz.li/categories/DevOps/
 https://blog.minz.li/categories/shokaX/
 https://blog.minz.li/categories/UiPath/
 https://blog.minz.li/categories/tool/
