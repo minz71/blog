@@ -24,16 +24,27 @@
         <category>Custom</category>
         <category>API</category>
         <category>diskpart</category>
+        <category>物件導向</category>
+        <category>演算法</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <category>線性代數</category>
+        <category>程式碼</category>
+        <category>大學課程</category>
+        <category>機率與統計</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
+        <category>mora</category>
+        <category>Hi-res</category>
+        <category>音樂</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
-        <category>ShokaX插件</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
+        <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
@@ -46,14 +57,6 @@
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
-        <category>物件導向</category>
-        <category>大學課程</category>
-        <category>程式碼</category>
-        <category>機率與統計</category>
-        <category>演算法</category>
-        <category>線性代數</category>
-        <category>資料結構</category>
-        <category>離散數學</category>
         <item>
             <guid isPermalink="true">https://blog.minz.li/tool/Uipath/</guid>
             <title>UiPath介紹</title>

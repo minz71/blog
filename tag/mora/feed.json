@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "minz的筆記本 • All posts by \"mora\" tag",
+    "description": "這是一個分享我學習筆記的空間",
+    "home_page_url": "https://blog.minz.li",
+    "items": [
+        {
+            "id": "https://blog.minz.li/other/mora/",
+            "url": "https://blog.minz.li/other/mora/",
+            "title": "介紹 mora.jp 的幾個常見問題",
+            "date_published": "2025-09-05T16:00:00.000Z",
+            "content_html": "<h2 id=\"介紹\"><a class=\"anchor\" href=\"#介紹\">#</a> 介紹</h2>\n<p><a href=\"http://mora.jp\">mora.jp</a> 是 Sony Music Entertainment 提供販售無損音樂的平台，提供無 DRM 保護的音樂檔案，也就是購買的音樂檔案沒有加密。</p>\n<h2 id=\"mora-無損壓縮\"><a class=\"anchor\" href=\"#mora-無損壓縮\">#</a> mora 無損壓縮</h2>\n<p><img loading=\"lazy\" src=\"/images/other/mora/moraFormat.webp\" alt=\"mora提供的格式\" width=\"90%\" /></p>\n<p>來源:<a href=\"https://mora.jp/etc/highreso\">https://mora.jp/etc/highreso</a></p>\n<p>Mora販售的 FLAC 有2種形式</p>\n<ol>\n<li>無損無壓縮</li>\n<li>無損有壓縮</li>\n</ol>\n<div class=\"note default\">\n<p>對於 FLAC 的壓縮率每一首歌都不一樣，也就是相同時間的歌曲可能會有不同檔案大小</p>\n</div>\n<h2 id=\"容器container與編碼codec-encoding\"><a class=\"anchor\" href=\"#容器container與編碼codec-encoding\">#</a> 容器（Container）與編碼（Codec / Encoding）</h2>\n<p>在音樂檔案中<strong>編碼包含在容器中</strong></p>\n<ul>\n<li>容器是一種檔案格式，用來<strong>包裝音訊資料以及相關的資訊</strong>（metadata，如標題、歌手、專輯封面等）。</li>\n<li>編碼器是<strong>壓縮和解壓縮音訊資料的方式。</strong> (實際的音訊資料)</li>\n</ul>\n<p>例如:</p>\n<ul>\n<li><code>.m4a</code> 檔案（容器）裡，可以放 <strong>AAC 編碼</strong> 或 <strong>ALAC 編碼</strong>的音訊。</li>\n<li><code>.ogg</code> 容器可以裝 <strong>Vorbis 編碼</strong>，但也可以裝 <strong>Opus 編碼</strong>。</li>\n</ul>\n<h3 id=\"m4a-aac\"><a class=\"anchor\" href=\"#m4a-aac\">#</a> M4A AAC</h3>\n<ul>\n<li><strong>編碼標準</strong>：AAC-LC（有損壓縮）</li>\n<li><strong>容器格式</strong>：MPEG-4標準（.mp4/.m4a副檔名）</li>\n</ul>\n<p><a href=\"https://mora.jp/help/faq_play#pd_07\">https://mora.jp/help/faq_play#pd_07</a><br />\n該網址中有說明 mora 提供的 AAC-LC 檔案格式為 .mp4/.m4a</p>\n<h2 id=\"無損無壓縮-wav-檔案大小\"><a class=\"anchor\" href=\"#無損無壓縮-wav-檔案大小\">#</a> 無損無壓縮 WAV 檔案大小</h2>\n<p>公式為: 取樣率 * 位元深度 * 聲道數 * 時間(秒) bit</p>\n<p>例如以 4 分鐘的 96Khz/24bit 歌曲來計算檔案大小</p>\n<p>96000(取樣率) * 24(位元深度) * 2(雙聲道) * 240(秒數) / 8(換Byte) / 1024(換KB) / 1024(換MB) = 大小約 131.8 MB</p>\n<p>位元率(bitrate): 表示每秒傳輸的資料量，計算方式為：取樣率 * 位元深度 * 聲道數</p>\n<ul>\n<li>48kHZ 24bit 無損無壓縮的位元率是: 2304kbps</li>\n<li>96kHZ 24bit 無損無壓縮的位元率是: 4608kbps</li>\n</ul>\n<div class=\"note info\">\n<p>FLAC也可以作為無損無壓縮的格式</p>\n</div>\n<div class=\"note info\">\n<p>音源的檔案大小需要再加上專輯封面等 metadata (元數據)</p>\n</div>\n<h2 id=\"無壓縮-flac\"><a class=\"anchor\" href=\"#無壓縮-flac\">#</a> 無壓縮 FLAC</h2>\n<ul>\n<li>WAV 不支援部分標籤和專輯封面</li>\n</ul>\n<p><a href=\"https://xiph.org/flac/\">FLAC官方網站: https://xiph.org/flac/</a></p>\n<ul>\n<li>可以使用下面的參數產生出無壓縮 FLAC，無壓縮的FLAC儲存空間更大，且解碼時間比有壓縮的FLAC更多。</li>\n</ul>\n<pre class=\"shiki shiki-themes vitesse-light vitesse-dark\" style=\"background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee\" tabindex=\"0\"><code class=\"language-text\"><span class=\"line\"><span>flac.exe -l 0 --disable-constant-subframes --disable-fixed-subframes 'input.flac' -o 'output.flac'</span></span></code></pre>\n<p>在 github 對於 flac 無損無壓縮的 issue <a href=\"https://github.com/xiph/flac/issues/73\">https://github.com/xiph/flac/issues/73</a></p>\n<h2 id=\"mora-下載器\"><a class=\"anchor\" href=\"#mora-下載器\">#</a> mora 下載器</h2>\n<p>可以使用下載器一鍵下載所有購買的歌曲</p>\n<p><a href=\"https://mora.jp/help/player\">https://mora.jp/help/player</a></p>\n",
+            "tags": [
+                "mora",
+                "Hi-res",
+                "音樂"
+            ]
+        }
+    ]
+}

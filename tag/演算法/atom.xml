@@ -21,16 +21,27 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
+    <category term="物件導向" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
+    <category term="mora" />
+    <category term="Hi-res" />
+    <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
-    <category term="ShokaX插件" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -43,18 +54,10 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="物件導向" />
-    <category term="大學課程" />
-    <category term="程式碼" />
-    <category term="機率與統計" />
-    <category term="演算法" />
-    <category term="線性代數" />
-    <category term="資料結構" />
-    <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/</id>
+        <id>https://blog.minz.li/Courses/algorithms/</id>
         <title>演算法</title>
-        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+        <link rel="alternate" href="https://blog.minz.li/Courses/algorithms/"/>
         <content type="html">&lt;h1 id=&#34;dp跟divide-and-conquer差在哪&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#dp跟divide-and-conquer差在哪&#34;&gt;#&lt;/a&gt; DP跟divide and conquer差在哪&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;分而治之法 (Divide and Conquer)&lt;/strong&gt;  如果問題很大，我們就把問題&lt;strong&gt;分解成較小的子問題&lt;/strong&gt;，然後分別解決這些子問題。一旦所有的子問題都解決了，我們就把所有子問題的解決方案組合起來，找到大問題的解決方案。分治法的限制是子問題應該與原問題屬於同一類型。例如，如果主要問題是排序，那麼子問題也應該是排序。分治法的策略本質上是遞迴的。&lt;/p&gt;
 &lt;p&gt;動態規劃(&lt;strong&gt;Dynamic Programming&lt;/strong&gt;) 則是將優化問題分解成更簡單的子問題，並&lt;strong&gt;存儲&lt;/strong&gt;每個子問題的解決方案，以便每個子問題只需要解決一次。一旦所有的子問題都解決了，我們就將每個子問題的結果連接起來，找到初始問題的解決方案。&lt;/p&gt;

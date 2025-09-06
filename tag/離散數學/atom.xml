@@ -21,16 +21,27 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
+    <category term="物件導向" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
+    <category term="mora" />
+    <category term="Hi-res" />
+    <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
-    <category term="ShokaX插件" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -43,18 +54,10 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="物件導向" />
-    <category term="大學課程" />
-    <category term="程式碼" />
-    <category term="機率與統計" />
-    <category term="演算法" />
-    <category term="線性代數" />
-    <category term="資料結構" />
-    <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/</id>
+        <id>https://blog.minz.li/Courses/discrete-mathematics/</id>
         <title>離散數學</title>
-        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E9%9B%A2%E6%95%A3%E6%95%B8%E5%AD%B8/"/>
+        <link rel="alternate" href="https://blog.minz.li/Courses/discrete-mathematics/"/>
         <content type="html">&lt;h1 id=&#34;背包問題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#背包問題&#34;&gt;#&lt;/a&gt; 背包問題&lt;/h1&gt;
 &lt;p&gt;背包問題（Knapsack Problem）是一個經典的優化問題，屬於組合優化問題的一種，有一個固定容量的背包和一組具有不同價值和重量的物品，我們需要在限制背包容量的條件下，選擇最佳的物品組合，使得&lt;strong&gt;總價值最大化&lt;/strong&gt;，可以使用&lt;strong&gt;動態規劃&lt;/strong&gt;、&lt;strong&gt;貪婪算法&lt;/strong&gt;來找到最佳解。&lt;/p&gt;
 &lt;p&gt;背包問題可以分為兩種主要的變體：&lt;/p&gt;

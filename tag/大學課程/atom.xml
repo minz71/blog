@@ -21,16 +21,27 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
+    <category term="物件導向" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
+    <category term="mora" />
+    <category term="Hi-res" />
+    <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
-    <category term="ShokaX插件" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -43,18 +54,10 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="物件導向" />
-    <category term="大學課程" />
-    <category term="程式碼" />
-    <category term="機率與統計" />
-    <category term="演算法" />
-    <category term="線性代數" />
-    <category term="資料結構" />
-    <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/</id>
+        <id>https://blog.minz.li/Courses/operating-systems/</id>
         <title>作業系統</title>
-        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E4%BD%9C%E6%A5%AD%E7%B3%BB%E7%B5%B1/"/>
+        <link rel="alternate" href="https://blog.minz.li/Courses/operating-systems/"/>
         <content type="html">&lt;h1 id=&#34;race-condition-是什麼&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#race-condition-是什麼&#34;&gt;#&lt;/a&gt; Race Condition 是什麼?&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;競爭條件 (Race Condition)&lt;/strong&gt; 兩個或兩個以上的進程或線程在更改 &lt;strong&gt;共享資源(Share Resource)&lt;/strong&gt; 時會發生的情況。&lt;/p&gt;
 &lt;p&gt;例如，假設我們有兩個Process A 和 B，都想要訪問同一個共享變量。&lt;br /&gt;

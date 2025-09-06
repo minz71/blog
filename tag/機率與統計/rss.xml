@@ -24,16 +24,27 @@
         <category>Custom</category>
         <category>API</category>
         <category>diskpart</category>
+        <category>物件導向</category>
+        <category>演算法</category>
+        <category>資料結構</category>
+        <category>離散數學</category>
+        <category>線性代數</category>
+        <category>程式碼</category>
+        <category>大學課程</category>
+        <category>機率與統計</category>
         <category>DevOps</category>
         <category>Docker</category>
         <category>WSL</category>
+        <category>mora</category>
+        <category>Hi-res</category>
+        <category>音樂</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
         <category>Github Action</category>
-        <category>ShokaX插件</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
+        <category>ShokaX插件</category>
         <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
@@ -46,18 +57,10 @@
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
-        <category>物件導向</category>
-        <category>大學課程</category>
-        <category>程式碼</category>
-        <category>機率與統計</category>
-        <category>演算法</category>
-        <category>線性代數</category>
-        <category>資料結構</category>
-        <category>離散數學</category>
         <item>
-            <guid isPermalink="true">https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/</guid>
+            <guid isPermalink="true">https://blog.minz.li/Courses/probability-and-statistics/</guid>
             <title>機率與統計</title>
-            <link>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/</link>
+            <link>https://blog.minz.li/Courses/probability-and-statistics/</link>
             <category>機率與統計</category>
             <pubDate>Wed, 01 Nov 2023 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;互斥和獨立事件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#互斥和獨立事件&#34;&gt;#&lt;/a&gt; 互斥和獨立事件&lt;/h1&gt;

@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.minz.li</id>
+    <title>minz的筆記本 • Posts by &#34;音樂&#34; tag</title>
+    <link href="https://blog.minz.li" />
+    <updated>2025-09-05T16:00:00.000Z</updated>
+    <category term="Groq" />
+    <category term="Cerebras" />
+    <category term="SambaNova" />
+    <category term="Deepseek" />
+    <category term="llama" />
+    <category term="llm" />
+    <category term="benchmark" />
+    <category term="LMSYS" />
+    <category term="Chatbot Arena" />
+    <category term="livebench" />
+    <category term="aider" />
+    <category term="Claude" />
+    <category term="Anthropic" />
+    <category term="Open-webui" />
+    <category term="Custom" />
+    <category term="API" />
+    <category term="diskpart" />
+    <category term="物件導向" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
+    <category term="DevOps" />
+    <category term="Docker" />
+    <category term="WSL" />
+    <category term="mora" />
+    <category term="Hi-res" />
+    <category term="音樂" />
+    <category term="Netflix" />
+    <category term="Netflix共享" />
+    <category term="Github Action" />
+    <category term="ShokaX" />
+    <category term="ShokaX安裝" />
+    <category term="Hexo主題" />
+    <category term="ShokaX插件" />
+    <category term="UiPath" />
+    <category term="VMware" />
+    <category term="VMware下載" />
+    <category term="虛擬機" />
+    <category term="domain" />
+    <category term="TLD-LIST" />
+    <category term="eu.org" />
+    <category term="cloudflare" />
+    <category term="madVR" />
+    <category term="sunshine" />
+    <category term="Parsec VDD" />
+    <category term="Moonlight" />
+    <entry>
+        <id>https://blog.minz.li/other/mora/</id>
+        <title>介紹 mora.jp 的幾個常見問題</title>
+        <link rel="alternate" href="https://blog.minz.li/other/mora/"/>
+        <content type="html">&lt;h2 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://mora.jp&#34;&gt;mora.jp&lt;/a&gt; 是 Sony Music Entertainment 提供販售無損音樂的平台，提供無 DRM 保護的音樂檔案，也就是購買的音樂檔案沒有加密。&lt;/p&gt;
+&lt;h2 id=&#34;mora-無損壓縮&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mora-無損壓縮&#34;&gt;#&lt;/a&gt; mora 無損壓縮&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/other/mora/moraFormat.webp&#34; alt=&#34;mora提供的格式&#34; width=&#34;90%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;來源:&lt;a href=&#34;https://mora.jp/etc/highreso&#34;&gt;https://mora.jp/etc/highreso&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Mora販售的 FLAC 有2種形式&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;無損無壓縮&lt;/li&gt;
+&lt;li&gt;無損有壓縮&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;note default&#34;&gt;
+&lt;p&gt;對於 FLAC 的壓縮率每一首歌都不一樣，也就是相同時間的歌曲可能會有不同檔案大小&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;容器container與編碼codec-encoding&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#容器container與編碼codec-encoding&#34;&gt;#&lt;/a&gt; 容器（Container）與編碼（Codec / Encoding）&lt;/h2&gt;
+&lt;p&gt;在音樂檔案中&lt;strong&gt;編碼包含在容器中&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;容器是一種檔案格式，用來&lt;strong&gt;包裝音訊資料以及相關的資訊&lt;/strong&gt;（metadata，如標題、歌手、專輯封面等）。&lt;/li&gt;
+&lt;li&gt;編碼器是&lt;strong&gt;壓縮和解壓縮音訊資料的方式。&lt;/strong&gt; (實際的音訊資料)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;例如:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;.m4a&lt;/code&gt; 檔案（容器）裡，可以放 &lt;strong&gt;AAC 編碼&lt;/strong&gt; 或 &lt;strong&gt;ALAC 編碼&lt;/strong&gt;的音訊。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.ogg&lt;/code&gt; 容器可以裝 &lt;strong&gt;Vorbis 編碼&lt;/strong&gt;，但也可以裝 &lt;strong&gt;Opus 編碼&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;m4a-aac&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#m4a-aac&#34;&gt;#&lt;/a&gt; M4A AAC&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;編碼標準&lt;/strong&gt;：AAC-LC（有損壓縮）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;容器格式&lt;/strong&gt;：MPEG-4標準（.mp4/.m4a副檔名）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://mora.jp/help/faq_play#pd_07&#34;&gt;https://mora.jp/help/faq_play#pd_07&lt;/a&gt;&lt;br /&gt;
+該網址中有說明 mora 提供的 AAC-LC 檔案格式為 .mp4/.m4a&lt;/p&gt;
+&lt;h2 id=&#34;無損無壓縮-wav-檔案大小&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#無損無壓縮-wav-檔案大小&#34;&gt;#&lt;/a&gt; 無損無壓縮 WAV 檔案大小&lt;/h2&gt;
+&lt;p&gt;公式為: 取樣率 * 位元深度 * 聲道數 * 時間(秒) bit&lt;/p&gt;
+&lt;p&gt;例如以 4 分鐘的 96Khz/24bit 歌曲來計算檔案大小&lt;/p&gt;
+&lt;p&gt;96000(取樣率) * 24(位元深度) * 2(雙聲道) * 240(秒數) / 8(換Byte) / 1024(換KB) / 1024(換MB) = 大小約 131.8 MB&lt;/p&gt;
+&lt;p&gt;位元率(bitrate): 表示每秒傳輸的資料量，計算方式為：取樣率 * 位元深度 * 聲道數&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;48kHZ 24bit 無損無壓縮的位元率是: 2304kbps&lt;/li&gt;
+&lt;li&gt;96kHZ 24bit 無損無壓縮的位元率是: 4608kbps&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;FLAC也可以作為無損無壓縮的格式&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;音源的檔案大小需要再加上專輯封面等 metadata (元數據)&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;無壓縮-flac&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#無壓縮-flac&#34;&gt;#&lt;/a&gt; 無壓縮 FLAC&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;WAV 不支援部分標籤和專輯封面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&#34;https://xiph.org/flac/&#34;&gt;FLAC官方網站: https://xiph.org/flac/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以使用下面的參數產生出無壓縮 FLAC，無壓縮的FLAC儲存空間更大，且解碼時間比有壓縮的FLAC更多。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&#34;shiki shiki-themes vitesse-light vitesse-dark&#34; style=&#34;background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee&#34; tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span&gt;flac.exe -l 0 --disable-constant-subframes --disable-fixed-subframes &#39;input.flac&#39; -o &#39;output.flac&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在 github 對於 flac 無損無壓縮的 issue &lt;a href=&#34;https://github.com/xiph/flac/issues/73&#34;&gt;https://github.com/xiph/flac/issues/73&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;mora-下載器&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mora-下載器&#34;&gt;#&lt;/a&gt; mora 下載器&lt;/h2&gt;
+&lt;p&gt;可以使用下載器一鍵下載所有購買的歌曲&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://mora.jp/help/player&#34;&gt;https://mora.jp/help/player&lt;/a&gt;&lt;/p&gt;
+</content>
+        <category term="mora" />
+        <category term="Hi-res" />
+        <category term="音樂" />
+        <updated>2025-09-05T16:00:00.000Z</updated>
+    </entry>
+</feed>

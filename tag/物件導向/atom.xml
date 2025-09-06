@@ -21,16 +21,27 @@
     <category term="Custom" />
     <category term="API" />
     <category term="diskpart" />
+    <category term="物件導向" />
+    <category term="演算法" />
+    <category term="資料結構" />
+    <category term="離散數學" />
+    <category term="線性代數" />
+    <category term="程式碼" />
+    <category term="大學課程" />
+    <category term="機率與統計" />
     <category term="DevOps" />
     <category term="Docker" />
     <category term="WSL" />
+    <category term="mora" />
+    <category term="Hi-res" />
+    <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
     <category term="Github Action" />
-    <category term="ShokaX插件" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -43,18 +54,10 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="物件導向" />
-    <category term="大學課程" />
-    <category term="程式碼" />
-    <category term="機率與統計" />
-    <category term="演算法" />
-    <category term="線性代數" />
-    <category term="資料結構" />
-    <category term="離散數學" />
     <entry>
-        <id>https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/</id>
+        <id>https://blog.minz.li/Courses/OOP/</id>
         <title>物件導向</title>
-        <link rel="alternate" href="https://blog.minz.li/%E9%9D%A2%E8%A9%A6%E9%A1%8C%E7%9B%AE/OOP/"/>
+        <link rel="alternate" href="https://blog.minz.li/Courses/OOP/"/>
         <content type="html">&lt;h1 id=&#34;call-by-value-傳值&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#call-by-value-傳值&#34;&gt;#&lt;/a&gt; call by value (傳值)&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;在Call-by-Value中，函式的參數是被傳遞值的&lt;strong&gt;副本&lt;/strong&gt;。&lt;/li&gt;
