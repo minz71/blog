@@ -530,6 +530,41 @@
   </url>
   
   <url>
+    <loc>https://blog.minz.li/tags/Github-Action/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/ShokaX/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/ShokaX%E5%AE%89%E8%A3%9D/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/Hexo%E4%B8%BB%E9%A1%8C/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/ShokaX%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.minz.li/tags/UiPath/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -613,41 +648,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.minz.li/tags/Github-Action/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/ShokaX/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/ShokaX%E5%AE%89%E8%A3%9D/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/Hexo%E4%B8%BB%E9%A1%8C/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/ShokaX%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -672,6 +672,13 @@
   </url>
   
   <url>
+    <loc>https://blog.minz.li/categories/shokaX/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.minz.li/categories/UiPath/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -680,13 +687,6 @@
   
   <url>
     <loc>https://blog.minz.li/categories/tool/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/categories/shokaX/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

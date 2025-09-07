@@ -37,6 +37,11 @@
     <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
+    <category term="Github Action" />
+    <category term="ShokaX" />
+    <category term="ShokaX安裝" />
+    <category term="Hexo主題" />
+    <category term="ShokaX插件" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -49,11 +54,6 @@
     <category term="sunshine" />
     <category term="Parsec VDD" />
     <category term="Moonlight" />
-    <category term="Github Action" />
-    <category term="ShokaX" />
-    <category term="ShokaX安裝" />
-    <category term="Hexo主題" />
-    <category term="ShokaX插件" />
     <entry>
         <id>https://blog.minz.li/shokaX/ShokaX_github_action/</id>
         <title>ShokaX 使用 GitHub Actions 自動部署到 Github Page</title>
