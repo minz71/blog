@@ -42,11 +42,11 @@ https://blog.minz.li/tags/LMSYS/
 https://blog.minz.li/tags/Chatbot-Arena/
 https://blog.minz.li/tags/livebench/
 https://blog.minz.li/tags/aider/
-https://blog.minz.li/tags/Claude/
-https://blog.minz.li/tags/Anthropic/
 https://blog.minz.li/tags/Open-webui/
 https://blog.minz.li/tags/Custom/
 https://blog.minz.li/tags/API/
+https://blog.minz.li/tags/Claude/
+https://blog.minz.li/tags/Anthropic/
 https://blog.minz.li/tags/diskpart/
 https://blog.minz.li/tags/%E7%89%A9%E4%BB%B6%E5%B0%8E%E5%90%91/
 https://blog.minz.li/tags/%E6%BC%94%E7%AE%97%E6%B3%95/
@@ -56,8 +56,8 @@ https://blog.minz.li/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/
 https://blog.minz.li/tags/%E7%A8%8B%E5%BC%8F%E7%A2%BC/
 https://blog.minz.li/tags/%E5%A4%A7%E5%AD%B8%E8%AA%B2%E7%A8%8B/
 https://blog.minz.li/tags/%E6%A9%9F%E7%8E%87%E8%88%87%E7%B5%B1%E8%A8%88/
-https://blog.minz.li/tags/Docker/
 https://blog.minz.li/tags/DevOps/
+https://blog.minz.li/tags/Docker/
 https://blog.minz.li/tags/WSL/
 https://blog.minz.li/tags/mora/
 https://blog.minz.li/tags/Hi-res/
@@ -73,11 +73,11 @@ https://blog.minz.li/tags/UiPath/
 https://blog.minz.li/tags/VMware/
 https://blog.minz.li/tags/VMware%E4%B8%8B%E8%BC%89/
 https://blog.minz.li/tags/%E8%99%9B%E6%93%AC%E6%A9%9F/
+https://blog.minz.li/tags/madVR/
 https://blog.minz.li/tags/domain/
 https://blog.minz.li/tags/TLD-LIST/
 https://blog.minz.li/tags/eu-org/
 https://blog.minz.li/tags/cloudflare/
-https://blog.minz.li/tags/madVR/
 https://blog.minz.li/tags/sunshine/
 https://blog.minz.li/tags/Parsec-VDD/
 https://blog.minz.li/tags/Moonlight/

@@ -376,20 +376,6 @@
   </url>
   
   <url>
-    <loc>https://blog.minz.li/tags/Claude/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/Anthropic/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.minz.li/tags/Open-webui/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -405,6 +391,20 @@
   
   <url>
     <loc>https://blog.minz.li/tags/API/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/Claude/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.minz.li/tags/Anthropic/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -474,14 +474,14 @@
   </url>
   
   <url>
-    <loc>https://blog.minz.li/tags/Docker/</loc>
+    <loc>https://blog.minz.li/tags/DevOps/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.minz.li/tags/DevOps/</loc>
+    <loc>https://blog.minz.li/tags/Docker/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -593,6 +593,13 @@
   </url>
   
   <url>
+    <loc>https://blog.minz.li/tags/madVR/</loc>
+    <lastmod>2025-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.minz.li/tags/domain/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -615,13 +622,6 @@
   
   <url>
     <loc>https://blog.minz.li/tags/cloudflare/</loc>
-    <lastmod>2025-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.minz.li/tags/madVR/</loc>
     <lastmod>2025-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

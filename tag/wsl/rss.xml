@@ -18,11 +18,11 @@
         <category>Chatbot Arena</category>
         <category>livebench</category>
         <category>aider</category>
-        <category>Claude</category>
-        <category>Anthropic</category>
         <category>Open-webui</category>
         <category>Custom</category>
         <category>API</category>
+        <category>Claude</category>
+        <category>Anthropic</category>
         <category>diskpart</category>
         <category>物件導向</category>
         <category>演算法</category>
@@ -32,8 +32,8 @@
         <category>程式碼</category>
         <category>大學課程</category>
         <category>機率與統計</category>
-        <category>Docker</category>
         <category>DevOps</category>
+        <category>Docker</category>
         <category>WSL</category>
         <category>mora</category>
         <category>Hi-res</category>
@@ -49,11 +49,11 @@
         <category>VMware</category>
         <category>VMware下載</category>
         <category>虛擬機</category>
+        <category>madVR</category>
         <category>domain</category>
         <category>TLD-LIST</category>
         <category>eu.org</category>
         <category>cloudflare</category>
-        <category>madVR</category>
         <category>sunshine</category>
         <category>Parsec VDD</category>
         <category>Moonlight</category>
@@ -61,8 +61,8 @@
             <guid isPermalink="true">https://blog.minz.li/DevOps/releaseDockerCache/</guid>
             <title>刪除 WSL 環境下的 docker build cache</title>
             <link>https://blog.minz.li/DevOps/releaseDockerCache/</link>
-            <category>Docker</category>
             <category>DevOps</category>
+            <category>Docker</category>
             <category>WSL</category>
             <pubDate>Thu, 30 May 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
