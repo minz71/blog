@@ -7,17 +7,17 @@
         <language>zh-TW</language>
         <pubDate>Tue, 01 Apr 2025 16:00:00 +0000</pubDate>
         <lastBuildDate>Tue, 01 Apr 2025 16:00:00 +0000</lastBuildDate>
+        <category>Groq</category>
+        <category>Cerebras</category>
+        <category>SambaNova</category>
+        <category>Deepseek</category>
+        <category>llama</category>
         <category>llm</category>
         <category>benchmark</category>
         <category>LMSYS</category>
         <category>Chatbot Arena</category>
         <category>livebench</category>
         <category>aider</category>
-        <category>Groq</category>
-        <category>Cerebras</category>
-        <category>SambaNova</category>
-        <category>Deepseek</category>
-        <category>llama</category>
         <category>Claude</category>
         <category>Anthropic</category>
         <category>Open-webui</category>
@@ -118,6 +118,15 @@
 &lt;li&gt;diff 輸出程式碼的部分更改&lt;/li&gt;
 &lt;li&gt;whole 輸出整個程式碼文件&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h1 id=&#34;roocode-evals&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#roocode-evals&#34;&gt;#&lt;/a&gt; RooCode Evals&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;RooCode Evals 是一個開源的 AI 程式碼程式開發工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;RooCode Evals&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;image&#34; data-background-image=&#34;https://roocode.com/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;title&#34;&gt;RooCode Evals&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://roocode.com/evals&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;livebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livebench&#34;&gt;#&lt;/a&gt; LiveBench&lt;/h1&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livebench.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://livebench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
@@ -221,6 +230,40 @@
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;openrouter-ranking&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openrouter-ranking&#34;&gt;#&lt;/a&gt; OpenRouter Ranking&lt;/h1&gt;
+&lt;p&gt;Model 使用量排行榜，用戶在 OpenRouter 中的使用量&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;image&#34; data-background-image=&#34;https://openrouter.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://openrouter.ai/rankings&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;speechmapai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#speechmapai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://speechmap.ai&#34;&gt;speechmap.ai&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;測試 AI 模型對敏感和爭議性提示的反應。&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SpeechMap.ai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;image&#34; data-background-image=&#34;https://speechmap.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;title&#34;&gt;SpeechMap.ai&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://speechmap.ai/labs/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;scale-humanitys-last-exam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scale-humanitys-last-exam&#34;&gt;#&lt;/a&gt; Scale Humanity&#39;s Last Exam&lt;/h1&gt;
+&lt;p&gt;Scale 認為傳統基準測試（如 MMLU 和 GPQA）已經沒辦法區分模型的能力，所以推出了「Humanity&#39;s Last Exam (HLE)」，截至 2025 年 4 月 3 日，該測試集已完成最終定案與清洗。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所以 2025 年 4 月 3 日之後推出的模型，可以拿這些題目訓練，可能不具有參考價值。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Scale Humanity&#39;s Last Exam&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;image&#34; data-background-image=&#34;https://scale.com/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;title&#34;&gt;Scale Humanity&#39;s Last Exam&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://scale.com/leaderboard/humanitys_last_exam&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;ocr-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ocr-arena&#34;&gt;#&lt;/a&gt; OCR Arena&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;OCR 的排行榜&lt;/li&gt;
+&lt;li&gt;使用 Elo 評分標準&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;OCR Arena&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.ocrarena.ai/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://www.ocrarena.ai/favicon.ico?favicon.6066b8fd.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://www.ocrarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;OCR Arena&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://www.ocrarena.ai/leaderboard&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
  ]]></description>
         </item>

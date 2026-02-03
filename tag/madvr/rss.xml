@@ -7,17 +7,17 @@
         <language>zh-TW</language>
         <pubDate>Wed, 28 Feb 2024 16:00:00 +0000</pubDate>
         <lastBuildDate>Wed, 28 Feb 2024 16:00:00 +0000</lastBuildDate>
+        <category>Groq</category>
+        <category>Cerebras</category>
+        <category>SambaNova</category>
+        <category>Deepseek</category>
+        <category>llama</category>
         <category>llm</category>
         <category>benchmark</category>
         <category>LMSYS</category>
         <category>Chatbot Arena</category>
         <category>livebench</category>
         <category>aider</category>
-        <category>Groq</category>
-        <category>Cerebras</category>
-        <category>SambaNova</category>
-        <category>Deepseek</category>
-        <category>llama</category>
         <category>Claude</category>
         <category>Anthropic</category>
         <category>Open-webui</category>
