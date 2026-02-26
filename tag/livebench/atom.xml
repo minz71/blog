@@ -14,7 +14,7 @@
     <category term="LMSYS" />
     <category term="Chatbot Arena" />
     <category term="livebench" />
-    <category term="aider" />
+    <category term="leaderboard" />
     <category term="Claude" />
     <category term="Anthropic" />
     <category term="Open-webui" />
@@ -58,17 +58,19 @@
         <id>https://blog.minz.li/AI/BenchMark/</id>
         <title>分享一些 AI 模型評測排名網站</title>
         <link rel="alternate" href="https://blog.minz.li/AI/BenchMark/"/>
-        <content type="html">&lt;h1 id=&#34;介紹&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介紹&#34;&gt;#&lt;/a&gt; 介紹&lt;/h1&gt;
-&lt;p&gt;隨著 AI 大語言模型的快速迭代，能力也增強了許多，可以在以下的網站查看各個模型的排名。&lt;/p&gt;
-&lt;h1 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h1&gt;
+        <content type="html">&lt;p&gt;隨著 AI 模型的快速迭代，能力也增強了許多，可以在以下的網站查看各個模型的排名。&lt;br /&gt;
+可以得知模型在不同任務中的排名，也可以讓你知道除了 GPT Gemini 以外還有其他的模型。&lt;/p&gt;
+&lt;h1 id=&#34;模型綜合評分&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#模型綜合評分&#34;&gt;#&lt;/a&gt; 模型綜合評分&lt;/h1&gt;
+&lt;p&gt;會提供多個面向的排行榜網站&lt;/p&gt;
+&lt;h2 id=&#34;lmsysorg&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#lmsysorg&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://LMSYS.Org&#34;&gt;LMSYS.Org&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;LMSYS Org (Large Model Systems Organization)是一個開放的研究組織，由 UC Berkeley 的學生和教師與 UCSD 和 CMU 合作創立。&lt;br /&gt;
 旨在通過共同開發開放模型、數據集、系統和評估工具，使大型模型對所有人都能夠接觸和使用。&lt;br /&gt;
 希望建立一個開放和透明的平臺，提供語言模型基準數據和評估工具，幫助研究人員和開發者更好地理解和提升他們的模型性能。&lt;/p&gt;
-&lt;h2 id=&#34;chatbot-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chatbot-arena&#34;&gt;#&lt;/a&gt; Chatbot Arena&lt;/h2&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LMSYS&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://lmarena.ai/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://lmarena.ai/images/favicon-light.ico&#34;&gt;&lt;/a&gt;
+&lt;h3 id=&#34;chatbot-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chatbot-arena&#34;&gt;#&lt;/a&gt; Chatbot Arena&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LMArena&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://arena.ai/zh/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://arena.ai/images/favicon-rebrand.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://lmarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;LMSYS&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://lmarena.ai/leaderboard&lt;/p&gt;
+        &lt;a href=&#34;https://arena.ai/zh/leaderboard&#34; class=&#34;title&#34;&gt;LMArena&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://arena.ai/zh/leaderboard&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysMode.webp&#34; alt=&#34;選擇模式&#34; title=&#34;選擇模式&#34; /&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -82,6 +84,9 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysArena1.webp&#34; alt=&#34;向模型提問的範例&#34; title=&#34;向模型提問的範例&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;使用 [Elo 評分](&amp;quot;#Elo 評分方式&amp;quot;)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
@@ -90,34 +95,22 @@
 &lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎?&lt;/h2&gt;
 &lt;p&gt;在 GPT-4o-mini 勝出其他大模型後，許多人對這個榜單提出質疑，因此提供用戶的&lt;a href=&#34;https://huggingface.co/spaces/lmsys/gpt-4o-mini_battles&#34;&gt;對話與投票紀錄&lt;/a&gt;，&lt;br /&gt;
 &lt;a href=&#34;https://lmsys.org/blog/2024-08-28-style-control/&#34;&gt;之後也提出 &lt;code&gt;style control&lt;/code&gt; 功能&lt;/a&gt;，目標是要有辦法區分模型分數是來自&lt;code&gt;內容&lt;/code&gt;或是&lt;code&gt;風格&lt;/code&gt;。&lt;/p&gt;
-&lt;h1 id=&#34;aider-leaderboards&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aider-leaderboards&#34;&gt;#&lt;/a&gt; Aider Leaderboards&lt;/h1&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
+&lt;h2 id=&#34;artificial-analysis-image-arena-leaderboard&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#artificial-analysis-image-arena-leaderboard&#34;&gt;#&lt;/a&gt; Artificial Analysis Image Arena Leaderboard&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;採用 Elo 分數&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://artificialanalysis.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;title&#34;&gt;Aider Leaderboards&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://aider.chat/docs/leaderboards/&lt;/p&gt;
+        &lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Aider 是一個開源的 AI 程式碼撰寫工具。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Aider LLM Leaderboards 是由 Aider 開發的一組基準測試，用於評估大型語言模型（LLM）編輯程式碼的能力。&lt;br /&gt;
-這些基準測試專注於模型編輯&lt;strong&gt;現有程式碼&lt;/strong&gt;的能力，確保模型能夠一致地遵循系統提示詞（Prompt）完成編輯任務，適合評估在程式碼編輯的表現。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;如何進行基準測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何進行基準測試&#34;&gt;#&lt;/a&gt; 如何進行基準測試？&lt;/h2&gt;
-&lt;p&gt;基準測試是 &lt;a href=&#34;https://aider.chat/2024/12/21/polyglot.html#the-polyglot-benchmark&#34;&gt;Aider’s polyglot benchmark&lt;/a&gt;，選取 Exercism 的 225 個困難的程式練習，測量模型&lt;strong&gt;完成任務&lt;/strong&gt;的百分比以及使用&lt;strong&gt;正確編輯格式&lt;/strong&gt;的百分比。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;diff 輸出程式碼的部分更改&lt;/li&gt;
-&lt;li&gt;whole 輸出整個程式碼文件&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;roocode-evals&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#roocode-evals&#34;&gt;#&lt;/a&gt; RooCode Evals&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;RooCode Evals 是一個開源的 AI 程式碼程式開發工具。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;RooCode Evals&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;image&#34; data-background-image=&#34;https://roocode.com/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;h2 id=&#34;design-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#design-arena&#34;&gt;#&lt;/a&gt; Design Arena&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Design Arena&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.designarena.ai/leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;title&#34;&gt;RooCode Evals&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://roocode.com/evals&lt;/p&gt;
+        &lt;a href=&#34;https://www.designarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;Design Arena&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://www.designarena.ai/leaderboard&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;livebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livebench&#34;&gt;#&lt;/a&gt; LiveBench&lt;/h1&gt;
+&lt;h2 id=&#34;livebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livebench&#34;&gt;#&lt;/a&gt; LiveBench&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livebench.ai/&#34; class=&#34;image&#34; data-background-image=&#34;https://livebench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://livebench.ai/&#34; class=&#34;title&#34;&gt;LiveBench&lt;/a&gt;
@@ -129,7 +122,36 @@
 &lt;li&gt;可以自行驗證分數，也可以接入模型 API 進行跑分&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h1&gt;
+&lt;h1 id=&#34;coding-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#coding-排行榜&#34;&gt;#&lt;/a&gt; coding 排行榜&lt;/h1&gt;
+&lt;p&gt;基於不同的方式評斷寫程式的能力&lt;/p&gt;
+&lt;h2 id=&#34;aider-leaderboards&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aider-leaderboards&#34;&gt;#&lt;/a&gt; Aider Leaderboards&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;title&#34;&gt;Aider Leaderboards&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://aider.chat/docs/leaderboards/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aider 是一個開源的 AI 程式碼撰寫工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aider LLM Leaderboards 是由 Aider 開發的一組基準測試，用於評估大型語言模型（LLM）編輯程式碼的能力。&lt;br /&gt;
+這些基準測試專注於模型編輯&lt;strong&gt;現有程式碼&lt;/strong&gt;的能力，確保模型能夠一致地遵循系統提示詞（Prompt）完成編輯任務，適合評估在程式碼編輯的表現。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/aider_leaderboards.webp&#34; alt=&#34;&#34; title=&#34;Aider Leaderboards&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;如何進行基準測試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何進行基準測試&#34;&gt;#&lt;/a&gt; 如何進行基準測試？&lt;/h3&gt;
+&lt;p&gt;基準測試是 &lt;a href=&#34;https://aider.chat/2024/12/21/polyglot.html#the-polyglot-benchmark&#34;&gt;Aider’s polyglot benchmark&lt;/a&gt;，選取 Exercism 的 225 個困難的程式練習，測量模型&lt;strong&gt;完成任務&lt;/strong&gt;的百分比以及使用&lt;strong&gt;正確編輯格式&lt;/strong&gt;的百分比。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;diff 輸出程式碼的部分更改&lt;/li&gt;
+&lt;li&gt;whole 輸出整個程式碼文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;roocode-evals&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#roocode-evals&#34;&gt;#&lt;/a&gt; RooCode Evals&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;RooCode Evals 是一個開源的 AI 程式碼程式開發工具。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;RooCode Evals&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;image&#34; data-background-image=&#34;https://roocode.com/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;title&#34;&gt;RooCode Evals&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://roocode.com/evals&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;title&#34;&gt;LiveCodeBench&lt;/a&gt;
@@ -142,7 +164,24 @@
 &lt;li&gt;可以調整題目時間，確保在模型的訓練截止日期之後&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
-&lt;h1 id=&#34;vectara-的模型幻覺排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vectara-的模型幻覺排行榜&#34;&gt;#&lt;/a&gt; Vectara 的模型幻覺排行榜&lt;/h1&gt;
+&lt;h2 id=&#34;swe-rebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#swe-rebench&#34;&gt;#&lt;/a&gt; SWE-rebench&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SWE-rebench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://swe-rebench.com/&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://swe-rebench.com/&#34; class=&#34;title&#34;&gt;SWE-rebench&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://swe-rebench.com/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;來自: &lt;a href=&#34;https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard&#34;&gt;https://huggingface.co/datasets/nebius/SWE-rebench-leaderboard&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;valsai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#valsai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://Vals.ai&#34;&gt;Vals.ai&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Vals.ai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.vals.ai/benchmarks&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://www.vals.ai/benchmarks&#34; class=&#34;title&#34;&gt;Vals.ai&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://www.vals.ai/benchmarks&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有各種自訂基準 然後跑分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;幻覺-上下文衰減&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#幻覺-上下文衰減&#34;&gt;#&lt;/a&gt; 幻覺 / 上下文衰減&lt;/h1&gt;
+&lt;h2 id=&#34;vectara-的模型幻覺排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vectara-的模型幻覺排行榜&#34;&gt;#&lt;/a&gt; Vectara 的模型幻覺排行榜&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;hallucination-leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://avatars.githubusercontent.com/u/108304503?s=200&amp;v=4&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://github.com/vectara/hallucination-leaderboard&#34; class=&#34;title&#34;&gt;hallucination-leaderboard&lt;/a&gt;
@@ -158,14 +197,14 @@
 &lt;div class=&#34;note default&#34;&gt;
 &lt;p&gt;這表示 LLM 未依賴 RAG 提供的資料，反而仰賴預訓練時學到的知識。&lt;/p&gt;
 &lt;/div&gt;
-&lt;h1 id=&#34;fictionlive-評估模型在長上下文上的能力&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fictionlive-評估模型在長上下文上的能力&#34;&gt;#&lt;/a&gt; fiction.live 評估模型在長上下文上的能力&lt;/h1&gt;
+&lt;h2 id=&#34;fictionlive-評估模型在長上下文上的能力&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#fictionlive-評估模型在長上下文上的能力&#34;&gt;#&lt;/a&gt; fiction.live 評估模型在長上下文上的能力&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;fiction.live&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&#34; class=&#34;image&#34; data-background-image=&#34;https://fiction.live/staticAssets/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&#34; class=&#34;title&#34;&gt;fiction.live&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://fiction.live/stories?terms=Fiction.liveBench&amp;page=1&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;p&gt;核心目標： 測試 AI 模型在處理長篇文本時，能否維持回答品質，並深度理解動態發展的故事情節。&lt;/p&gt;
-&lt;h2 id=&#34;測試數據來源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#測試數據來源&#34;&gt;#&lt;/a&gt; 測試數據來源&lt;/h2&gt;
+&lt;h3 id=&#34;測試數據來源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#測試數據來源&#34;&gt;#&lt;/a&gt; 測試數據來源&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;基於 &lt;strong&gt;十幾部超長且複雜的故事（來自 Fiction.live 的真實用戶內容）&lt;/strong&gt;，並結合人工驗證的問答題（quizzes）。&lt;/li&gt;
 &lt;li&gt;實際的測試數據集（包含這些問題範例）是保密的。&lt;/li&gt;
@@ -176,7 +215,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;問題設計&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#問題設計&#34;&gt;#&lt;/a&gt; 問題設計&lt;/h2&gt;
+&lt;h3 id=&#34;問題設計&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#問題設計&#34;&gt;#&lt;/a&gt; 問題設計&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;具有難度梯度&lt;/p&gt;
@@ -201,7 +240,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;模型評估方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#模型評估方式&#34;&gt;#&lt;/a&gt; 模型評估方式&lt;/h2&gt;
+&lt;h3 id=&#34;模型評估方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#模型評估方式&#34;&gt;#&lt;/a&gt; 模型評估方式&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;橫向比較不同模型在不同上下文長度（如 1k, 8k tokens 等）下的表現。&lt;/li&gt;
 &lt;li&gt;關鍵指標是準確率 (accuracy)，觀察其隨上下文增長而如何變化或衰減。&lt;/li&gt;
@@ -212,30 +251,31 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;更貼近真實寫作需求&lt;/strong&gt;，測試結果反映模型在&lt;strong&gt;創作輔助&lt;/strong&gt;（如生成連貫的角色分析、維持情節一致性）中的實用性。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;artificial-analysis-image-arena-leaderboard&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#artificial-analysis-image-arena-leaderboard&#34;&gt;#&lt;/a&gt; Artificial Analysis Image Arena Leaderboard&lt;/h1&gt;
+&lt;h2 id=&#34;context-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#context-arena&#34;&gt;#&lt;/a&gt; Context Arena&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;採取用戶投票的 AI 繪圖模型排行榜&lt;/li&gt;
+&lt;li&gt;使用 OpenAI 的 MRCR 評分標準 &lt;a href=&#34;https://huggingface.co/datasets/openai/mrcr&#34;&gt;https://huggingface.co/datasets/openai/mrcr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;image&#34; data-background-image=&#34;https://artificialanalysis.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;fiction.live&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;image&#34; data-background-image=&#34;https://contextarena.ai/favicon.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard&lt;/p&gt;
+        &lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;title&#34;&gt;fiction.live&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://contextarena.ai/&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;openrouter-ranking&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openrouter-ranking&#34;&gt;#&lt;/a&gt; OpenRouter Ranking&lt;/h1&gt;
+&lt;h1 id=&#34;其他-ocr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他-ocr&#34;&gt;#&lt;/a&gt; 其他 / OCR&lt;/h1&gt;
+&lt;h2 id=&#34;openrouter-ranking&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openrouter-ranking&#34;&gt;#&lt;/a&gt; OpenRouter Ranking&lt;/h2&gt;
 &lt;p&gt;Model 使用量排行榜，用戶在 OpenRouter 中的使用量&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;image&#34; data-background-image=&#34;https://openrouter.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://openrouter.ai/rankings&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;speechmapai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#speechmapai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://speechmap.ai&#34;&gt;speechmap.ai&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;speechmapai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#speechmapai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://speechmap.ai&#34;&gt;speechmap.ai&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;測試 AI 模型對敏感和爭議性提示的反應。&lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SpeechMap.ai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;image&#34; data-background-image=&#34;https://speechmap.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;title&#34;&gt;SpeechMap.ai&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://speechmap.ai/labs/&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;scale-humanitys-last-exam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scale-humanitys-last-exam&#34;&gt;#&lt;/a&gt; Scale Humanity&#39;s Last Exam&lt;/h1&gt;
+&lt;h2 id=&#34;scale-humanitys-last-exam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scale-humanitys-last-exam&#34;&gt;#&lt;/a&gt; Scale Humanity&#39;s Last Exam&lt;/h2&gt;
 &lt;p&gt;Scale 認為傳統基準測試（如 MMLU 和 GPQA）已經沒辦法區分模型的能力，所以推出了「Humanity&#39;s Last Exam (HLE)」，截至 2025 年 4 月 3 日，該測試集已完成最終定案與清洗。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;所以 2025 年 4 月 3 日之後推出的模型，可以拿這些題目訓練，可能不具有參考價值。&lt;/li&gt;
@@ -245,7 +285,7 @@
         &lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;title&#34;&gt;Scale Humanity&#39;s Last Exam&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://scale.com/leaderboard/humanitys_last_exam&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;ocr-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ocr-arena&#34;&gt;#&lt;/a&gt; OCR Arena&lt;/h1&gt;
+&lt;h2 id=&#34;ocr-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ocr-arena&#34;&gt;#&lt;/a&gt; OCR Arena&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;OCR 的排行榜&lt;/li&gt;
 &lt;li&gt;使用 Elo 評分標準&lt;/li&gt;
@@ -255,13 +295,46 @@
         &lt;a href=&#34;https://www.ocrarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;OCR Arena&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://www.ocrarena.ai/leaderboard&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;eq-bench-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#eq-bench-3&#34;&gt;#&lt;/a&gt; EQ-Bench 3&lt;/h2&gt;
+&lt;p&gt;角色扮演和分析任務來評估模型的同理心、社交技巧和洞察力&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;EQ-Bench 3&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://eqbench.com/&#34; class=&#34;image&#34; data-background-image=&#34;https://eqbench.com/images/eqbench_logo_sml.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://eqbench.com/&#34; class=&#34;title&#34;&gt;EQ-Bench 3&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://eqbench.com/&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;opperai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opperai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://opper.ai&#34;&gt;opper.ai&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;用戶可以提交自己的任務來跑分&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;opper.aia&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://opper.ai/models&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://opper.ai/models&#34; class=&#34;title&#34;&gt;opper.aia&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://opper.ai/models&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;terminal-bench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#terminal-bench&#34;&gt;#&lt;/a&gt; Terminal Bench&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;opper.aia&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://www.tbench.ai/leaderboard/terminal-bench/2.0&#34; class=&#34;image&#34; data-background-image=&#34;https://www.tbench.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://www.tbench.ai/leaderboard/terminal-bench/2.0&#34; class=&#34;title&#34;&gt;opper.aia&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://www.tbench.ai/leaderboard/terminal-bench/2.0&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;elo-評分方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#elo-評分方式&#34;&gt;#&lt;/a&gt; Elo 評分方式&lt;/h1&gt;
+&lt;p&gt;Elo 原本是由 Arpad Elo 為西洋棋設計的。它的核心概念是：根據對手的強弱來決定勝負後的加減分。贏了強者加的分數多，贏了弱者加的分數少。&lt;/p&gt;
+&lt;p&gt;讓用戶去投票也就是&lt;strong&gt;將評分權交還給社群，透過集體偏好（Collective Community Preferences）來構建排行榜&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;核心數學模型：Bradley-Terry&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;是一個統計學模型，傳統的 Elo 往往是「打一場、算一場」的即時更新，但在大數據分析或排行榜構建中，可以使用 Bradley-Terry 模型一次性分析大量的成對比較資料。&lt;/p&gt;
+&lt;p&gt;不直接看分數，而是看「機率」。假設每個選手有一個潛在的「實力值」（Strength, &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;），選手 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;i&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.6595em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 擊敗選手 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;j&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.854em;vertical-align:-0.1944em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 的機率為：&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;(&lt;/mo&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;mo&gt;&amp;gt;&lt;/mo&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;mo stretchy=&#34;false&#34;&gt;)&lt;/mo&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mfrac&gt;&lt;msub&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;i&lt;/mi&gt;&lt;/msub&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;mi&gt;j&lt;/mi&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/mfrac&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;P(i &amp;gt; j) = \frac{\pi_i}{\pi_i + \pi_j}
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.13889em;&#34;&gt;P&lt;/span&gt;&lt;span class=&#34;mopen&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:1em;vertical-align:-0.25em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;span class=&#34;mclose&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:2.0797em;vertical-align:-0.9721em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mopen nulldelimiter&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mfrac&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:1.1076em;&#34;&gt;&lt;span style=&#34;top:-2.314em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34; style=&#34;margin-right:0.05724em;&#34;&gt;j&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.2861em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.23em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;frac-line&#34; style=&#34;border-bottom-width:0.04em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;top:-3.677em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:3em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord&#34;&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;span class=&#34;msupsub&#34;&gt;&lt;span class=&#34;vlist-t vlist-t2&#34;&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.3117em;&#34;&gt;&lt;span style=&#34;top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;&#34;&gt;&lt;span class=&#34;pstrut&#34; style=&#34;height:2.7em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;sizing reset-size6 size3 mtight&#34;&gt;&lt;span class=&#34;mord mathnormal mtight&#34;&gt;i&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.15em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-s&#34;&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;vlist-r&#34;&gt;&lt;span class=&#34;vlist&#34; style=&#34;height:0.9721em;&#34;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;mclose nulldelimiter&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;運算方式：這通常需要透過最大概似估計（MLE）或迭代算法來算出所有人的 &lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;π&lt;/mi&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;\pi&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.4306em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord mathnormal&#34; style=&#34;margin-right:0.03588em;&#34;&gt;π&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; 值。&lt;/p&gt;
 </content>
         <category term="llm" />
         <category term="benchmark" />
         <category term="LMSYS" />
         <category term="Chatbot Arena" />
         <category term="livebench" />
-        <category term="aider" />
+        <category term="leaderboard" />
         <updated>2025-04-01T16:00:00.000Z</updated>
     </entry>
 </feed>
