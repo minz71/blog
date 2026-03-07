@@ -29,19 +29,19 @@
     <category term="程式碼" />
     <category term="大學課程" />
     <category term="機率與統計" />
-    <category term="DevOps" />
-    <category term="Docker" />
-    <category term="WSL" />
     <category term="mora" />
     <category term="Hi-res" />
     <category term="音樂" />
     <category term="Netflix" />
     <category term="Netflix共享" />
-    <category term="Github Action" />
     <category term="ShokaX" />
     <category term="ShokaX安裝" />
     <category term="Hexo主題" />
+    <category term="Github Action" />
+    <category term="DevOps" />
     <category term="ShokaX插件" />
+    <category term="Docker" />
+    <category term="WSL" />
     <category term="UiPath" />
     <category term="VMware" />
     <category term="VMware下載" />
@@ -260,8 +260,8 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 </content>
-        <category term="DevOps" />
         <category term="Github Action" />
+        <category term="DevOps" />
         <updated>2024-08-09T16:00:00.000Z</updated>
     </entry>
 </feed>

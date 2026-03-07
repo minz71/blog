@@ -32,19 +32,19 @@
         <category>程式碼</category>
         <category>大學課程</category>
         <category>機率與統計</category>
-        <category>DevOps</category>
-        <category>Docker</category>
-        <category>WSL</category>
         <category>mora</category>
         <category>Hi-res</category>
         <category>音樂</category>
         <category>Netflix</category>
         <category>Netflix共享</category>
-        <category>Github Action</category>
         <category>ShokaX</category>
         <category>ShokaX安裝</category>
         <category>Hexo主題</category>
+        <category>Github Action</category>
+        <category>DevOps</category>
         <category>ShokaX插件</category>
+        <category>Docker</category>
+        <category>WSL</category>
         <category>UiPath</category>
         <category>VMware</category>
         <category>VMware下載</category>
@@ -249,17 +249,17 @@
 使用者可以直接和模型對話，可以選擇指定的模型。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysArena1.webp&#34; alt=&#34;向模型提問的範例&#34; title=&#34;向模型提問的範例&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h2&gt;
+&lt;h3 id=&#34;llm-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#llm-排行榜&#34;&gt;#&lt;/a&gt; LLM 排行榜&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;http://lmsys.org&#34;&gt;lmsys.org&lt;/a&gt; 每隔一段時間都會發布排行榜，可以做為模型能力的參考，可以選擇不同的分類，查看該分類的排行榜。&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;使用 [Elo 評分](&amp;quot;#Elo 評分方式&amp;quot;)&lt;/li&gt;
+&lt;li&gt;使用 Elo 評分&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysLeaderBoard.webp&#34; alt=&#34;&#34; title=&#34;LLM 排行榜&#34; width=&#34;70%&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h2&gt;
+&lt;h3 id=&#34;贊助商&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#贊助商&#34;&gt;#&lt;/a&gt; 贊助商&lt;/h3&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/lmsysDonations.webp&#34; alt=&#34;&#34; title=&#34;LMSYS Donation&#34; width=&#34;50%&#34; /&gt;&lt;br /&gt;
 可以看到有許多大模型公司都贊助了 LMSYS，且會提供最新(或是測試中未公開)的語言模型給 LMSYS 測試。&lt;br /&gt;
 模型未公開時會使用代號名稱，例如當時流傳的 m-also-a-good-gpt2-chatbot，也就是現在的 GPT-4o。&lt;/p&gt;
-&lt;h2 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎?&lt;/h2&gt;
+&lt;h3 id=&#34;用戶能判斷模型的能力嗎&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用戶能判斷模型的能力嗎&#34;&gt;#&lt;/a&gt; 用戶能判斷模型的能力嗎?&lt;/h3&gt;
 &lt;p&gt;在 GPT-4o-mini 勝出其他大模型後，許多人對這個榜單提出質疑，因此提供用戶的&lt;a href=&#34;https://huggingface.co/spaces/lmsys/gpt-4o-mini_battles&#34;&gt;對話與投票紀錄&lt;/a&gt;，&lt;br /&gt;
 &lt;a href=&#34;https://lmsys.org/blog/2024-08-28-style-control/&#34;&gt;之後也提出 &lt;code&gt;style control&lt;/code&gt; 功能&lt;/a&gt;，目標是要有辦法區分模型分數是來自&lt;code&gt;內容&lt;/code&gt;或是&lt;code&gt;風格&lt;/code&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;artificial-analysis-image-arena-leaderboard&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#artificial-analysis-image-arena-leaderboard&#34;&gt;#&lt;/a&gt; Artificial Analysis Image Arena Leaderboard&lt;/h2&gt;
@@ -290,7 +290,7 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveBench.webp&#34; alt=&#34;&#34; title=&#34;LiveBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;coding-排行榜&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#coding-排行榜&#34;&gt;#&lt;/a&gt; coding 排行榜&lt;/h1&gt;
-&lt;p&gt;基於不同的方式評斷寫程式的能力&lt;/p&gt;
+&lt;p&gt;基於不同的方式評斷模型寫程式的能力&lt;/p&gt;
 &lt;h2 id=&#34;aider-leaderboards&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#aider-leaderboards&#34;&gt;#&lt;/a&gt; Aider Leaderboards&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Aider Leaderboards&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://aider.chat/docs/leaderboards/&#34; class=&#34;image&#34; data-background-image=&#34;https://aider.chat/assets/icons/favicon-32x32.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
@@ -318,20 +318,16 @@
         &lt;a href=&#34;https://roocode.com/evals&#34; class=&#34;title&#34;&gt;RooCode Evals&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://roocode.com/evals&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h2 id=&#34;livecodebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#livecodebench&#34;&gt;#&lt;/a&gt; LiveCodeBench&lt;/h2&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;LiveCodeBench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;image&#34; data-background-image=&#34;https://livecodebench.github.io/images/favicon.svg&#34;&gt;&lt;/a&gt;
+&lt;h2 id=&#34;gso&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#gso&#34;&gt;#&lt;/a&gt; GSO&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;GSO Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://gso-bench.github.io/&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://livecodebench.github.io/leaderboard.html&#34; class=&#34;title&#34;&gt;LiveCodeBench&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://livecodebench.github.io/leaderboard.html&lt;/p&gt;
+        &lt;a href=&#34;https://gso-bench.github.io/&#34; class=&#34;title&#34;&gt;GSO Leaderboard&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://gso-bench.github.io/&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;p&gt;LiveCodeBench 是由加州大學柏克萊分校、MIT、康乃爾大學等團隊共同開發的程式碼大型語言模型（Code LLMs）評估基準&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;持續更新的題目庫，&lt;strong&gt;避免資料污染&lt;/strong&gt;的模型效能評測&lt;/li&gt;
-&lt;li&gt;使用 &lt;strong&gt;LeetCode、AtCoder、Codeforces&lt;/strong&gt; 平台的程式競賽題目&lt;/li&gt;
-&lt;li&gt;可以調整題目時間，確保在模型的訓練截止日期之後&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;/images/AI/BenchMark/LiveCodeBench.webp&#34; alt=&#34;&#34; title=&#34;LiveCodeBench&#34; width=&#34;80%&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;swe-rebench&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#swe-rebench&#34;&gt;#&lt;/a&gt; SWE-rebench&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;有包含像是 Claude Code、Codex 的 cli 工具的排名&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SWE-rebench&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://swe-rebench.com/&#34; class=&#34;image&#34; data-background-image=&#34;/assets/404.png&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://swe-rebench.com/&#34; class=&#34;title&#34;&gt;SWE-rebench&lt;/a&gt;
@@ -422,35 +418,18 @@
 &lt;ul&gt;
 &lt;li&gt;使用 OpenAI 的 MRCR 評分標準 &lt;a href=&#34;https://huggingface.co/datasets/openai/mrcr&#34;&gt;https://huggingface.co/datasets/openai/mrcr&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;fiction.live&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;image&#34; data-background-image=&#34;https://contextarena.ai/favicon.svg&#34;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Context Arena&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;image&#34; data-background-image=&#34;https://contextarena.ai/favicon.svg&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;title&#34;&gt;fiction.live&lt;/a&gt;
+        &lt;a href=&#34;https://contextarena.ai/?showExtra=true&amp;showMaxCtx=false&amp;showPricing=false&amp;needles=8&amp;showLabels=false&#34; class=&#34;title&#34;&gt;Context Arena&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://contextarena.ai/&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h1 id=&#34;其他-ocr&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#其他-ocr&#34;&gt;#&lt;/a&gt; 其他 / OCR&lt;/h1&gt;
 &lt;h2 id=&#34;openrouter-ranking&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#openrouter-ranking&#34;&gt;#&lt;/a&gt; OpenRouter Ranking&lt;/h2&gt;
-&lt;p&gt;Model 使用量排行榜，用戶在 OpenRouter 中的使用量&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Artificial Analysis Image Arena Leaderboard&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;image&#34; data-background-image=&#34;https://openrouter.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+&lt;p&gt;用戶在 OpenRouter 中的模型使用量排行，並不直接代表模型的絕對強弱，而是呈現了用戶願意付費使用的市場偏好&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;OpenRouter Ranking&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;image&#34; data-background-image=&#34;https://openrouter.ai/favicon.ico&#34;&gt;&lt;/a&gt;
         &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;title&#34;&gt;Artificial Analysis Image Arena Leaderboard&lt;/a&gt;
+        &lt;a href=&#34;https://openrouter.ai/rankings&#34; class=&#34;title&#34;&gt;OpenRouter Ranking&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://openrouter.ai/rankings&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h2 id=&#34;speechmapai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#speechmapai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://speechmap.ai&#34;&gt;speechmap.ai&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;測試 AI 模型對敏感和爭議性提示的反應。&lt;/p&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SpeechMap.ai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;image&#34; data-background-image=&#34;https://speechmap.ai/favicon.ico&#34;&gt;&lt;/a&gt;
-        &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;title&#34;&gt;SpeechMap.ai&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://speechmap.ai/labs/&lt;/p&gt;
-        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h2 id=&#34;scale-humanitys-last-exam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scale-humanitys-last-exam&#34;&gt;#&lt;/a&gt; Scale Humanity&#39;s Last Exam&lt;/h2&gt;
-&lt;p&gt;Scale 認為傳統基準測試（如 MMLU 和 GPQA）已經沒辦法區分模型的能力，所以推出了「Humanity&#39;s Last Exam (HLE)」，截至 2025 年 4 月 3 日，該測試集已完成最終定案與清洗。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;所以 2025 年 4 月 3 日之後推出的模型，可以拿這些題目訓練，可能不具有參考價值。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Scale Humanity&#39;s Last Exam&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;image&#34; data-background-image=&#34;https://scale.com/favicon.ico&#34;&gt;&lt;/a&gt;
-        &lt;div class=&#34;info&#34;&gt;
-        &lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;title&#34;&gt;Scale Humanity&#39;s Last Exam&lt;/a&gt;
-        &lt;p class=&#34;desc&#34;&gt;https://scale.com/leaderboard/humanitys_last_exam&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ocr-arena&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ocr-arena&#34;&gt;#&lt;/a&gt; OCR Arena&lt;/h2&gt;
 &lt;ul&gt;
@@ -461,6 +440,13 @@
         &lt;div class=&#34;info&#34;&gt;
         &lt;a href=&#34;https://www.ocrarena.ai/leaderboard&#34; class=&#34;title&#34;&gt;OCR Arena&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://www.ocrarena.ai/leaderboard&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h2 id=&#34;speechmapai&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#speechmapai&#34;&gt;#&lt;/a&gt; &lt;a href=&#34;http://speechmap.ai&#34;&gt;speechmap.ai&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;測試 AI 模型對敏感和爭議性提示的反應。&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;SpeechMap.ai&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;image&#34; data-background-image=&#34;https://speechmap.ai/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://speechmap.ai/labs/&#34; class=&#34;title&#34;&gt;SpeechMap.ai&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://speechmap.ai/labs/&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
 &lt;h2 id=&#34;eq-bench-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#eq-bench-3&#34;&gt;#&lt;/a&gt; EQ-Bench 3&lt;/h2&gt;
 &lt;p&gt;角色扮演和分析任務來評估模型的同理心、社交技巧和洞察力&lt;/p&gt;
@@ -484,7 +470,17 @@
         &lt;a href=&#34;https://www.tbench.ai/leaderboard/terminal-bench/2.0&#34; class=&#34;title&#34;&gt;opper.aia&lt;/a&gt;
         &lt;p class=&#34;desc&#34;&gt;https://www.tbench.ai/leaderboard/terminal-bench/2.0&lt;/p&gt;
         &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
-&lt;h1 id=&#34;elo-評分方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#elo-評分方式&#34;&gt;#&lt;/a&gt; Elo 評分方式&lt;/h1&gt;
+&lt;h2 id=&#34;scale-humanitys-last-exam&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scale-humanitys-last-exam&#34;&gt;#&lt;/a&gt; Scale Humanity&#39;s Last Exam&lt;/h2&gt;
+&lt;p&gt;Scale 認為傳統基準測試（如 MMLU 和 GPQA）已經沒辦法區分模型的能力，所以推出了「Humanity&#39;s Last Exam (HLE)」，截至 2025 年 4 月 3 日，該測試集已完成最終定案與清洗。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;所以 2025 年 4 月 3 日之後推出的模型，可以拿這些題目訓練，可能不具有參考價值。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;Scale Humanity&#39;s Last Exam&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;image&#34; data-background-image=&#34;https://scale.com/favicon.ico&#34;&gt;&lt;/a&gt;
+        &lt;div class=&#34;info&#34;&gt;
+        &lt;a href=&#34;https://scale.com/leaderboard/humanitys_last_exam&#34; class=&#34;title&#34;&gt;Scale Humanity&#39;s Last Exam&lt;/a&gt;
+        &lt;p class=&#34;desc&#34;&gt;https://scale.com/leaderboard/humanitys_last_exam&lt;/p&gt;
+        &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;h1 id=&#34;elo評分方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#elo評分方式&#34;&gt;#&lt;/a&gt; Elo評分方式&lt;/h1&gt;
 &lt;p&gt;Elo 原本是由 Arpad Elo 為西洋棋設計的。它的核心概念是：根據對手的強弱來決定勝負後的加減分。贏了強者加的分數多，贏了弱者加的分數少。&lt;/p&gt;
 &lt;p&gt;讓用戶去投票也就是&lt;strong&gt;將評分權交還給社群，透過集體偏好（Collective Community Preferences）來構建排行榜&lt;/strong&gt;。&lt;/p&gt;
 &lt;ul&gt;
@@ -901,8 +897,8 @@ API 兼容 openai 格式，修改 base_url 為 &lt;code&gt;https://api.sambanova
             <guid isPermalink="true">https://blog.minz.li/shokaX/ShokaX_github_action/</guid>
             <title>ShokaX 使用 GitHub Actions 自動部署到 Github Page</title>
             <link>https://blog.minz.li/shokaX/ShokaX_github_action/</link>
-            <category>DevOps</category>
             <category>Github Action</category>
+            <category>DevOps</category>
             <pubDate>Fri, 09 Aug 2024 16:00:00 +0000</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;前言&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#前言&#34;&gt;#&lt;/a&gt; 前言&lt;/h1&gt;
 &lt;ol&gt;
